@@ -1,6 +1,42 @@
 {
- "updated": "2026-11-14T11:58:57+00:00",
+ "updated": "2026-11-15T12:34:52+00:00",
  "items": [
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Guatemala decrees state of emergency in two departments after lawmaker killed in attack",
+   "summary": "Zpráva z médií (anglicky, zdroj Reuters). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZnFWYmdsSmRKUWlpeVl6QVFWRTZxU3JnQWZwVVMycFBoOFZtUW5kZGVuMW9iTko0N1JVZFFYNmRZT1JFN09relJubngwX05SNUdHVmhXZ2c0bHZWUmdGWU94Y2g4MkZ4SVdndzhIX1ZDR3hLbk5QWFRfOGM0cnZQNzMzbmNsbVkwak90V29rNEktZ1ROTjAtWjZNXy13V2Y1eTdfS3pWV0JLMnVnNlJVN3hUZnRmb2NGQk9oNkdGbk1iYUpSclNTMA?oc=5",
+   "source": "Reuters",
+   "type": "news",
+   "expires": "2026-11-20"
+  },
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Guatemala declares state of emergency in east over drug violence",
+   "summary": "Zpráva z médií (anglicky, zdroj The Hindu). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbHFEX1NOOV85b3ZpV05ZUnBfQnlaY3RsbUY1QVpJNnZqUXhZVk1wbU1objZSemRxTmZtWFhBSXZDY0dBLXIwRkotR3k4WkFVWHhrLWN1YXE1YjZreTZvTWxXcEFKVmZWUWJwcVc4a3JzUUxubE1ZcDI5eFA2UUpFVjlHSkotb2VzY0s0a0ZTY043MHNSSHBPX2s2MnpJWGpNY2hxTy14Uzd2T2Q1TDZ1dnR6eXhTSE95VVZoVS1IYXNyN3JEMEVn0gHOAUFVX3lxTE0xOHpFTEhwQmhsc1lteXpxYjBGWi1GQVJwN25XZTFJdkZQNzZDY0laMUdTTkRJTzFrNTJMMzFiMTRIR01ZUlFiMHltMFQ0WHY3ekRGUndvWHZpamQxSXV0TFhTQzdrSGgyc2lhR2lLeWRVR05mV3AwYlRWLWF1aWxmWVFlNmQ1d1NLS29VMFRMWjFqX3lHRnl6UFFpQ3hIT3M5dVpwYkNIUVB4SnFQZ05LSFFIcmdvSnVOcU9heTh3alh1ZXQxUHp4OW9EeTd3?oc=5",
+   "source": "The Hindu",
+   "type": "news",
+   "expires": "2026-11-20"
+  },
+  {
+   "country": "Salvador",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Alix Didier Fils-Aime praises El Salvador after joint strike on gang targets near National Stadium of Haiti's security c",
+   "summary": "Zpráva z médií (anglicky, zdroj شبكة تواصل الإخبارية). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kN1dMTUlvMmJnaHh1WjQ1Vzhxb0pvUGJ5cnB4T1h4dWsxMlNVTUo0Uk1RSFBZS0xSNVJsUlhCZzVJTjNNU2hfeUVLQkUyR01aYkJv?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "type": "news",
+   "expires": "2026-11-20"
+  },
   {
    "country": "Mexiko",
    "category": "Protesty a stávky",
@@ -10,6 +46,30 @@
    "date": "2026-11-14",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MZ2pKNDQzMzJYZFV0Mi1wQlQ5TTVhTUFYNDIxWUFiTEZtTmx3MTBITi1DU2dJZWthVVBQZVZEZ1g1WVdxb19JWEZkeHpnMUdjVE9ONTFPek5nVFJ2YmJVdXJCelFSRV9WR3Nkd1JzalpWaXNoR293SDhn?oc=5",
    "source": "SWI swissinfo.ch",
+   "type": "news",
+   "expires": "2026-11-19"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Pilotos de Aeroméxico mantienen amenaza de huelga",
+   "summary": "Zpráva z médií (španělsky, zdroj Xpectro FM). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9rbmZLRmUySW1LU3hIZXpKZktRYlFOZVBGSkhFejU4NnJaYVVXX3lpZldTQ1A4dzNhU0paVGVISWJxakVTVWFQOGVUNVhDR2JmX2pYcnE2Q0xPRUY5NlF2XzJScU1ONTd1QVN4eENaaWhaTkdhUzZSWHpkUm4?oc=5",
+   "source": "Xpectro FM",
+   "type": "news",
+   "expires": "2026-11-19"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Francia despliega 70.000 policías ante quinto sábado de protestas antigubernamentales",
+   "summary": "Zpráva z médií (španělsky, zdroj El Mundo CR). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaVg2bWVFeVZkSU9oSjVhQ05rbzZHVlRPNmNVQllITV94SXFTLUNWOFdUUFJCN3RWVXVxUnJULWNwUkNrcmU0SVJiMWZlTkRUVDNpNEsybVlsZEhjVlExWUlLUnkxcUxfOEthc0M3UGtHcmp5TmtSNW5xWHdidDNHUFhzbjFob1kwVFNPOVQ3d3dqem9VRnNpV0l4UjM4NTNaZ0FmRk95T21sOW81SXdMUg?oc=5",
+   "source": "El Mundo CR",
    "type": "news",
    "expires": "2026-11-19"
   },
@@ -68,18 +128,6 @@
    "expires": "2026-11-18"
   },
   {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "México permite a gobernador de Sinaloa acceder a pensiones pese a bloqueo de cuentas",
-   "summary": "Zpráva z médií (španělsky, zdroj UDG TV). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-13",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbmJFQzNKLW9pNkFPQmtjMEZwcmhSQjVKeDZKM1VTVjRBZmZIR1puYVNVc2U4bWlBdTZTMUJhTFJPWC1fUjZ1Mk5FQ3p3Tlh0dWFhQzJHcDVzaDRHaWxlV0podU5XLWVpa0sxcmJVeGU5UkhGb3JrVzg1MEJqUlVqNGZOUkowWjFaVEFxaEhhMVVvSXozZ1o0?oc=5",
-   "source": "UDG TV",
-   "type": "news",
-   "expires": "2026-11-18"
-  },
-  {
    "country": "Guatemala",
    "category": "Protesty a stávky",
    "severity": "pozor",
@@ -88,18 +136,6 @@
    "date": "2026-11-13",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeUk4cC0xSHVDUGJVeVE0UVd2OWZiLUtMUTJ1TFB5MHZYVTVBODRoUmJRd3hkNDZHRzFmQ1Nnc2pVOVN6QjUzVmJwd0tkcmJCV0U5MHAyUUdYV25zb3Mydl9tczdrMjdrWmY2UzQ4VmY5cHgwRWlUSjBmbGRSZUhfd1FDbGp1bjZMNVVncDFwVGxXMGZCTXdyRjRMSW5PN0RXTURnSmJMenJpekxMZXhzRW9TRDg?oc=5",
    "source": "Publinews",
-   "type": "news",
-   "expires": "2026-11-18"
-  },
-  {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "El Salvador’s no-nonsense president releases jaw-dropping video of strike on Haitian gang compound",
-   "summary": "Zpráva z médií (anglicky, zdroj News24). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-13",
-   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPVnRsLW42cmQyM0tCaktTLVhtaHpCbHFHYzBTX2ZYeGMxTjhrd25wMFU4OWZOeUg2NGVXTWF5dlU3MFlWSmY0LXVCckJNd09ER0JibXZwb05lYmNrcW1IYTd0bmMxMGtMTi0xXzFvZEYzVTBtSFpaY2hscGN6ZHVwYV96TUVHZF80UGtnV2xCQ1hOQWtta0pENE9BV0haWEdTbV9MVWVPM1dSc3p4WEhmUjFMZktOV0pMYmVyZnU5OEt1S1oyZ3V0VVlpa1EzRmc5TmF4U3lFUWtzZm1wTTdma3dpcG9ZNWxVc2ZWMWxsbzRaTkNQcXpyWE00VFJIZDViNkVaSVlVQTZ4OEdrb3fSAZMCQVVfeXFMTllERGJxdDB1OW5zMHNmMlJORG9DdWxKN0xaNENoU1pwd0RFNktJNmNzcnExa1B6aGVhU2ZwM3RuS0pxbjQ0clJ3N2JJYlBkc3RaSjdzSlNzOUQ2V2I1ZzI1ZG1uRHdjUjNmRU5CdW0tVGNmZHp6dGRfc2hpS0lwSzU1RWg2UEpDeTl3X21wWXU3ZWhDWFEySXF3U1ZZWFk1MWlvNFhGaEZDRmhYTndOYzU3NUt3amNWY2JXNzZiY0J1V1ViNllWcWoybExLRWNZWnM2d0Z1NHlZZWlGb1h4M2FsZ2ZYdnpHSTBlNnFPc2F6LWVKTWxnQVdQSGJsVXFhaHdaZVdVbTh4Y3lrOHJxZ1MtRWM?oc=5",
-   "source": "News24",
    "type": "news",
    "expires": "2026-11-18"
   },
@@ -119,10 +155,10 @@
    "country": "Kostarika",
    "category": "Protesty a stávky",
    "severity": "info",
-   "title": "ANDE rechaza que el Gobierno llame \"vagabundos y sanguijuelas\" a educadores en huelga",
+   "title": "SINAPRO: La protesta social no constituye una falta de compromiso con el país",
    "summary": "Zpráva z médií (španělsky, zdroj El Mundo CR). Otevři zdroj pro podrobnosti.",
    "date": "2026-11-13",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcUVQcVVWb0tjckQ3eHhicWZ5RWhPeTItcVhjTW9taGpxNUlTdWJ1T2tNekJteU8tUmhvZGk2SWRFZHlMYkJtZ0ZwVF9JdGZiNks5OXZ3dUpSenFfMDJ1clhwbTVONEtlTGU1cVNGTEZsRGhfQ2s4RmZxWXhWd0I0ZWJjLUhqMjdDUlVlT214bjhkNDc4OVJjcmNuRGt0eUhHWWJjcUtCTElneDJ1dTFwUUt4SmE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONEo3TXFqUDZGRGJ1YzEwZVh2WlkycUNGVWtRSUhfYVZ1cmZ1Mnh2OUFNRUo3Y3ZHakxsV0FPUmprdGZxMXp0aVltUTR6OGw4WGdEdWgxMDMyVEJWTUxfenY4VVhHQ1pBc1ZWRThTWFk5SFBOaS1EYVZZb1pDc0xncWhfeFNhOUNfYm5VX0hCbXlwWjdXaUxmU3B4RXI1c3c3NGdJb2M5TlhUVkk?oc=5",
    "source": "El Mundo CR",
    "type": "news",
    "expires": "2026-11-18"
@@ -136,6 +172,42 @@
    "date": "2026-11-13",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc1o2d04zUXBXVGlNTno3RDY3a2poSHc4QXNfQmR3OVM2N1lwSUxsYURvQUxqdjJ3NnJBZ1ljQmNxLUlVVXRISXZVd0lXQkpOeEstZlBHZWYwWnRDNndITVNNM2ZLU0xTUUVsUjhQWHZhRl9fNnhya3l0eXp0c2preUFYdElRcV9wQnZiTTlocnlwU3FaVXAycEN4bzFEd0ZreWhJUTR3OGJjM1JSeGtNTU1Lc9IBuAFBVV95cUxQR3J0S0tUTVRjclVlX3V3cWtmVllnT3JIZW1hUDZGUUhiTThWUDZFeUUxaUhwaHNWX2V5UXJja2dpbmxtc2tjT2g1dmZiZWl5SzBRbm1mTTlqM3RHanhvNGxqQk53QUZEaGNoRTBQZWFqOWw1c3N2NXNIMmJ3dmtJYzF3UFJiWkVOcGF6U3RxYk45d2xJWlhXd3Q1Tk51RUlmVWhDLXptcHhwemhZT25zWXYxU2JGSGZn?oc=5",
    "source": "CRÍTICA",
+   "type": "news",
+   "expires": "2026-11-18"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "México permite a gobernador de Sinaloa acceder a pensiones pese a bloqueo de cuentas",
+   "summary": "Zpráva z médií (španělsky, zdroj UDG TV). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbmJFQzNKLW9pNkFPQmtjMEZwcmhSQjVKeDZKM1VTVjRBZmZIR1puYVNVc2U4bWlBdTZTMUJhTFJPWC1fUjZ1Mk5FQ3p3Tlh0dWFhQzJHcDVzaDRHaWxlV0podU5XLWVpa0sxcmJVeGU5UkhGb3JrVzg1MEJqUlVqNGZOUkowWjFaVEFxaEhhMVVvSXozZ1o0?oc=5",
+   "source": "UDG TV",
+   "type": "news",
+   "expires": "2026-11-18"
+  },
+  {
+   "country": "Salvador",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "El Salvador’s no-nonsense president releases jaw-dropping video of strike on Haitian gang compound",
+   "summary": "Zpráva z médií (anglicky, zdroj News24). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPVnRsLW42cmQyM0tCaktTLVhtaHpCbHFHYzBTX2ZYeGMxTjhrd25wMFU4OWZOeUg2NGVXTWF5dlU3MFlWSmY0LXVCckJNd09ER0JibXZwb05lYmNrcW1IYTd0bmMxMGtMTi0xXzFvZEYzVTBtSFpaY2hscGN6ZHVwYV96TUVHZF80UGtnV2xCQ1hOQWtta0pENE9BV0haWEdTbV9MVWVPM1dSc3p4WEhmUjFMZktOV0pMYmVyZnU5OEt1S1oyZ3V0VVlpa1EzRmc5TmF4U3lFUWtzZm1wTTdma3dpcG9ZNWxVc2ZWMWxsbzRaTkNQcXpyWE00VFJIZDViNkVaSVlVQTZ4OEdrb3fSAZMCQVVfeXFMTllERGJxdDB1OW5zMHNmMlJORG9DdWxKN0xaNENoU1pwd0RFNktJNmNzcnExa1B6aGVhU2ZwM3RuS0pxbjQ0clJ3N2JJYlBkc3RaSjdzSlNzOUQ2V2I1ZzI1ZG1uRHdjUjNmRU5CdW0tVGNmZHp6dGRfc2hpS0lwSzU1RWg2UEpDeTl3X21wWXU3ZWhDWFEySXF3U1ZZWFk1MWlvNFhGaEZDRmhYTndOYzU3NUt3amNWY2JXNzZiY0J1V1ViNllWcWoybExLRWNZWnM2d0Z1NHlZZWlGb1h4M2FsZ2ZYdnpHSTBlNnFPc2F6LWVKTWxnQVdQSGJsVXFhaHdaZVdVbTh4Y3lrOHJxZ1MtRWM?oc=5",
+   "source": "News24",
+   "type": "news",
+   "expires": "2026-11-18"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "ANDE rechaza que el Gobierno llame \"vagabundos y sanguijuelas\" a educadores en huelga",
+   "summary": "Zpráva z médií (španělsky, zdroj El Mundo CR). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcUVQcVVWb0tjckQ3eHhicWZ5RWhPeTItcVhjTW9taGpxNUlTdWJ1T2tNekJteU8tUmhvZGk2SWRFZHlMYkJtZ0ZwVF9JdGZiNks5OXZ3dUpSenFfMDJ1clhwbTVONEtlTGU1cVNGTEZsRGhfQ2s4RmZxWXhWd0I0ZWJjLUhqMjdDUlVlT214bjhkNDc4OVJjcmNuRGt0eUhHWWJjcUtCTElneDJ1dTFwUUt4SmE?oc=5",
+   "source": "El Mundo CR",
    "type": "news",
    "expires": "2026-11-18"
   },
@@ -654,78 +726,6 @@
    "source": "Infobae",
    "type": "news",
    "expires": "2026-11-16"
-  },
-  {
-   "country": "Bolívie",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "La Policía de Bolivia detuvo a 30 profesores y alumnos en medio de las protestas contra el nuevo cambio educativo de Paz",
-   "summary": "Zpráva z médií (španělsky, zdroj Infobae). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNSVduWXdQSFNLWTJZclFIQWZPc1ZOM05sMGxQaFViUEhvRjVoX1dyN3hBUUtQeHAxemxaVGVWQU51VEtKSjZ3QVYyVUVPV05jQTFMSjQyV1VxRHBtbXlaWVNnRE1uNmotWlJYaU9rVnBqQnIycG9iaFFjT0NSSnR3a3U4bUlUTnlsTjFpcnRkZFlEWjdkMkdoYkhmN1RxUXN6cnc4YkdYME1VQ3NOZ0FoUnJJZi1La3dKN3l1dklKQ1JSV3F4dHhlVkpTSF9keEJabkZiNXVzT09qZEF1U19xbDQ0SEJEM0ltQ0dfUWtDRUNwYW0tOHhyc2RzVHFZdnMxbFEwZmJROFRhbmvSAaYCQVVfeXFMTmZRRmxMQnNFYkIweGJPWUtEcHhaUDZmSWdyVVoyRnR4N1FRTmVTZmFQX0dVRlJ1WXRITXF3R3hYd1VCdGtkMVdwaUJJY3lwU29XRXJubEZvX2h6QnpPZjAzeXRmZGhsY1NkOUdoV3lONlFVbFFrcjMtS0FYZ2RuY1dZS1ROcUd1ZWw1X2F6Z2xUd0thaEJteS0tRDlmUHlyRW5JblN4ZE05QWNlWXNHQlVDZlpEd1VvYk5PMXQwT0p6SkpvX2FaTkFhMk1vaVU0ZlU3V3QyOWhId1RfMnFWX212a1VjZ18yVE5EY3I0aFBBUWlLd3FvN0pOTDV1eDUwbHBHcklKZ0wtM3lFQXRJbDVyam1lN1VtOHdlaTdGTWlzaVBmRGVR?oc=5",
-   "source": "Infobae",
-   "type": "news",
-   "expires": "2026-11-16"
-  },
-  {
-   "country": "Bolívie",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Bolivia | Maestros protestan contra la descentralización educativa",
-   "summary": "Zpráva z médií (španělsky, zdroj NODAL - Noticias de América Latina y el Caribe). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR18xSFM1ZzF3MnVTUjR4S1RrOXdOVkNrXzRkOUpZLVljUlFCM3lRUVhPZGo0MlFjZkdjMkl4ckVsdjZBa05UWHpGNUctUUFFRzZyRUNKLUtrM2JQdVk5ajQtVEFFVVdjNkcxcm42T2RMa3JPeGRJWVNJS2VWYkF1SHF0UlhDU0lIeW9xOThSVVNSN0Vfa09FNC1R?oc=5",
-   "source": "NODAL - Noticias de América Latina y el Caribe",
-   "type": "news",
-   "expires": "2026-11-16"
-  },
-  {
-   "country": "Chile",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Chile | Paro camionero continúa tras no llegar a acuerdo con el Gobierno de Kast",
-   "summary": "Zpráva z médií (španělsky, zdroj NODAL - Noticias de América Latina y el Caribe). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM3pCd200dUtMZGpZUExlS0FIYVJMWjExbXUtaFA4blA4VkRGdzhCMnlXc1l3UjJCNTRTVmFlY3dvWDhPQnJ0S0RMN2VBZGRDMXI3bG9wMU9qaVpfSXBuU1NOVGNNcWE0SEcyRjA5T0xYT0tuUVdRa0d0M2Q4SVRPRmxWRGdPVFZKYUN3eDR6LS16dDU3YWpiVTk0TGhGYWJLU1BwdEZfUDBPSXpz?oc=5",
-   "source": "NODAL - Noticias de América Latina y el Caribe",
-   "type": "news",
-   "expires": "2026-11-16"
-  },
-  {
-   "country": "Argentina",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "More than 100 flights disrupted as Argentina's air traffic controllers begin five-day strike",
-   "summary": "Zpráva z médií (anglicky, zdroj Latin Times). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQekpWRU1Pem5kWHRIZ1pDYTZDQ3hCMmhuMU5qajhkSnZmNlpNTk1KU1FmbWNtbk5BekNNTVBiZmpDRm9SQnlLRnBzQXoxcUFVSmRlQkxKSWZBeGI0WFdaU1JoM09CWlA0bExRQXJyOFJhREMxaG9IXzFTVWYwUC1jZTVTdWh4VG5YT3ZPY0Fkc01UYjBwQ2Y0?oc=5",
-   "source": "Latin Times",
-   "type": "news",
-   "expires": "2026-11-16"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Minister Fonseca supports Tourism Minister's protest to Guatemala map depicting Belize as part of its territory",
-   "summary": "Zpráva z médií (anglicky, zdroj Belize News and Opinion on www.breakingbelizenews.com). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaWlQNHZGTDlCa2swR1RFZklNMXV2TmttaTJZMEI4cGRMaElfWDFUZDFLLU04Z3QzZEs2ZHNsd21FUDc5Y3dOSVJlUVVndm1zVC1WalFlR2RoeXpLdm00dVFNQ1dBdjJwT1lzbVZUWDEyNTRXQmZNemFrS3Jha0JERDg1LUFzVmpMQVBlLXpLVEFodm4tUEYyRWxjalRJNkVDUk83NFVoWW5lN0dxMlJfeHg4UGlHR3VuTU4zSGFxWk5aUFpSdlpaVjg0ZWQtTUg2amtRWFFHUDZhNE9tRFc2MkVtU2NXcC1UQm11VFdn?oc=5",
-   "source": "Belize News and Opinion on www.breakingbelizenews.com",
-   "type": "news",
-   "expires": "2026-11-15"
-  },
-  {
-   "country": "Ekvádor",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "(Multimedia) Presidente de Ecuador afirma que toque de queda deja más de 2.600 detenidos y 2,5 toneladas de droga incaut",
-   "summary": "Zpráva z médií (španělsky, zdroj Xinhua Español). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWHFac2llZWZ5UHZobHVvQkhpdERYZDB3Mm1kNExqdUtnNDN1RlJxZDF3RTNfZWp3b1pwRzVPTmJSTjdxS2pDWlRJU044Y2lIZ3JscXBxZ2t4MU1JVktTQjJUZDZ5em9yd2VFbHdLNnRrZmRJUm01eEd5Ylp2bTJyd1VTaEM?oc=5",
-   "source": "Xinhua Español",
-   "type": "news",
-   "expires": "2026-11-15"
   }
  ]
 }
