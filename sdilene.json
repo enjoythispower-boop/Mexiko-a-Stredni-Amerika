@@ -1,7 +1,21 @@
 {
  "total": 0,
  "limit": 10,
- "rates": {},
+ "rates": {
+  "USD": 23,
+  "EUR": 25,
+  "MXN": 1.2,
+  "GTQ": 3,
+  "CRC": 0.045,
+  "NIO": 0.63,
+  "COP": 0.0055,
+  "PEN": 6.5,
+  "BOB": 3.3,
+  "CLP": 0.025,
+  "ARS": 0.016,
+  "PYG": 0.003,
+  "UYU": 0.55
+ },
  "expenses": [],
  "tasks": [],
  "bookings": [],
