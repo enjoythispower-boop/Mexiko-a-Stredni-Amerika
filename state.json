@@ -172,20 +172,7 @@
    "id": "sis9qqm"
   }
  ],
- "diary": [
-  {
-   "id": "dehb2mo",
-   "sid": "s1",
-   "date": "2026-10-22",
-   "text": "Testovačka"
-  },
-  {
-   "id": "dlrk2nq",
-   "sid": "s1",
-   "date": "2026-10-22",
-   "text": "Testovačka 2"
-  }
- ],
+ "diary": [],
  "places": [
   {
    "id": "mzmv7a3",
@@ -196,20 +183,5 @@
    "url": ""
   }
  ],
- "photos": [
-  {
-   "id": "pl3cq9xmvjw9pl0",
-   "sid": "s1",
-   "date": "2026-10-22",
-   "cap": "Test 123",
-   "f": "photos/pl3cq9xmvjw9pl0.jpg"
-  },
-  {
-   "id": "pvao642mvjwahft",
-   "sid": "s1",
-   "date": "2026-10-22",
-   "cap": "",
-   "f": "photos/pvao642mvjwahft.jpg"
-  }
- ]
+ "photos": []
 }
