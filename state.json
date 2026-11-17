@@ -61,15 +61,6 @@
    "id": "sj7y4hn"
   },
   {
-   "id": "s3",
-   "n": "Ciudad de México",
-   "c": "Mexiko",
-   "lat": 19.43,
-   "lon": -99.13,
-   "d": "",
-   "t": ""
-  },
-  {
    "n": "Oaxaca",
    "c": "Mexiko",
    "a": "",
@@ -94,16 +85,13 @@
    "id": "soea7kz"
   },
   {
-   "n": "San Cristóbal de las Casas",
+   "id": "s3",
+   "n": "Ciudad de México",
    "c": "Mexiko",
-   "a": "",
-   "o": "",
-   "t": "",
-   "tm": "Autobus",
-   "tt": "",
-   "lat": 16.73,
-   "lon": -92.64,
-   "id": "spr3c9z"
+   "lat": 19.43,
+   "lon": -99.13,
+   "d": "",
+   "t": ""
   },
   {
    "n": "Flores",
