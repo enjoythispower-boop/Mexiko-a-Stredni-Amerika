@@ -160,7 +160,14 @@
    "id": "sis9qqm"
   }
  ],
- "diary": [],
+ "diary": [
+  {
+   "id": "dt9t5oa",
+   "sid": "s2",
+   "date": "2026-11-18",
+   "text": "Ahsgag"
+  }
+ ],
  "places": [
   {
    "id": "mzmv7a3",
