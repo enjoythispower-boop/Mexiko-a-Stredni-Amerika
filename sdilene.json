@@ -7,32 +7,32 @@
  "bookings": [],
  "pack": [
   {
-   "id": "kuxdftk",
+   "id": "k6pdgwt",
    "name": "Doklady a peníze",
    "items": [
     {
-     "id": "iw06oqu",
+     "id": "istz1z0",
      "t": "Pas",
      "c": false,
      "q": 1,
      "w": 0
     },
     {
-     "id": "i5fikx4",
+     "id": "it34er0",
      "t": "Platební karty",
      "c": false,
      "q": 1,
      "w": 0
     },
     {
-     "id": "iu2ee2v",
+     "id": "ifjn3wz",
      "t": "Hotovost (USD)",
      "c": false,
      "q": 1,
      "w": 0
     },
     {
-     "id": "i86ivha",
+     "id": "ibqr66z",
      "t": "Pojištění",
      "c": false,
      "q": 1,
@@ -41,25 +41,25 @@
    ]
   },
   {
-   "id": "ksymzhc",
+   "id": "k6wmi9w",
    "name": "Oblečení",
    "items": [
     {
-     "id": "iet6126",
+     "id": "iklqdjt",
      "t": "Lehká bunda",
      "c": false,
      "q": 1,
      "w": 0
     },
     {
-     "id": "ia4e0we",
+     "id": "i55mh60",
      "t": "Pohodlné boty",
      "c": false,
      "q": 1,
      "w": 0
     },
     {
-     "id": "iheb5dh",
+     "id": "ie1szo0",
      "t": "Plavky",
      "c": false,
      "q": 1,
@@ -68,25 +68,25 @@
    ]
   },
   {
-   "id": "kw5dddc",
+   "id": "k3uk3mv",
    "name": "Elektronika",
    "items": [
     {
-     "id": "ir9nx2f",
+     "id": "i1x6ik9",
      "t": "Telefon + nabíječka",
      "c": false,
      "q": 1,
      "w": 0
     },
     {
-     "id": "ibphmrq",
+     "id": "ig9oqiy",
      "t": "Powerbanka",
      "c": false,
      "q": 1,
      "w": 0
     },
     {
-     "id": "iddh2dj",
+     "id": "icbwg3v",
      "t": "Univerzální adaptér",
      "c": false,
      "q": 1,
@@ -95,18 +95,18 @@
    ]
   },
   {
-   "id": "k4s4k9q",
+   "id": "ky1ixr7",
    "name": "Ostatní",
    "items": [
     {
-     "id": "itk308f",
+     "id": "irvi4ih",
      "t": "Opalovací krém",
      "c": false,
      "q": 1,
      "w": 0
     },
     {
-     "id": "i3ql1jf",
+     "id": "izw4vvo",
      "t": "Lékárnička",
      "c": false,
      "q": 1,
