@@ -269,6 +269,14 @@ label.l{display:block;font-size:.8rem;font-weight:500;color:var(--mut);margin:12
 .fact{border-bottom:1px solid var(--line);padding:10px 2px}.fact small{color:var(--mut);display:block;font-size:.76rem;margin-bottom:2px}.fact b{font-size:.94rem;font-weight:600}
 .diary{border-left:1px solid var(--rim);padding:2px 0 2px 12px;margin:10px 0}
 .diary small{color:var(--mut)}
+/* text deníku: odstavce a odrážky */
+.dtx{display:block}
+.dtx p{margin:0 0 4px}
+.dtx ul{margin:2px 0 6px;padding-left:20px}
+.dtx li{margin:2px 0}
+.dtx li::marker{color:var(--acc)}
+.dtx.cut{max-height:8.4em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent)}
+.composer .cr>span{display:flex;gap:6px}
 .place{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
 .place:last-child{border-bottom:0}
 .place .t{flex:1;min-width:0}
@@ -527,6 +535,7 @@ pass:'<rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="10" r
 wifi:'<path d="M2.5 9a14 14 0 0119 0M5.5 12.5a9.5 9.5 0 0113 0M8.5 16a5 5 0 017 0"/><path d="M12 19.5h.01"/>',
 bus:'<rect x="4" y="3" width="16" height="15" rx="3"/><path d="M4 11h16M8 21v-3M16 21v-3M8 14.5h.01M16 14.5h.01"/>',
 drop:'<path d="M12 3s6 6.5 6 11a6 6 0 01-12 0c0-4.5 6-11 6-11z"/>',
+list:'<path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/>',
 bulb:'<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 00-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0012 3z"/>',
 food:'<path d="M5 3v8a2 2 0 002 2v8M9 3v8a2 2 0 01-2 2M7 3v6"/><path d="M17 21V3c-2 1-3 4-3 8h3"/>'
 };
@@ -1244,7 +1253,7 @@ function calHtml(){
   const sel=calSel&&calSel.slice(0,7)===calM?calSel:null,i=sel?dayInfo(sel):null;
   const det=i?`<div class="card" style="margin-top:14px"><h3>${esc(fd(sel))}</h3>${i.s?`<div class="row" style="gap:10px">${flag(i.s.c,30)}<b>${esc(i.s.n)}</b><span class="lab">${esc(i.s.c)}</span></div>${i.arr?'<div class="ev"><span class="tag">PŘÍJEZD</span><span>'+(i.s.tm||i.s.tt?esc(trLabel(i.s.tm))+' '+esc(i.s.tt||''):'přesun na tuto zastávku')+'</span></div>':''}${i.dep?'<div class="ev"><span class="tag">ODJEZD</span><span>pokračuješ dál</span></div>':''}`:'<p class="note" style="margin:0">Tento den nemáš zastávku.</p>'}
     ${i.evs.map(e=>evHtml({e,s:null})).join('')}${i.bk.map(b=>`<div class="ev"><span class="tag wait">REZERVACE</span><span>${esc(b.title)}</span></div>`).join('')}
-    ${i.dia.map(d=>`<div class="diary"><small>Deník</small><div>${esc(d.text)}</div></div>`).join('')}
+    ${i.dia.map(d=>`<div class="diary"><small>Deník</small><div class="dtx">${diaryFmt(d.text)}</div></div>`).join('')}
     ${i.ph.length?`<div class="row" style="margin-top:8px">${i.ph.map(p=>`<img src="${esc(photoSrc(p))}" alt="" loading="lazy" data-act="lb" data-src="${esc(photoSrc(p))}" data-cap="${esc(p.cap||'')}" style="width:72px;height:72px;object-fit:cover;border-radius:9px;cursor:zoom-in">`).join('')}</div>`:''}</div>`:'';
   return `<div class="card"><div class="row" style="justify-content:space-between;margin-bottom:10px"><button class="btn sm" data-act="calprev" aria-label="Předchozí měsíc">${ico('chevl',16)}</button><b style="text-transform:capitalize">${esc(title)}</b><button class="btn sm" data-act="calnext" aria-label="Další měsíc">${ico('chevr',16)}</button></div><div class="cal">${cells}</div>
    <div class="legendc"><span><i class="dot" style="background:var(--acc)"></i>příjezd / zápis</span><span><i class="dot" style="background:var(--now)"></i>festival či svátek</span></div></div>${det}
@@ -1349,7 +1358,7 @@ function vHome(){
     <div class="stats"><span class="stat">Zastávka ${ci+1} z ${st.length}</span><span class="stat">Země ${doneC.size} z ${countries.length}</span><span class="stat">${Math.round(done).toLocaleString('cs-CZ')} z ${Math.round(tot).toLocaleString('cs-CZ')} km</span></div>
     <div class="prog" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}" aria-label="Průběh trasy"><i style="width:${pct}%"></i></div>
     <div class="acts"><button class="btn pri" data-act="go" data-v="trasa">${ico('trasa',18)}Zobrazit trasu</button><button class="btn" data-act="towx" data-id="${cur.id}">${ico('pocasi',18)}Počasí</button><button class="btn" data-act="tozeme" data-k="${esc(cur.c)}">${ico('zeme',18)}O zemi</button></div>
-    ${edit?`<div class="composer"><label class="sr" for="hdtext">Zápis do deníku</label><textarea id="hdtext" rows="2" placeholder="Co se dnes stalo v ${esc(cur.n)}…"></textarea><div class="cr"><button class="cbtn sm" data-act="go" data-v="foto" aria-label="Přidat fotku" title="Přidat fotku">${ico('plus',18)}</button><button class="send" data-act="homediary" aria-label="Uložit zápis do deníku">${ico('send',20)}</button></div></div>`:''}
+    ${edit?`<div class="composer"><label class="sr" for="hdtext">Zápis do deníku</label><textarea id="hdtext" rows="2" data-bul placeholder="Co se dnes stalo v ${esc(cur.n)}…"></textarea><div class="cr"><span><button class="cbtn sm" data-act="go" data-v="foto" aria-label="Přidat fotku" title="Přidat fotku">${ico('plus',18)}</button><button class="cbtn sm" data-act="bullet" data-t="hdtext" aria-label="Přidat odrážku" title="Odrážka">${ico('list',18)}</button></span><button class="send" data-act="homediary" aria-label="Uložit zápis do deníku">${ico('send',20)}</button></div></div>`:''}
    </div></section>${novinkyHtml()}${dnesHtml(cur)}${al.map(i=>`<div class="alert ${i.severity==='nebezpeci'?'bad':''}"><span style="color:var(--${i.severity==='nebezpeci'?'bad':'warn'});margin-top:1px">${ico('alert',22)}</span><div><b>${esc(newsHead(i))}</b>${newsKm(i)!=null?`<div class="lab">${kmTxt(newsKm(i))}</div>`:`<div class="clamp2">${esc(i.summary)}</div>`}<a href="#zpravy" data-act="go" data-v="zpravy">Podrobnosti</a></div></div>`).join('')}
   <div class="sec-h"><h2>Celá trasa</h2><button data-act="go" data-v="trasa">Mapa</button></div>
   <div class="rail" id="rail">${st.map((s,i)=>stopCard(s,i,ci,'gotostop')).join('')}</div>
@@ -1360,6 +1369,16 @@ function vHome(){
   fetchWx(cur).then(c=>{fillDnes(c);const el=$('hwx');if(!el||view!=='home'||!c)return;el.innerHTML=wicon(c.j.current.weather_code,20)+Math.round(c.j.current.temperature_2m)+' °C';el.title=WT(c.j.current.weather_code)});
 }
 /* Z cesty: nejnovější fotky a zápisy z deníku, aby je návštěvníci viděli hned na přehledu */
+/* text deníku: řádky začínající „•“, „-“ nebo „*“ jsou odrážky, ostatní řádky odstavce */
+const diaryFmt=t=>{
+  let h='',ul=false;
+  String(t||'').split('\n').forEach(l=>{
+    const m=l.match(/^\s*(?:•\s*|[-*–]\s+)(.*)$/);
+    if(m){if(!m[1].trim())return;if(!ul){h+='<ul>';ul=true}h+='<li>'+esc(m[1])+'</li>'}
+    else{if(ul){h+='</ul>';ul=false}if(l.trim())h+='<p>'+esc(l)+'</p>'}
+  });
+  return h+(ul?'</ul>':'');
+};
 const newest=a=>a.map((x,i)=>[x,i]).sort((p,q)=>(q[0].date||'').localeCompare(p[0].date||'')||q[1]-p[1]).map(p=>p[0]);
 /* místa s fotkami nebo zápisy, od posledního přidaného obsahu */
 function activePlaces(){
@@ -1374,7 +1393,7 @@ function novinkyHtml(){
   return `<div class="sec-h"><h2>Z cesty</h2>${S.photos.length?`<button data-act="go" data-v="foto">Fotodeník (${S.photos.length})</button>`:''}</div>`+
    pl.map(({s,ph,dia})=>`<div class="card zc"><div class="zch">${flag(s.c,22)}<b>${esc(s.n)}</b><span class="lab">${esc(s.c)}</span>${ph.length>6?`<button class="lnk" data-act="fotostop" data-id="${s.id}">Všech ${ph.length} fotek</button>`:''}</div>`+
     (ph.length?`<div class="ph hph">${ph.slice(0,6).map(p=>phFig(p,'Fotka z '+s.n)).join('')}</div>`:'')+
-    (dia.length?`<div class="hdia">${dia.slice(0,2).map(d=>`<button class="dentry" data-act="todiary" data-id="${s.id}"><small>Deník · ${esc(fd(d.date))}</small><span class="clamp4">${esc(d.text)}</span></button>`).join('')}${dia.length>2?`<button class="lnk" data-act="todiary" data-id="${s.id}">Celý deník (${dia.length} zápisů)</button>`:''}</div>`:'')+
+    (dia.length?`<div class="hdia">${dia.slice(0,2).map(d=>`<button class="dentry" data-act="todiary" data-id="${s.id}"><small>Deník · ${esc(fd(d.date))}</small><span class="dtx cut">${diaryFmt(d.text)}</span></button>`).join('')}${dia.length>2?`<button class="lnk" data-act="todiary" data-id="${s.id}">Celý deník (${dia.length} zápisů)</button>`:''}</div>`:'')+
    `</div>`).join('');
 }
 /* karta Dnes: počasí, místní čas, kurz a tísňová linka v aktuální zemi; počasí a čas se doplní po stažení předpovědi */
@@ -1528,8 +1547,8 @@ function detailHtml(s,i,ci){
     body=`${s.t?`<p style="margin:0 0 8px">${esc(s.t)}</p>`:''}<div class="facts"><div class="fact"><small>Termín</small><b>${esc(dateStr(s)||'neurčen')}</b></div>${i>0?`<div class="fact"><small>Přesun</small><b>${esc(trLabel(s.tm)||'–')}${s.tt?' · '+esc(s.tt):''}</b></div>`:''}<div class="fact"><small>Počasí teď</small><b id="dt-wx">…</b></div><div class="fact"><small>Místní čas</small><b id="dt-t">…</b></div>${fxLine(s.c)?`<div class="fact"><small>Kurz</small><b>${esc(fxLine(s.c))}</b></div>`:''}</div>${evs.map(e=>evHtml({e,s:null})).join('')}${i>0&&S.stops[i-1].c!==s.c&&hrOf(S.stops[i-1].c,s.c)?`<div class="info"><h4>${ico('pass',18)}Hranice: ${esc(S.stops[i-1].c)} → ${esc(s.c)}</h4><div class="zlist">${hrHtml(hrOf(S.stops[i-1].c,s.c))}</div></div>`:''}`;
   }else if(dTab==='diary'){
     const dia=S.diary.filter(d=>d.sid===s.id).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
-    body=(dia.length?dia.map(d=>`<div class="diary"><small>${fd(d.date)}${edit?` · <a href="#" data-act="diarydel" data-id="${d.id}">smazat</a>`:''}</small><div>${esc(d.text)}</div></div>`).join(''):'<p class="note">Zatím bez zápisů.</p>')+
-     (edit?`<textarea id="dtext" rows="3" placeholder="Co se dnes stalo…"></textarea><div class="row" style="margin-top:8px"><button class="btn sm pri" data-act="diaryadd">Přidat zápis</button></div>`:'');
+    body=(dia.length?dia.map(d=>`<div class="diary"><small>${fd(d.date)}${edit?` · <a href="#" data-act="diarydel" data-id="${d.id}">smazat</a>`:''}</small><div class="dtx">${diaryFmt(d.text)}</div></div>`).join(''):'<p class="note">Zatím bez zápisů.</p>')+
+     (edit?`<textarea id="dtext" rows="4" data-bul placeholder="Co se dnes stalo… (odrážku začni „• “ nebo „- “)"></textarea><div class="row" style="margin-top:8px"><button class="btn sm pri" data-act="diaryadd">Přidat zápis</button><button class="btn sm" data-act="bullet" data-t="dtext">${ico('list',16)}Odrážka</button></div>`:'');
   }else if(dTab==='places'){
     const pl=S.places.filter(p=>p.sid===s.id);
     body=(pl.length?pl.map(p=>placeHtml(p,s)).join(''):'<p class="note">Zatím žádná uložená místa.</p>')+
@@ -1767,6 +1786,8 @@ const ACT={
   gotostop:t=>{sel=t.dataset.id;go('trasa');const s=stopOf();if(s)focusOn(s.lon,s.lat,Math.max(zoomLvl(),2.5))},
   todiary:t=>{dTab='diary';ACT.gotostop(t)},
   fotostop:t=>{fSel=t.dataset.id;go('foto')},
+  /* vloží „• “ na začátek nového řádku v poli deníku */
+  bullet:t=>{const a=$(t.dataset.t);if(!a)return;const p=a.selectionStart??a.value.length,lineStart=!p||a.value[p-1]==='\n';a.focus();a.setRangeText(lineStart?'• ':'\n• ',p,a.selectionEnd??p,'end')},
   tozeme:t=>{zSel=t.dataset.k;zTab='prehled';go('zeme')},
   tozpravy:t=>{nSel=t.dataset.k;nSev='Vše';go('zpravy')},
   globe:()=>{globeOpen=!globeOpen;LS.set('globe_open',globeOpen);refresh()},
@@ -1895,6 +1916,11 @@ document.addEventListener('click',e=>{
   f(t,e);
 });
 document.addEventListener('keydown',e=>{
+  /* Enter v odrážce deníku: pokračuj další odrážkou, na prázdné odrážce seznam ukonči */
+  if(e.key==='Enter'&&!e.shiftKey&&!e.isComposing&&e.target.matches&&e.target.matches('textarea[data-bul]')){
+    const a=e.target,p=a.selectionStart,ls=a.value.lastIndexOf('\n',p-1)+1,line=a.value.slice(ls,p),m=line.match(/^\s*([•\-*])\s/);
+    if(m&&a.selectionEnd===p){e.preventDefault();if(!line.slice(m[0].length).trim())a.setRangeText('',ls,p,'end');else a.setRangeText('\n'+m[1]+' ',p,p,'end');return}
+  }
   if(e.key==='Escape'){if(!$('lb').classList.contains('hide')){ACT.lbclose();return}if(moreOpen){moreOpen=false;renderNav()}return}
   if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('[role=button][data-act]')){e.preventDefault();e.target.click()}
 });
