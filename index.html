@@ -275,7 +275,11 @@ label.l{display:block;font-size:.8rem;font-weight:500;color:var(--mut);margin:12
 .dtx ul{margin:2px 0 6px;padding-left:20px}
 .dtx li{margin:2px 0}
 .dtx li::marker{color:var(--acc)}
-.dtx.cut{max-height:8.4em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent)}
+.dentry .more{display:inline-flex;align-items:center;gap:2px;margin-top:4px;font-size:.84rem;font-weight:500;color:var(--acc)}
+.dpop{width:min(560px,100%);max-height:84vh;overflow:auto;cursor:auto;text-align:left}
+.dpop .dtx{line-height:1.55}
+.lb .dpop .dtx p{color:var(--tx);margin:0 0 6px}
+.dtx.cut{max-height:6.2em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent)}
 .composer .cr>span{display:flex;gap:6px}
 .place{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line)}
 .place:last-child{border-bottom:0}
@@ -408,14 +412,22 @@ label.l{display:block;font-size:.8rem;font-weight:500;color:var(--mut);margin:12
 .clamp2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .clamp4{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 /* Z cesty na přehledu */
-.hph{grid-template-columns:repeat(3,1fr);gap:8px}
-.hph figure{border-radius:16px;border-width:3px}
+/* posuvný pás fotek jednoho místa: na telefonu 3 vedle sebe, na počítači 6; šipky jen když je kam posouvat */
+.strip{position:relative}
+.hph{display:flex;gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
+.hph::-webkit-scrollbar{display:none}
+.hph figure{flex:0 0 calc((100% - 16px)/3);scroll-snap-align:start;border-radius:16px;border-width:3px}
 .hph figcaption{font-size:.72rem;padding:20px 8px 7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-@media(min-width:900px){.hph{grid-template-columns:repeat(6,1fr)}}
+@media(min-width:900px){.hph figure{flex-basis:calc((100% - 40px)/6)}}
+.strip .sb{position:absolute;top:50%;transform:translateY(-50%);z-index:2;opacity:0;pointer-events:none;transition:opacity .2s;background:rgba(20,14,18,.6)}
+.strip .sb.l{left:-6px}.strip .sb.r{right:-6px}
+.strip.can-l .sb.l,.strip.can-r .sb.r{opacity:1;pointer-events:auto}
+.strip .sb:active{transform:translateY(-50%) scale(.94)}
 .zc+.zc{margin-top:12px}
 .zch{display:flex;align-items:center;gap:8px;margin:0 0 12px}
 .zch b{font-family:var(--disp);font-size:1.1rem}
 .zch .lab{flex:1;min-width:0}
+.zch .lab.cnt{flex:none}
 .lnk{background:none;border:0;padding:6px 2px;color:var(--mut);font:inherit;font-size:.84rem;font-weight:500;cursor:pointer}
 .lnk:hover{color:var(--tx)}
 .fgrp{margin-top:22px}
@@ -432,6 +444,8 @@ label.l{display:block;font-size:.8rem;font-weight:500;color:var(--mut);margin:12
 .bnav button.on{color:#fff}
 .bnav button.on svg{stroke-width:2.2}
 .bnav .dx{display:none}
+/* úkoly, rezervace a rozpočet na přehledu jen na počítači */
+@media(max-width:860px){.homex{display:none}}
 @media(min-width:861px){
   .bnav{left:50%;right:auto;transform:translateX(-50%);bottom:18px;border:1px solid var(--rim);border-radius:26px;padding:6px 8px;box-shadow:0 24px 50px -20px rgba(0,0,0,.8);width:max-content;max-width:calc(100vw - 40px)}
   .bnav button{width:76px;flex:none}
@@ -925,7 +939,8 @@ async function saveAll(){
   if(!edit||saving)return;
   saving=true;fabMsg='Ukládám…';fab();
   try{
-    if(dirty.pub){await ghWrite(GH.repo,GH.file,pubOut(),'Aktualizace trasy');dirty.pub=false;LS.set('cache_state',pubOut())}
+    /* „Živě“ na přehledu = čas posledního zveřejnění trasy, fotek nebo deníku; jde ve stejném zápisu, nic navíc */
+    if(dirty.pub){S.upd=Date.now();await ghWrite(GH.repo,GH.file,pubOut(),'Aktualizace trasy');dirty.pub=false;LS.set('cache_state',pubOut())}
     if(dirty.priv&&GH.pr){await ghWrite(GH.pr,'private.json',P,'Aktualizace soukromých dat');dirty.priv=false}
     if(dirty.shr){const o=sharedOut();await ghWrite(GH.repo,SHARED,o,'Aktualizace rozpočtu a plánu');dirty.shr=false;LS.set('shr_last',JSON.stringify(o))}
     fabMsg='Uloženo ✔'
@@ -1364,7 +1379,8 @@ function vHome(){
   <div class="rail" id="rail">${st.map((s,i)=>stopCard(s,i,ci,'gotostop')).join('')}</div>
   <div class="grid2 glob" style="margin-top:6px">${globeOpen?`<div class="card"><div class="sec-h" style="margin:0 0 6px"><h3 style="margin:0">Kde na světě jsem</h3><button data-act="globe">Skrýt</button></div><div class="globewrap"><canvas id="globe" role="img" aria-label="Glóbus s trasou"></canvas><div class="zoom">${cbtn('plus','gzi','Přiblížit glóbus')}${cbtn('minus','gzo','Oddálit glóbus')}</div></div><p class="note" style="text-align:center;margin:8px 0 0">Táhni pro otočení, kolečkem nebo dvěma prsty přibliž</p></div>`:`<button class="card globecta" data-act="globe">${ico('zeme',28)}<span><b>Kde na světě jsem</b><small>Otevřít 3D glóbus s trasou</small></span>${ico('chevr',18)}</button>`}
   <div class="card"><h3>Události na trase</h3>${ev.length?ev.map(evHtml).join(''):'<p class="note" style="margin:0">Pro nejbližší zastávky zatím nic není. Doplň data příjezdu a odjezdu u zastávek.</p>'}<p class="note" style="margin:12px 0 0">Termíny jsou orientační.</p></div></div>
-  ${extra?`<div style="margin-top:16px">${extra}</div>`:''}`;
+  ${extra?`<div class="homex" style="margin-top:16px">${extra}</div>`:''}`;
+  document.querySelectorAll('#v-home .strip .hph').forEach(sc=>{stripUpd(sc);sc.addEventListener('scroll',()=>stripUpd(sc),{passive:true})});
   if(globeOpen){globeInit();globeStart()}
   fetchWx(cur).then(c=>{fillDnes(c);const el=$('hwx');if(!el||view!=='home'||!c)return;el.innerHTML=wicon(c.j.current.weather_code,20)+Math.round(c.j.current.temperature_2m)+' °C';el.title=WT(c.j.current.weather_code)});
 }
@@ -1386,14 +1402,15 @@ function activePlaces(){
     return {s,i,ph,dia,last:[...ph,...dia].map(x=>x.date||'').sort().pop()||''}})
    .filter(x=>x.ph.length||x.dia.length).sort((a,b)=>b.last.localeCompare(a.last)||b.i-a.i);
 }
+const stripUpd=sc=>{const w=sc.parentElement;w.classList.toggle('can-l',sc.scrollLeft>4);w.classList.toggle('can-r',sc.scrollLeft+sc.clientWidth<sc.scrollWidth-4)};
 const phFig=(p,alt)=>`<figure><img src="${esc(photoSrc(p))}" alt="${esc(p.cap||alt)}" loading="lazy" data-act="lb" data-src="${esc(photoSrc(p))}" data-cap="${esc(p.cap||'')}">${p.cap?`<figcaption>${esc(p.cap)}</figcaption>`:''}</figure>`;
 function novinkyHtml(){
-  const pl=activePlaces().slice(0,2);
+  const pl=activePlaces().slice(0,4);
   if(!pl.length)return'';
   return `<div class="sec-h"><h2>Z cesty</h2>${S.photos.length?`<button data-act="go" data-v="foto">Fotodeník (${S.photos.length})</button>`:''}</div>`+
-   pl.map(({s,ph,dia})=>`<div class="card zc"><div class="zch">${flag(s.c,22)}<b>${esc(s.n)}</b><span class="lab">${esc(s.c)}</span>${ph.length>6?`<button class="lnk" data-act="fotostop" data-id="${s.id}">Všech ${ph.length} fotek</button>`:''}</div>`+
-    (ph.length?`<div class="ph hph">${ph.slice(0,6).map(p=>phFig(p,'Fotka z '+s.n)).join('')}</div>`:'')+
-    (dia.length?`<div class="hdia">${dia.slice(0,2).map(d=>`<button class="dentry" data-act="todiary" data-id="${s.id}"><small>Deník · ${esc(fd(d.date))}</small><span class="dtx cut">${diaryFmt(d.text)}</span></button>`).join('')}${dia.length>2?`<button class="lnk" data-act="todiary" data-id="${s.id}">Celý deník (${dia.length} zápisů)</button>`:''}</div>`:'')+
+   pl.map(({s,ph,dia})=>`<div class="card zc"><div class="zch">${flag(s.c,22)}<b>${esc(s.n)}</b><span class="lab">${esc(s.c)}</span>${ph.length?`<span class="lab cnt">${ph.length} ${ph.length===1?'fotka':ph.length<5?'fotky':'fotek'}</span>`:''}</div>`+
+    (ph.length?`<div class="strip"><button class="cbtn sm sb l" data-act="strip" data-d="-1" aria-label="Předchozí fotky">${ico('chevl',18)}</button><div class="ph hph">${ph.map(p=>phFig(p,'Fotka z '+s.n)).join('')}</div><button class="cbtn sm sb r" data-act="strip" data-d="1" aria-label="Další fotky">${ico('chevr',18)}</button></div>`:'')+
+    (dia.length?`<div class="hdia">${dia.slice(0,2).map(d=>{const long=d.text.length>160||d.text.split('\n').length>3;return `<button class="dentry" data-act="diaryopen" data-id="${d.id}"><small>Deník · ${esc(fd(d.date))}</small><span class="dtx${long?' cut':''}">${diaryFmt(d.text)}</span>${long?`<span class="more">Číst celý zápis ${ico('chevr',14)}</span>`:''}</button>`}).join('')}${dia.length>2?`<button class="lnk" data-act="todiary" data-id="${s.id}">Celý deník (${dia.length} zápisů)</button>`:''}</div>`:'')+
    `</div>`).join('');
 }
 /* karta Dnes: počasí, místní čas, kurz a tísňová linka v aktuální zemi; počasí a čas se doplní po stažení předpovědi */
@@ -1786,6 +1803,7 @@ const ACT={
   gotostop:t=>{sel=t.dataset.id;go('trasa');const s=stopOf();if(s)focusOn(s.lon,s.lat,Math.max(zoomLvl(),2.5))},
   todiary:t=>{dTab='diary';ACT.gotostop(t)},
   fotostop:t=>{fSel=t.dataset.id;go('foto')},
+  strip:t=>{const sc=t.parentElement.querySelector('.hph');sc.scrollBy({left:+t.dataset.d*sc.clientWidth,behavior:'smooth'});setTimeout(()=>stripUpd(sc),500)},
   /* vloží „• “ na začátek nového řádku v poli deníku */
   bullet:t=>{const a=$(t.dataset.t);if(!a)return;const p=a.selectionStart??a.value.length,lineStart=!p||a.value[p-1]==='\n';a.focus();a.setRangeText(lineStart?'• ':'\n• ',p,a.selectionEnd??p,'end')},
   tozeme:t=>{zSel=t.dataset.k;zTab='prehled';go('zeme')},
@@ -1802,8 +1820,16 @@ const ACT={
   calnext:()=>{const [y,m]=calM.split('-').map(Number),d=new Date(y,m,1);calM=d.getFullYear()+'-'+pad2(d.getMonth()+1);refresh()},
   calsel:t=>{calSel=t.dataset.d;refresh()},
   fsel:t=>{fSel=t.dataset.k;refresh()},
-  lb:t=>{const b=$('lb');b.innerHTML=`<img src="${esc(t.dataset.src)}" alt=""><p>${esc(t.dataset.cap||'')}</p>`;b.classList.remove('hide');b.setAttribute('tabindex','-1');b.focus()},
+  lb:t=>{const b=$('lb');b.innerHTML=`<img src="${esc(t.dataset.src)}" alt=""><p>${esc(t.dataset.cap||'')}</p>`;b.setAttribute('aria-label','Fotografie');b.classList.remove('hide');b.setAttribute('tabindex','-1');b.focus()},
   lbclose:()=>$('lb').classList.add('hide'),
+  noop:()=>{},
+  /* celý zápis z deníku v bublině přes stránku (bez přechodu na jinou záložku) */
+  diaryopen:t=>{
+    const d=S.diary.find(x=>x.id===t.dataset.id);if(!d)return;
+    const s=S.stops[idx(d.sid)],b=$('lb');
+    b.innerHTML=`<div class="card dpop" data-act="noop"><div class="zch">${s?flag(s.c,22)+`<b>${esc(s.n)}</b>`:''}<span class="lab">${esc(fd(d.date))}</span><button class="cbtn sm" data-act="lbclose" aria-label="Zavřít">${ico('x',18)}</button></div><div class="dtx">${diaryFmt(d.text)}</div></div>`;
+    b.setAttribute('aria-label','Zápis z deníku');b.classList.remove('hide');b.setAttribute('tabindex','-1');b.focus();
+  },
   zi:()=>zoomAt(1.6,VB.x+VB.w/2,VB.y+VB.h/2),
   zo:()=>zoomAt(1/1.6,VB.x+VB.w/2,VB.y+VB.h/2),
   zh:()=>{const s=curStop();focusOn(s.lon,s.lat,5)},
