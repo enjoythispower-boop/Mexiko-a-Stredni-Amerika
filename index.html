@@ -391,6 +391,14 @@ label.l{display:block;font-size:.8rem;font-weight:500;color:var(--mut);margin:12
 .ph .x{position:absolute;top:8px;right:8px;border:1px solid rgba(255,255,255,.25);border-radius:50%;background:rgba(20,14,18,.5);-webkit-backdrop-filter:var(--blur);backdrop-filter:var(--blur);color:#fff;min-width:36px;min-height:36px}
 .lb{position:fixed;inset:0;background:rgba(10,7,10,.82);-webkit-backdrop-filter:blur(30px);backdrop-filter:blur(30px);z-index:60;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px;gap:12px;cursor:zoom-out}
 .lb img{max-width:100%;max-height:82vh;border-radius:var(--r-lg);border:5px solid rgba(255,255,255,.12)}.lb p{color:var(--mut);margin:0}
+/* galerie: křížek vpravo nahoře, šipky uprostřed po stranách */
+.lb img.lbi{cursor:default;touch-action:pan-y}
+.lb .lbx,.lb .lbn{position:absolute;z-index:2;background:rgba(20,14,18,.6);cursor:pointer}
+.lb .lbx{top:calc(14px + env(safe-area-inset-top,0px));right:14px}
+.lb .lbn{top:50%;transform:translateY(-50%)}.lb .lbn.l{left:12px}.lb .lbn.r{right:12px}
+.lb .lbn:active{transform:translateY(-50%) scale(.94)}
+.lb .lbc{margin-left:8px;font-variant-numeric:tabular-nums;opacity:.8}
+@media(min-width:700px){.lb img.lbi{max-width:calc(100% - 150px)}.lb .lbn.l{left:24px}.lb .lbn.r{right:24px}}
 
 /* zprávy */
 .sevs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
@@ -1433,6 +1441,16 @@ function activePlaces(){
 const dentryHtml=d=>{const long=d.text.length>160||d.text.split('\n').length>3;return `<button class="dentry" data-act="diaryopen" data-id="${d.id}"><small>Deník · ${esc(fd(d.date))}</small><span class="dtx${long?' cut':''}">${diaryFmt(d.text)}</span>${long?`<span class="more">Číst celý zápis ${ico('chevr',14)}</span>`:''}</button>`};
 const stripUpd=sc=>{const w=sc.parentElement;w.classList.toggle('can-l',sc.scrollLeft>4);w.classList.toggle('can-r',sc.scrollLeft+sc.clientWidth<sc.scrollWidth-4)};
 const phFig=(p,alt)=>`<figure><img src="${esc(photoSrc(p))}" alt="${esc(p.cap||alt)}" loading="lazy" data-act="lb" data-src="${esc(photoSrc(p))}" data-cap="${esc(p.cap||'')}">${p.cap?`<figcaption>${esc(p.cap)}</figcaption>`:''}</figure>`;
+/* prohlížeč fotek: křížek, šipky, klávesy ← → a swipe na telefonu */
+const LB={list:[],i:0};
+function lbShow(){
+  const n=LB.list.length,p=LB.list[LB.i];if(!p)return;
+  $('lb').innerHTML=`<button class="cbtn lbx" data-act="lbclose" aria-label="Zavřít" title="Zavřít">${ico('x',22)}</button>`+
+   (n>1?`<button class="cbtn lbn l" data-act="lbnav" data-d="-1" aria-label="Předchozí fotka" title="Předchozí">${ico('chevl',22)}</button><button class="cbtn lbn r" data-act="lbnav" data-d="1" aria-label="Další fotka" title="Další">${ico('chevr',22)}</button>`:'')+
+   `<img class="lbi" src="${esc(p.src)}" alt="${esc(p.cap||'Fotka')}" data-act="noop"><p>${esc(p.cap)}${n>1?`<span class="lbc">${LB.i+1} / ${n}</span>`:''}</p>`;
+  if(n>1)[1,-1].forEach(d=>{new Image().src=LB.list[(LB.i+d+n)%n].src});
+}
+const lbGo=d=>{const n=LB.list.length;if(n<2)return;LB.i=(LB.i+d+n)%n;lbShow()};
 function novinkyHtml(){
   const pl=activePlaces().slice(0,4);
   if(!pl.length)return'';
@@ -1876,13 +1894,17 @@ const ACT={
   calnext:()=>{const [y,m]=calM.split('-').map(Number),d=new Date(y,m,1);calM=d.getFullYear()+'-'+pad2(d.getMonth()+1);refresh()},
   calsel:t=>{calSel=t.dataset.d;refresh()},
   fsel:t=>{fSel=t.dataset.k;refresh()},
-  lb:t=>{const b=$('lb');b.innerHTML=`<img src="${esc(t.dataset.src)}" alt=""><p>${esc(t.dataset.cap||'')}</p>`;b.setAttribute('aria-label','Fotografie');b.classList.remove('hide');b.setAttribute('tabindex','-1');b.focus()},
-  lbclose:()=>$('lb').classList.add('hide'),
+  /* galerie = všechny fotky ze stejného pásu / mřížky jako ta, na kterou se kliklo */
+  lb:t=>{const g=t.closest('.ph,.row'),els=g?[...g.querySelectorAll('[data-act="lb"]')]:[t];
+    LB.list=els.map(x=>({src:x.dataset.src,cap:x.dataset.cap||''}));LB.i=Math.max(0,els.indexOf(t));
+    const b=$('lb');lbShow();b.setAttribute('aria-label','Fotografie');b.classList.remove('hide');b.setAttribute('tabindex','-1');b.focus()},
+  lbnav:t=>lbGo(+t.dataset.d),
+  lbclose:()=>{$('lb').classList.add('hide');LB.list=[]},
   noop:()=>{},
   /* celý zápis z deníku v bublině přes stránku (bez přechodu na jinou záložku) */
   diaryopen:t=>{
     const d=S.diary.find(x=>x.id===t.dataset.id);if(!d)return;
-    const s=S.stops[idx(d.sid)],b=$('lb');
+    const s=S.stops[idx(d.sid)],b=$('lb');LB.list=[];
     b.innerHTML=`<div class="card dpop" data-act="noop"><div class="zch">${s?flag(s.c,22)+`<b>${esc(s.n)}</b>`:''}<span class="lab">${esc(fd(d.date))}</span><button class="cbtn sm" data-act="lbclose" aria-label="Zavřít">${ico('x',18)}</button></div><div class="dtx">${diaryFmt(d.text)}</div></div>`;
     b.setAttribute('aria-label','Zápis z deníku');b.classList.remove('hide');b.setAttribute('tabindex','-1');b.focus();
   },
@@ -2004,8 +2026,15 @@ document.addEventListener('keydown',e=>{
     if(m&&a.selectionEnd===p){e.preventDefault();if(!line.slice(m[0].length).trim())a.setRangeText('',ls,p,'end');else a.setRangeText('\n'+m[1]+' ',p,p,'end');return}
   }
   if(e.key==='Escape'){if(!$('lb').classList.contains('hide')){ACT.lbclose();return}if(moreOpen){moreOpen=false;renderNav()}return}
+  if((e.key==='ArrowLeft'||e.key==='ArrowRight')&&LB.list.length>1&&!$('lb').classList.contains('hide')){e.preventDefault();lbGo(e.key==='ArrowLeft'?-1:1);return}
   if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('[role=button][data-act]')){e.preventDefault();e.target.click()}
 });
+/* swipe v prohlížeči fotek: tah doleva = další, doprava = předchozí */
+(()=>{let sx=null,sy=0;const b=$('lb');
+  b.addEventListener('touchstart',e=>{sx=e.touches.length===1&&LB.list.length>1?e.touches[0].clientX:null;sy=sx==null?0:e.touches[0].clientY},{passive:true});
+  b.addEventListener('touchend',e=>{if(sx==null)return;const t=e.changedTouches[0],dx=t.clientX-sx,dy=t.clientY-sy;sx=null;
+    if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.5){e.preventDefault();lbGo(dx<0?1:-1)}},{passive:false});
+})();
 /* lišty pilulek nemají viditelný posuvník: kolečko myši je posouvá do stran */
 document.addEventListener('wheel',e=>{
   const sg=e.target.closest&&e.target.closest('.chips,.seg');
