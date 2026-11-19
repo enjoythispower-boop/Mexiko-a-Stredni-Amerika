@@ -1087,7 +1087,8 @@ const D=Math.PI/180;
 const G={lon:-75,lat:-8,z:1,drag:null,pinch:null,ptr:new Map(),auto:!RM,raf:0,resume:0,col:null,w:null};
 /* mapa světa mimo Ameriku (svet.json, Natural Earth 1:110m); Amerika se kreslí podrobněji z GEO */
 function globeWorld(){if(G.w)return;G.w=[];fetch('svet.json').then(r=>r.json()).then(j=>{G.w=j}).catch(()=>{G.w=null})}
-const globeZoom=f=>{G.z=Math.max(1,Math.min(8,G.z*f))};
+const GZMAX=40;
+const globeZoom=f=>{G.touched=true;G.z=Math.max(1,Math.min(GZMAX,G.z*f))};
 function globeColors(){
   const s=getComputedStyle(document.documentElement),g=n=>s.getPropertyValue(n).trim()||'#888';
   G.col={sea:g('--sea'),land:g('--land'),landS:g('--land-s'),acc:g('--acc'),now:g('--now'),done:g('--done'),next:g('--next'),tx:g('--tx'),p2:g('--panel2')};
@@ -1095,12 +1096,16 @@ function globeColors(){
 function globeInit(){
   const cv=$('globe');if(!cv)return;
   globeWorld();G.ptr.clear();G.drag=G.pinch=null;
+  /* při prvním otevření přiblížit na okolí aktuální zastávky (aspoň ±15°, aby byl vidět kus okolí) */
+  if(!G.touched&&G.fit!==S.cur){G.fit=S.cur;const ns=nearStops(),c=curStop();
+    const ang=Math.max(15,...ns.map(p=>Math.hypot(p.lat-c.lat,(p.lon-c.lon)*Math.cos(c.lat*D))*1.4));
+    G.z=Math.max(1,Math.min(6,.5/(.42*Math.sin(Math.min(80,ang)*D))));G.lon=c.lon;G.lat=c.lat}
   const dist=()=>{const [a,b]=[...G.ptr.values()];return Math.hypot(a.x-b.x,a.y-b.y)||1};
   const grab=()=>{const p=[...G.ptr.values()][0];G.drag=p?{x:p.x,y:p.y,lon:G.lon,lat:G.lat}:null};
-  cv.addEventListener('pointerdown',e=>{G.ptr.set(e.pointerId,{x:e.clientX,y:e.clientY});G.auto=false;clearTimeout(G.resume);try{cv.setPointerCapture(e.pointerId)}catch(_){}
+  cv.addEventListener('pointerdown',e=>{G.ptr.set(e.pointerId,{x:e.clientX,y:e.clientY});G.auto=false;G.touched=true;clearTimeout(G.resume);try{cv.setPointerCapture(e.pointerId)}catch(_){}
     if(G.ptr.size===2){G.drag=null;G.pinch={d:dist(),z:G.z}}else if(G.ptr.size===1)grab()});
   cv.addEventListener('pointermove',e=>{if(!G.ptr.has(e.pointerId))return;G.ptr.set(e.pointerId,{x:e.clientX,y:e.clientY});
-    if(G.pinch&&G.ptr.size>=2){G.z=Math.max(1,Math.min(8,G.pinch.z*dist()/G.pinch.d));return}
+    if(G.pinch&&G.ptr.size>=2){G.z=Math.max(1,Math.min(GZMAX,G.pinch.z*dist()/G.pinch.d));return}
     if(!G.drag)return;const k=.35/G.z;G.lon=G.drag.lon-(e.clientX-G.drag.x)*k;G.lat=Math.max(-85,Math.min(85,G.drag.lat+(e.clientY-G.drag.y)*k))});
   const up=e=>{G.ptr.delete(e.pointerId);if(G.ptr.size<2)G.pinch=null;if(G.ptr.size===1)grab();if(G.ptr.size)return;
     G.drag=null;clearTimeout(G.resume);G.resume=setTimeout(()=>{G.auto=!RM},4000)};
@@ -1121,7 +1126,7 @@ function drawGlobe(ts){
   const C=G.col,dpr=Math.min(2,window.devicePixelRatio||1),w=cv.clientWidth||360;
   if(cv.width!==Math.round(w*dpr))cv.width=cv.height=Math.round(w*dpr);
   const N=cv.width,R=N*.42*G.z,cx=N/2,cy=N/2,cur=curStop(),ci=curIdx();
-  if(G.auto&&!G.drag){G.lon+=((cur.lon+Math.sin(ts/4500)*16/G.z)-G.lon)*.02;G.lat+=((Math.max(-30,Math.min(20,cur.lat*.6)))-G.lat)*.02}
+  if(G.auto&&!G.drag){G.lon+=((cur.lon+Math.sin(ts/4500)*16/G.z)-G.lon)*.02;G.lat+=((G.z>1.5?cur.lat:Math.max(-30,Math.min(20,cur.lat*.6)))-G.lat)*.02}
   const l0=G.lon*D,p0=G.lat*D,sp0=Math.sin(p0),cp0=Math.cos(p0);
   const P3=(lon,lat,rr=1)=>{const l=lon*D-l0,p=lat*D,sp=Math.sin(p),cp=Math.cos(p),cl=Math.cos(l);return{x:cx+cp*Math.sin(l)*R*rr,y:cy-(cp0*sp-sp0*cp*cl)*R*rr,c:sp0*sp+cp0*cp*cl}};
   ctx.clearRect(0,0,N,N);
@@ -1160,10 +1165,31 @@ function drawGlobe(ts){
     const pts=gcPts(stops[ci-1],stops[ci],60),t=(ts/2800)%1,q=pts[Math.min(60,Math.floor(t*60))],p=P3(q.lon,q.lat,1+Math.sin(Math.PI*q.t)*Math.min(.1,q.om*.1));
     if(p.c>0.02){ctx.fillStyle='#fff';ctx.strokeStyle=C.done;ctx.lineWidth=2*dpr;ctx.beginPath();ctx.arc(p.x,p.y,3.6*dpr,0,7);ctx.fill();ctx.stroke()}
   }
+  /* popisky zemí (Amerika): země na trase výrazněji a přednostně, překrývající se vynechat, u okraje glóbu slábnou */
+  const placed=[],fs=Math.min(13,8+G.z*.8)*dpr;
+  /* nejdřív rezervovat místo pro názvy zastávek (aktuální vždy, ostatní od přiblížení 6×), aby je popisky zemí nepřekryly */
+  stops.forEach((s,i)=>{if(i!==ci&&G.z<6)return;const p=P3(s.lon,s.lat);if(p.c<.03)return;
+    const f=(i===ci?13:11)*dpr;ctx.font=`700 ${f}px Figtree,system-ui,sans-serif`;const w=ctx.measureText(s.n).width,ox=(i===ci?13:8)*dpr,oy=(i===ci?10:6)*dpr;
+    placed.push([p.x-6*dpr,p.y-oy-f,p.x+ox+w+4*dpr,p.y+6*dpr])});
+  ctx.textAlign='center';ctx.textBaseline='middle';ctx.lineJoin='round';
+  GEO.map((c,gi)=>({c,gi,on:!!st[gi]})).sort((a,b)=>b.on-a.on).forEach(({c,gi,on})=>{
+    if(c.n==='USA'||c.n==='Falklandy'||(!on&&G.z<1.6))return;
+    const p=P3(c.c[0],c.c[1]);if(p.c<.25||p.x<0||p.x>N||p.y<0||p.y>N)return;
+    const f=on?fs:fs*.82,t=c.n.toUpperCase();
+    ctx.font=`${on?700:600} ${f}px Figtree,system-ui,sans-serif`;if('letterSpacing' in ctx)ctx.letterSpacing=(f*.1).toFixed(1)+'px';
+    const w=ctx.measureText(t).width,b=[p.x-w/2-4*dpr,p.y-f*.6,p.x+w/2+4*dpr,p.y+f*.6];
+    if(b[0]<0||b[2]>N||b[1]<0||b[3]>N||Math.hypot((b[0]+b[2])/2-cx,p.y-cy)+w/2>R)return;
+    if(placed.some(q=>b[0]<q[2]&&b[2]>q[0]&&b[1]<q[3]&&b[3]>q[1]))return;placed.push(b);
+    ctx.globalAlpha=Math.min(1,(p.c-.25)*3)*(on?.8:.45);ctx.fillStyle=C.tx;ctx.strokeStyle=C.sea;ctx.lineWidth=3*dpr;
+    ctx.strokeText(t,p.x,p.y);ctx.fillText(t,p.x,p.y);
+  });
+  ctx.globalAlpha=1;ctx.textBaseline='alphabetic';if('letterSpacing' in ctx)ctx.letterSpacing='0px';
   stops.forEach((s,i)=>{
     const p=P3(s.lon,s.lat);if(p.c<0.03)return;
     const col=i<ci?C.done:i===ci?C.now:C.next;
     ctx.fillStyle=col;ctx.beginPath();ctx.arc(p.x,p.y,(i===ci?4.5:3)*dpr,0,7);ctx.fill();
+    /* při větším přiblížení popisky i ostatních zastávek */
+    if(i!==ci&&G.z>=6&&p.x>0&&p.x<N&&p.y>0&&p.y<N){ctx.font=`600 ${11*dpr}px Figtree,system-ui,sans-serif`;ctx.fillStyle=C.tx;ctx.globalAlpha=.85;ctx.textAlign='left';ctx.lineWidth=3*dpr;ctx.strokeStyle=C.land;ctx.lineJoin='round';ctx.strokeText(s.n,p.x+8*dpr,p.y-6*dpr);ctx.fillText(s.n,p.x+8*dpr,p.y-6*dpr);ctx.globalAlpha=1}
     if(i===ci){
       ctx.strokeStyle=C.now;ctx.globalAlpha=.55;ctx.lineWidth=1.6*dpr;ctx.beginPath();ctx.arc(p.x,p.y,(9+4*Math.sin(ts/300))*dpr,0,7);ctx.stroke();ctx.globalAlpha=1;
       ctx.font=`700 ${13*dpr}px Figtree,system-ui,sans-serif`;ctx.fillStyle=C.tx;ctx.textAlign='left';ctx.lineWidth=3*dpr;ctx.strokeStyle=C.land;ctx.lineJoin='round';ctx.strokeText(s.n,p.x+13*dpr,p.y-10*dpr);ctx.fillText(s.n,p.x+13*dpr,p.y-10*dpr);
@@ -1285,12 +1311,13 @@ function uploadForm(sid){
 }
 const photoGrid=list=>list.length?`<div class="ph">${list.map(p=>`<figure><img src="${esc(photoSrc(p))}" alt="${esc(p.cap||'Fotka')}" loading="lazy" data-act="lb" data-src="${esc(photoSrc(p))}" data-cap="${esc(p.cap||'')}">${p.cap?`<figcaption>${esc(p.cap)}</figcaption>`:''}${edit?`<button class="x" data-act="photodel" data-id="${p.id}" aria-label="Smazat fotku">${ico('x',16)}</button>`:''}</figure>`).join('')}</div>`:'<p class="note">Zatím žádné fotky.</p>';
 function vFoto(){
-  const withP=S.stops.filter(s=>S.photos.some(p=>p.sid===s.id));
+  const withP=S.stops.filter(s=>S.photos.some(p=>p.sid===s.id)||S.diary.some(d=>d.sid===s.id));
   if(fSel!=='Vše'&&!withP.some(s=>s.id===fSel))fSel='Vše';
-  /* „Vše“ = skupiny po místech (nejnovější místo nahoře), jinak fotky jednoho místa */
-  const groups=activePlaces().filter(x=>x.ph.length&&(fSel==='Vše'||x.s.id===fSel));
-  const body=groups.length?groups.map(({s,ph})=>`<section class="fgrp"><div class="zch">${flag(s.c,22)}<b>${esc(s.n)}</b><span class="lab">${esc(s.c)} · ${ph.length} ${ph.length===1?'fotka':ph.length<5?'fotky':'fotek'}</span></div>${photoGrid(ph)}</section>`).join(''):photoGrid([]);
-  $('v-foto').innerHTML=pageHead('Fotodeník','Fotky z cesty podle zastávek')+
+  /* „Vše“ = skupiny po místech (nejnovější místo nahoře), jinak jedno místo; pod fotkami zápisy z deníku */
+  const groups=activePlaces().filter(x=>fSel==='Vše'||x.s.id===fSel);
+  const cnt=(n,a,b,c)=>n+' '+(n===1?a:n<5?b:c);
+  const body=groups.length?groups.map(({s,ph,dia})=>`<section class="fgrp"><div class="zch">${flag(s.c,22)}<b>${esc(s.n)}</b><span class="lab">${esc(s.c)}${ph.length?' · '+cnt(ph.length,'fotka','fotky','fotek'):''}${dia.length?' · '+cnt(dia.length,'zápis','zápisy','zápisů'):''}</span></div>${ph.length?photoGrid(ph):''}${dia.length?`<div class="hdia">${dia.map(dentryHtml).join('')}</div>`:''}</section>`).join(''):photoGrid([]);
+  $('v-foto').innerHTML=pageHead('Fotodeník','Fotky a zápisy z cesty podle zastávek')+
    `<div class="chips"><button class="chip${fSel==='Vše'?' on':''}" data-act="fsel" data-k="Vše">Vše (${S.photos.length})</button>${withP.map(s=>`<button class="chip${s.id===fSel?' on':''}" data-act="fsel" data-k="${s.id}">${flag(s.c,18)} ${esc(s.n)}</button>`).join('')}</div>`+body+uploadForm();
 }
 
@@ -1402,6 +1429,8 @@ function activePlaces(){
     return {s,i,ph,dia,last:[...ph,...dia].map(x=>x.date||'').sort().pop()||''}})
    .filter(x=>x.ph.length||x.dia.length).sort((a,b)=>b.last.localeCompare(a.last)||b.i-a.i);
 }
+/* náhled zápisu z deníku; delší se zkrátí a celý se otevře v bublině */
+const dentryHtml=d=>{const long=d.text.length>160||d.text.split('\n').length>3;return `<button class="dentry" data-act="diaryopen" data-id="${d.id}"><small>Deník · ${esc(fd(d.date))}</small><span class="dtx${long?' cut':''}">${diaryFmt(d.text)}</span>${long?`<span class="more">Číst celý zápis ${ico('chevr',14)}</span>`:''}</button>`};
 const stripUpd=sc=>{const w=sc.parentElement;w.classList.toggle('can-l',sc.scrollLeft>4);w.classList.toggle('can-r',sc.scrollLeft+sc.clientWidth<sc.scrollWidth-4)};
 const phFig=(p,alt)=>`<figure><img src="${esc(photoSrc(p))}" alt="${esc(p.cap||alt)}" loading="lazy" data-act="lb" data-src="${esc(photoSrc(p))}" data-cap="${esc(p.cap||'')}">${p.cap?`<figcaption>${esc(p.cap)}</figcaption>`:''}</figure>`;
 function novinkyHtml(){
@@ -1410,7 +1439,7 @@ function novinkyHtml(){
   return `<div class="sec-h"><h2>Z cesty</h2>${S.photos.length?`<button data-act="go" data-v="foto">Fotodeník (${S.photos.length})</button>`:''}</div>`+
    pl.map(({s,ph,dia})=>`<div class="card zc"><div class="zch">${flag(s.c,22)}<b>${esc(s.n)}</b><span class="lab">${esc(s.c)}</span>${ph.length?`<span class="lab cnt">${ph.length} ${ph.length===1?'fotka':ph.length<5?'fotky':'fotek'}</span>`:''}</div>`+
     (ph.length?`<div class="strip"><button class="cbtn sm sb l" data-act="strip" data-d="-1" aria-label="Předchozí fotky">${ico('chevl',18)}</button><div class="ph hph">${ph.map(p=>phFig(p,'Fotka z '+s.n)).join('')}</div><button class="cbtn sm sb r" data-act="strip" data-d="1" aria-label="Další fotky">${ico('chevr',18)}</button></div>`:'')+
-    (dia.length?`<div class="hdia">${dia.slice(0,2).map(d=>{const long=d.text.length>160||d.text.split('\n').length>3;return `<button class="dentry" data-act="diaryopen" data-id="${d.id}"><small>Deník · ${esc(fd(d.date))}</small><span class="dtx${long?' cut':''}">${diaryFmt(d.text)}</span>${long?`<span class="more">Číst celý zápis ${ico('chevr',14)}</span>`:''}</button>`}).join('')}${dia.length>2?`<button class="lnk" data-act="todiary" data-id="${s.id}">Celý deník (${dia.length} zápisů)</button>`:''}</div>`:'')+
+    (dia.length?`<div class="hdia">${dia.slice(0,2).map(dentryHtml).join('')}${dia.length>2?`<button class="lnk" data-act="todiary" data-id="${s.id}">Celý deník (${dia.length} zápisů)</button>`:''}</div>`:'')+
    `</div>`).join('');
 }
 /* karta Dnes: počasí, místní čas, kurz a tísňová linka v aktuální zemi; počasí a čas se doplní po stažení předpovědi */
@@ -1452,13 +1481,37 @@ function zoomAt(f,cx,cy){
 }
 function centerOn(lon,lat){VB.x=X(lon)-VB.w/2;VB.y=Y(lat)-VB.h/2;clampVB();setVB()}
 function focusOn(lon,lat,zz){VB.w=W0/zz;VB.h=H0/zz;centerOn(lon,lat);drawOverlay()}
-function fitRoute(){
-  const xs=S.stops.map(p=>X(p.lon)),ys=S.stops.map(p=>Y(p.lat));
+/* okolí aktuální zastávky: předchozí + aktuální + 3 další (na ně se mapy přiblíží při otevření) */
+const nearStops=()=>{const ci=curIdx();return S.stops.slice(Math.max(0,ci-1),ci+4)};
+function fitRoute(list=S.stops,pad=70,maxZ=14){
+  const xs=list.map(p=>X(p.lon)),ys=list.map(p=>Y(p.lat));
   const x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys),y1=Math.max(...ys);
-  const zz=Math.min(14,Math.max(1,Math.min(W0/(x1-x0+70),H0/(y1-y0+70))));
+  const zz=Math.min(maxZ,Math.max(1,Math.min(W0/(x1-x0+pad),H0/(y1-y0+pad))));
   VB.w=W0/zz;VB.h=H0/zz;VB.x=(x0+x1)/2-VB.w/2;VB.y=(y0+y1)/2-VB.h/2;clampVB();setVB();drawOverlay();
 }
-let routeG=new Set(),trasaBuilt=false;
+/* přiblíží mapu tak, aby místa byla v té části mapy, kterou nezakrývá nadpis, legenda, panel zastávek ani spodní lišta */
+function fitView(list,maxZ=10){
+  const svg=$('map');fitRoute(list,40,maxZ);
+  const r=svg&&svg.getBoundingClientRect();if(!r||!r.width)return;
+  let L=r.left+24,R=r.right-24,T=r.top+24,B=r.bottom-24;
+  const cut=(el,side)=>{if(!el)return;const g=el.getBoundingClientRect();if(!g.width||g.bottom<T||g.top>B||g.right<L||g.left>R)return;
+    if(side==='top')T=Math.max(T,g.bottom+12);else if(side==='right')R=Math.min(R,g.left-24);else B=Math.min(B,g.top-12)};
+  cut(document.querySelector('#v-trasa .pagehead'),'top');
+  const sd=$('tside'),sg=sd&&sd.getBoundingClientRect();
+  if(sg&&sg.left>r.left+r.width*.3)cut(sd,'right');else cut(sd,'bottom');
+  cut(document.querySelector('#v-trasa .legend'),'bottom');cut($('bnav'),'bottom');
+  if(R-L<80||B-T<80)return;
+  const xs=list.map(p=>X(p.lon)),ys=list.map(p=>Y(p.lat)),x0=Math.min(...xs)-6,x1=Math.max(...xs)+6,y0=Math.min(...ys)-8,y1=Math.max(...ys)+6;
+  for(let k=0;k<2;k++){
+    let a=toSvg(L,T),b=toSvg(R,B);
+    const s=Math.max((x1-x0)/(b.x-a.x),(y1-y0)/(b.y-a.y)),z=Math.min(maxZ,Math.max(1,zoomLvl()/s));
+    VB.w=W0/z;VB.h=H0/z;setVB();
+    a=toSvg(L,T);b=toSvg(R,B);
+    VB.x+=(x0+x1)/2-(a.x+b.x)/2;VB.y+=(y0+y1)/2-(a.y+b.y)/2;setVB();
+  }
+  drawOverlay();
+}
+let routeG=new Set(),trasaBuilt=false,mapTouched=false,fitKey='';
 function buildLand(){
   let g='';
   for(let lo=-110;lo<=-40;lo+=10)g+=`<line class="grat" x1="${X(lo)}" y1="-100" x2="${X(lo)}" y2="700"/>`;
@@ -1499,7 +1552,7 @@ const ptrs=new Map();let drag=null,moved=false,pinch=null;
 function initMap(){
   const svg=$('map');
   svg.addEventListener('pointerdown',e=>{
-    ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});moved=false;
+    ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});moved=false;mapTouched=true;
     if(ptrs.size===1)drag={x:e.clientX,y:e.clientY,vx:VB.x,vy:VB.y};
     if(ptrs.size===2){const [a,b]=[...ptrs.values()];pinch={d:Math.hypot(a.x-b.x,a.y-b.y),z:zoomLvl()};drag=null;moved=true}
   });
@@ -1521,7 +1574,7 @@ function initMap(){
     else if(ptrs.size===1){const p=[...ptrs.values()][0];drag={x:p.x,y:p.y,vx:VB.x,vy:VB.y}}
   };
   svg.addEventListener('pointerup',up);svg.addEventListener('pointercancel',up);
-  svg.addEventListener('wheel',e=>{e.preventDefault();const p=toSvg(e.clientX,e.clientY);zoomAt(e.deltaY<0?1.25:0.8,p.x,p.y)},{passive:false});
+  svg.addEventListener('wheel',e=>{e.preventDefault();mapTouched=true;const p=toSvg(e.clientX,e.clientY);zoomAt(e.deltaY<0?1.25:0.8,p.x,p.y)},{passive:false});
   svg.addEventListener('click',e=>{
     if(moved){moved=false;return}
     const g=e.target.closest('.pin');
@@ -1539,7 +1592,10 @@ function vTrasa(){
     <div class="legend"><span><i class="dot" style="background:var(--done)"></i>navštíveno</span><span><i class="dot" style="background:var(--now)"></i>jsem tady</span><span><i class="dot" style="background:var(--next)"></i>plánováno</span></div></div></div><div id="tside" class="tsheet"></div></div>`;
     initMap();trasaBuilt=true;
   }
-  drawMap();drawSide();
+  drawMap();
+  /* přiblížit na okolí aktuální zastávky; znovu i po načtení dat (napřed se kreslí záložní kopie), dokud uživatel s mapou nehýbal */
+  drawSide();
+  if(!mapTouched&&fitKey!==S.cur){fitKey=S.cur;fitView(nearStops())}
 }
 function formHtml(){
   const d=form.d;
@@ -1800,7 +1856,7 @@ const stopOf=()=>S.stops[idx(sel)];
 const ACT={
   go:t=>go(t.dataset.v),
   more:()=>{moreOpen=!moreOpen;renderNav()},
-  gotostop:t=>{sel=t.dataset.id;go('trasa');const s=stopOf();if(s)focusOn(s.lon,s.lat,Math.max(zoomLvl(),2.5))},
+  gotostop:t=>{sel=t.dataset.id;mapTouched=true;go('trasa');const s=stopOf();if(s)focusOn(s.lon,s.lat,Math.max(zoomLvl(),6))},
   todiary:t=>{dTab='diary';ACT.gotostop(t)},
   fotostop:t=>{fSel=t.dataset.id;go('foto')},
   strip:t=>{const sc=t.parentElement.querySelector('.hph');sc.scrollBy({left:+t.dataset.d*sc.clientWidth,behavior:'smooth'});setTimeout(()=>stripUpd(sc),500)},
@@ -1830,9 +1886,9 @@ const ACT={
     b.innerHTML=`<div class="card dpop" data-act="noop"><div class="zch">${s?flag(s.c,22)+`<b>${esc(s.n)}</b>`:''}<span class="lab">${esc(fd(d.date))}</span><button class="cbtn sm" data-act="lbclose" aria-label="Zavřít">${ico('x',18)}</button></div><div class="dtx">${diaryFmt(d.text)}</div></div>`;
     b.setAttribute('aria-label','Zápis z deníku');b.classList.remove('hide');b.setAttribute('tabindex','-1');b.focus();
   },
-  zi:()=>zoomAt(1.6,VB.x+VB.w/2,VB.y+VB.h/2),
-  zo:()=>zoomAt(1/1.6,VB.x+VB.w/2,VB.y+VB.h/2),
-  zh:()=>{const s=curStop();focusOn(s.lon,s.lat,5)},
+  zi:()=>{mapTouched=true;zoomAt(1.6,VB.x+VB.w/2,VB.y+VB.h/2)},
+  zo:()=>{mapTouched=true;zoomAt(1/1.6,VB.x+VB.w/2,VB.y+VB.h/2)},
+  zh:()=>fitView(nearStops()),
   zr:()=>fitRoute(),
   gzi:()=>globeZoom(1.6),
   gzo:()=>globeZoom(1/1.6),
