@@ -1255,9 +1255,9 @@ function calHtml(){
 let fSel='Vše';
 function uploadForm(sid){
   if(!edit)return'';
-  return `<div class="card" style="margin-top:12px"><h3>Přidat fotku</h3><div class="form"><input id="pf" type="file" accept="image/*">
+  return `<div class="card" style="margin-top:12px"><h3>Přidat fotky</h3><div class="form"><input id="pf" type="file" accept="image/*" multiple>
    <div class="row"><select id="ps" class="grow">${S.stops.map(s=>`<option value="${s.id}"${s.id===(sid||sel)?' selected':''}>${esc(s.n)}</option>`).join('')}</select><input id="pc" class="grow" placeholder="Popisek (volitelné)"></div>
-   <div class="row" style="margin-top:8px"><button class="btn pri" data-act="photoadd">Nahrát</button></div></div><p class="note" style="margin:8px 0 0">Fotka se zmenší na max. 1400 px a nahraje do veřejného repozitáře. Neukládej citlivé snímky (doklady apod.).</p></div>`;
+   <div class="row" style="margin-top:8px"><button class="btn pri" data-act="photoadd">Nahrát</button></div></div><p class="note" style="margin:8px 0 0">Můžeš vybrat víc fotek najednou. Každá se zmenší na max. 1400 px a nahraje do veřejného repozitáře. Neukládej citlivé snímky (doklady apod.).</p></div>`;
 }
 const photoGrid=list=>list.length?`<div class="ph">${list.map(p=>`<figure><img src="${esc(photoSrc(p))}" alt="${esc(p.cap||'Fotka')}" loading="lazy" data-act="lb" data-src="${esc(photoSrc(p))}" data-cap="${esc(p.cap||'')}">${p.cap?`<figcaption>${esc(p.cap)}</figcaption>`:''}${edit?`<button class="x" data-act="photodel" data-id="${p.id}" aria-label="Smazat fotku">${ico('x',16)}</button>`:''}</figure>`).join('')}</div>`:'<p class="note">Zatím žádné fotky.</p>';
 function vFoto(){
@@ -1825,10 +1825,16 @@ const ACT={
   placeadd:()=>{const n=$('pln').value.trim();if(!n)return;S.places.push({id:'m'+uid(),sid:sel,type:$('plt').value,name:n,note:$('plo').value.trim(),url:$('plu').value.trim()});mark('pub');refresh()},
   placerec:t=>{const s=stopOf(),i=INFO.find(c=>c.k===s.c);if(!i)return;S.places.push({id:'m'+uid(),sid:sel,type:'Zajímavost',name:i.top[+t.dataset.i],note:'',url:''});mark('pub');refresh()},
   placedel:t=>{S.places=S.places.filter(p=>p.id!==t.dataset.id);mark('pub');refresh()},
-  photoadd:async()=>{
-    const f=$('pf')&&$('pf').files[0];if(!f){fabMsg='Vyber nejdřív fotku';fab();return}
-    fabMsg='Nahrávám fotku…';fab();
-    try{await addPhoto(f,$('ps').value,$('pc').value.trim());fabMsg='Fotka nahrána – ulož a zveřejni'}catch(e){fabMsg='Nahrání selhalo ('+e.message+')'}
+  /* víc fotek najednou: nahrávají se postupně, popisek (pokud je) dostanou všechny */
+  photoadd:async t=>{
+    const fs=$('pf')?[...$('pf').files]:[];if(!fs.length){fabMsg='Vyber nejdřív fotky';fab();return}
+    const sid=$('ps').value,cap=$('pc').value.trim();let ok=0,err='';
+    t.disabled=true;
+    for(let i=0;i<fs.length;i++){
+      fabMsg=`Nahrávám fotku ${i+1} z ${fs.length}…`;fab();
+      try{await addPhoto(fs[i],sid,cap);ok++}catch(e){err=e.message}
+    }
+    fabMsg=ok===fs.length?`${ok===1?'Fotka nahrána':'Nahráno '+ok+(ok<5?' fotky':' fotek')} – ulož a zveřejni`:`Nahráno ${ok} z ${fs.length}, zbytek selhal (${err})${ok?' – ulož a zveřejni':''}`;
     refresh();
   },
   photodel:async t=>{
