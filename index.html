@@ -398,6 +398,24 @@ label.l{display:block;font-size:.8rem;font-weight:500;color:var(--mut);margin:12
 .calm{text-align:center;padding:34px 16px}.calm svg{color:var(--ok)}
 .calm h3{margin:10px 0 4px}
 .clamp2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.clamp4{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+/* Z cesty na přehledu */
+.hph{grid-template-columns:repeat(3,1fr);gap:8px}
+.hph figure{border-radius:16px;border-width:3px}
+.hph figcaption{font-size:.72rem;padding:20px 8px 7px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(min-width:900px){.hph{grid-template-columns:repeat(6,1fr)}}
+.zc+.zc{margin-top:12px}
+.zch{display:flex;align-items:center;gap:8px;margin:0 0 12px}
+.zch b{font-family:var(--disp);font-size:1.1rem}
+.zch .lab{flex:1;min-width:0}
+.lnk{background:none;border:0;padding:6px 2px;color:var(--mut);font:inherit;font-size:.84rem;font-weight:500;cursor:pointer}
+.lnk:hover{color:var(--tx)}
+.fgrp{margin-top:22px}
+.fgrp+.fgrp{padding-top:22px;border-top:1px solid var(--rim)}
+.hdia{margin-top:6px}
+.dentry{display:block;width:100%;text-align:left;background:none;border:0;border-left:1px solid var(--rim);padding:2px 0 2px 12px;margin:10px 0 0;color:inherit;font:inherit;cursor:pointer}
+.dentry small{display:block;color:var(--mut);margin-bottom:2px}
+.dentry:hover small{color:var(--tx)}
 
 /* spodní lišta */
 .bnav{position:fixed;z-index:30;left:0;right:0;bottom:0;display:flex;justify-content:space-around;gap:2px;padding:8px 8px calc(8px + env(safe-area-inset-bottom,0px));background:rgba(14,11,15,.86);-webkit-backdrop-filter:blur(24px) saturate(150%);backdrop-filter:blur(24px) saturate(150%);border-top:1px solid var(--line)}
@@ -1241,17 +1259,19 @@ function uploadForm(sid){
    <div class="row"><select id="ps" class="grow">${S.stops.map(s=>`<option value="${s.id}"${s.id===(sid||sel)?' selected':''}>${esc(s.n)}</option>`).join('')}</select><input id="pc" class="grow" placeholder="Popisek (volitelné)"></div>
    <div class="row" style="margin-top:8px"><button class="btn pri" data-act="photoadd">Nahrát</button></div></div><p class="note" style="margin:8px 0 0">Fotka se zmenší na max. 1400 px a nahraje do veřejného repozitáře. Neukládej citlivé snímky (doklady apod.).</p></div>`;
 }
-const photoGrid=list=>list.length?`<div class="ph">${list.map(p=>`<figure><img src="${esc(photoSrc(p))}" alt="${esc(p.cap||'Fotka')}" loading="lazy" data-act="lb" data-src="${esc(photoSrc(p))}" data-cap="${esc(p.cap||'')}"><figcaption>${esc(p.cap||'')} ${esc(fdm(p.date))}</figcaption>${edit?`<button class="x" data-act="photodel" data-id="${p.id}" aria-label="Smazat fotku">${ico('x',16)}</button>`:''}</figure>`).join('')}</div>`:'<p class="note">Zatím žádné fotky.</p>';
+const photoGrid=list=>list.length?`<div class="ph">${list.map(p=>`<figure><img src="${esc(photoSrc(p))}" alt="${esc(p.cap||'Fotka')}" loading="lazy" data-act="lb" data-src="${esc(photoSrc(p))}" data-cap="${esc(p.cap||'')}">${p.cap?`<figcaption>${esc(p.cap)}</figcaption>`:''}${edit?`<button class="x" data-act="photodel" data-id="${p.id}" aria-label="Smazat fotku">${ico('x',16)}</button>`:''}</figure>`).join('')}</div>`:'<p class="note">Zatím žádné fotky.</p>';
 function vFoto(){
   const withP=S.stops.filter(s=>S.photos.some(p=>p.sid===s.id));
   if(fSel!=='Vše'&&!withP.some(s=>s.id===fSel))fSel='Vše';
-  const list=S.photos.filter(p=>fSel==='Vše'||p.sid===fSel).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  /* „Vše“ = skupiny po místech (nejnovější místo nahoře), jinak fotky jednoho místa */
+  const groups=activePlaces().filter(x=>x.ph.length&&(fSel==='Vše'||x.s.id===fSel));
+  const body=groups.length?groups.map(({s,ph})=>`<section class="fgrp"><div class="zch">${flag(s.c,22)}<b>${esc(s.n)}</b><span class="lab">${esc(s.c)} · ${ph.length} ${ph.length===1?'fotka':ph.length<5?'fotky':'fotek'}</span></div>${photoGrid(ph)}</section>`).join(''):photoGrid([]);
   $('v-foto').innerHTML=pageHead('Fotodeník','Fotky z cesty podle zastávek')+
-   `<div class="chips"><button class="chip${fSel==='Vše'?' on':''}" data-act="fsel" data-k="Vše">Vše (${S.photos.length})</button>${withP.map(s=>`<button class="chip${s.id===fSel?' on':''}" data-act="fsel" data-k="${s.id}">${flag(s.c,18)} ${esc(s.n)}</button>`).join('')}</div>`+photoGrid(list)+uploadForm();
+   `<div class="chips"><button class="chip${fSel==='Vše'?' on':''}" data-act="fsel" data-k="Vše">Vše (${S.photos.length})</button>${withP.map(s=>`<button class="chip${s.id===fSel?' on':''}" data-act="fsel" data-k="${s.id}">${flag(s.c,18)} ${esc(s.n)}</button>`).join('')}</div>`+body+uploadForm();
 }
 
 /* ================= NAVIGACE ================= */
-const VIEWS=[['home','Přehled'],['trasa','Trasa'],['osa','Časová osa'],['foto','Fotodeník'],['zeme','Země'],['pocasi','Počasí'],['zpravy','Zprávy'],['rozpocet','Rozpočet'],['plan','Plán'],['vybava','Výbava'],['nast','Nastavení']];
+const VIEWS=[['home','Přehled'],['trasa','Trasa'],['osa','Časová osa'],['zeme','Země'],['foto','Fotodeník'],['pocasi','Počasí'],['zpravy','Zprávy'],['rozpocet','Rozpočet'],['plan','Plán'],['vybava','Výbava'],['nast','Nastavení']];
 const viewOk=k=>VIEWS.some(v=>v[0]===k&&(!v[2]||edit));
 function go(v){
   if(!viewOk(v))v='home';
@@ -1261,7 +1281,7 @@ function go(v){
 }
 /* spodní lišta: na telefonu 4 hlavní + Více, na počítači všechny položky */
 function renderNav(){
-  const a=VIEWS.filter(v=>!v[2]||edit),main=['home','trasa','pocasi','zeme'];
+  const a=VIEWS.filter(v=>!v[2]||edit),main=['home','trasa','zeme','foto'];
   const short=v=>v[1]==='Časová osa'?'Osa':v[1];
   $('bnav').innerHTML=a.map(v=>`<button class="${v[0]===view?'on':''}${main.includes(v[0])?'':' dx'}" data-act="go" data-v="${v[0]}"${v[0]===view?' aria-current="page"':''}>${ico(v[0],22)}<span>${short(v)}</span></button>`).join('')+`<button class="mx${main.includes(view)?'':' on'}" data-act="more" aria-expanded="${moreOpen}">${ico('more',22)}<span>Více</span></button>`;
   $('sheet').innerHTML=a.filter(x=>!main.includes(x[0])).map(v=>`<button data-act="go" data-v="${v[0]}">${ico(v[0],22)}<span>${v[1]}</span></button>`).join('');
@@ -1330,7 +1350,7 @@ function vHome(){
     <div class="prog" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}" aria-label="Průběh trasy"><i style="width:${pct}%"></i></div>
     <div class="acts"><button class="btn pri" data-act="go" data-v="trasa">${ico('trasa',18)}Zobrazit trasu</button><button class="btn" data-act="towx" data-id="${cur.id}">${ico('pocasi',18)}Počasí</button><button class="btn" data-act="tozeme" data-k="${esc(cur.c)}">${ico('zeme',18)}O zemi</button></div>
     ${edit?`<div class="composer"><label class="sr" for="hdtext">Zápis do deníku</label><textarea id="hdtext" rows="2" placeholder="Co se dnes stalo v ${esc(cur.n)}…"></textarea><div class="cr"><button class="cbtn sm" data-act="go" data-v="foto" aria-label="Přidat fotku" title="Přidat fotku">${ico('plus',18)}</button><button class="send" data-act="homediary" aria-label="Uložit zápis do deníku">${ico('send',20)}</button></div></div>`:''}
-   </div></section>${dnesHtml(cur)}${al.map(i=>`<div class="alert ${i.severity==='nebezpeci'?'bad':''}"><span style="color:var(--${i.severity==='nebezpeci'?'bad':'warn'});margin-top:1px">${ico('alert',22)}</span><div><b>${esc(newsHead(i))}</b>${newsKm(i)!=null?`<div class="lab">${kmTxt(newsKm(i))}</div>`:`<div class="clamp2">${esc(i.summary)}</div>`}<a href="#zpravy" data-act="go" data-v="zpravy">Podrobnosti</a></div></div>`).join('')}
+   </div></section>${novinkyHtml()}${dnesHtml(cur)}${al.map(i=>`<div class="alert ${i.severity==='nebezpeci'?'bad':''}"><span style="color:var(--${i.severity==='nebezpeci'?'bad':'warn'});margin-top:1px">${ico('alert',22)}</span><div><b>${esc(newsHead(i))}</b>${newsKm(i)!=null?`<div class="lab">${kmTxt(newsKm(i))}</div>`:`<div class="clamp2">${esc(i.summary)}</div>`}<a href="#zpravy" data-act="go" data-v="zpravy">Podrobnosti</a></div></div>`).join('')}
   <div class="sec-h"><h2>Celá trasa</h2><button data-act="go" data-v="trasa">Mapa</button></div>
   <div class="rail" id="rail">${st.map((s,i)=>stopCard(s,i,ci,'gotostop')).join('')}</div>
   <div class="grid2 glob" style="margin-top:6px">${globeOpen?`<div class="card"><div class="sec-h" style="margin:0 0 6px"><h3 style="margin:0">Kde na světě jsem</h3><button data-act="globe">Skrýt</button></div><div class="globewrap"><canvas id="globe" role="img" aria-label="Glóbus s trasou"></canvas><div class="zoom">${cbtn('plus','gzi','Přiblížit glóbus')}${cbtn('minus','gzo','Oddálit glóbus')}</div></div><p class="note" style="text-align:center;margin:8px 0 0">Táhni pro otočení, kolečkem nebo dvěma prsty přibliž</p></div>`:`<button class="card globecta" data-act="globe">${ico('zeme',28)}<span><b>Kde na světě jsem</b><small>Otevřít 3D glóbus s trasou</small></span>${ico('chevr',18)}</button>`}
@@ -1338,6 +1358,24 @@ function vHome(){
   ${extra?`<div style="margin-top:16px">${extra}</div>`:''}`;
   if(globeOpen){globeInit();globeStart()}
   fetchWx(cur).then(c=>{fillDnes(c);const el=$('hwx');if(!el||view!=='home'||!c)return;el.innerHTML=wicon(c.j.current.weather_code,20)+Math.round(c.j.current.temperature_2m)+' °C';el.title=WT(c.j.current.weather_code)});
+}
+/* Z cesty: nejnovější fotky a zápisy z deníku, aby je návštěvníci viděli hned na přehledu */
+const newest=a=>a.map((x,i)=>[x,i]).sort((p,q)=>(q[0].date||'').localeCompare(p[0].date||'')||q[1]-p[1]).map(p=>p[0]);
+/* místa s fotkami nebo zápisy, od posledního přidaného obsahu */
+function activePlaces(){
+  return S.stops.map((s,i)=>{const ph=newest(S.photos.filter(p=>p.sid===s.id)),dia=newest(S.diary.filter(d=>d.sid===s.id));
+    return {s,i,ph,dia,last:[...ph,...dia].map(x=>x.date||'').sort().pop()||''}})
+   .filter(x=>x.ph.length||x.dia.length).sort((a,b)=>b.last.localeCompare(a.last)||b.i-a.i);
+}
+const phFig=(p,alt)=>`<figure><img src="${esc(photoSrc(p))}" alt="${esc(p.cap||alt)}" loading="lazy" data-act="lb" data-src="${esc(photoSrc(p))}" data-cap="${esc(p.cap||'')}">${p.cap?`<figcaption>${esc(p.cap)}</figcaption>`:''}</figure>`;
+function novinkyHtml(){
+  const pl=activePlaces().slice(0,2);
+  if(!pl.length)return'';
+  return `<div class="sec-h"><h2>Z cesty</h2>${S.photos.length?`<button data-act="go" data-v="foto">Fotodeník (${S.photos.length})</button>`:''}</div>`+
+   pl.map(({s,ph,dia})=>`<div class="card zc"><div class="zch">${flag(s.c,22)}<b>${esc(s.n)}</b><span class="lab">${esc(s.c)}</span>${ph.length>6?`<button class="lnk" data-act="fotostop" data-id="${s.id}">Všech ${ph.length} fotek</button>`:''}</div>`+
+    (ph.length?`<div class="ph hph">${ph.slice(0,6).map(p=>phFig(p,'Fotka z '+s.n)).join('')}</div>`:'')+
+    (dia.length?`<div class="hdia">${dia.slice(0,2).map(d=>`<button class="dentry" data-act="todiary" data-id="${s.id}"><small>Deník · ${esc(fd(d.date))}</small><span class="clamp4">${esc(d.text)}</span></button>`).join('')}${dia.length>2?`<button class="lnk" data-act="todiary" data-id="${s.id}">Celý deník (${dia.length} zápisů)</button>`:''}</div>`:'')+
+   `</div>`).join('');
 }
 /* karta Dnes: počasí, místní čas, kurz a tísňová linka v aktuální zemi; počasí a čas se doplní po stažení předpovědi */
 let globeOpen=LS.get('globe_open',false),offMsg='';
@@ -1727,6 +1765,8 @@ const ACT={
   go:t=>go(t.dataset.v),
   more:()=>{moreOpen=!moreOpen;renderNav()},
   gotostop:t=>{sel=t.dataset.id;go('trasa');const s=stopOf();if(s)focusOn(s.lon,s.lat,Math.max(zoomLvl(),2.5))},
+  todiary:t=>{dTab='diary';ACT.gotostop(t)},
+  fotostop:t=>{fSel=t.dataset.id;go('foto')},
   tozeme:t=>{zSel=t.dataset.k;zTab='prehled';go('zeme')},
   tozpravy:t=>{nSel=t.dataset.k;nSev='Vše';go('zpravy')},
   globe:()=>{globeOpen=!globeOpen;LS.set('globe_open',globeOpen);refresh()},
