@@ -527,6 +527,7 @@ nast:'<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5
 more:'<circle cx="5" cy="12" r="1.3"/><circle cx="12" cy="12" r="1.3"/><circle cx="19" cy="12" r="1.3"/>',
 plus:'<path d="M12 5v14M5 12h14"/>',
 x:'<path d="M6 6l12 12M18 6L6 18"/>',
+edit:'<path d="M4 20h4L19 9l-4-4L4 16v4z"/><path d="M13.5 6.5l4 4"/>',
 chevl:'<path d="M15 5l-7 7 7 7"/>',
 chevr:'<path d="M9 5l7 7-7 7"/>',
 minus:'<path d="M5 12h14"/>',
@@ -1626,7 +1627,7 @@ function formHtml(){
   <div class="row"><select id="ftm" class="grow"><option value="">–</option>${TR.map(t=>`<option${trLabel(d.tm)===t?' selected':''}>${t}</option>`).join('')}</select><input id="ftt" class="grow" placeholder="doba, např. 3 h 20" value="${esc(d.tt||'')}"></div>
   <div class="row" style="margin-top:10px"><button class="btn pri" data-act="formok">Uložit</button><button class="btn" data-act="formno">Zrušit</button></div></div>`;
 }
-let dTab='info';
+let dTab='info',dEdit=null;
 const mapsUrl=(name,s)=>'https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(name+' '+s.n+' '+s.c);
 const placeHtml=(p,s)=>`<div class="place"><span class="tag">${esc(p.type)}</span><div class="t"><b>${esc(p.name)}</b>${p.note?`<br><small style="color:var(--mut)">${esc(p.note)}</small>`:''}</div><a class="btn sm" href="${esc(safeUrl(p.url)||mapsUrl(p.name,s))}" target="_blank" rel="noopener">Mapy</a>${edit?`<button class="btn sm bad" data-act="placedel" data-id="${p.id}" aria-label="Smazat místo">${ico('x',16)}</button>`:''}</div>`;
 function detailHtml(s,i,ci){
@@ -1638,7 +1639,12 @@ function detailHtml(s,i,ci){
     body=`${s.t?`<p style="margin:0 0 8px">${esc(s.t)}</p>`:''}<div class="facts"><div class="fact"><small>Termín</small><b>${esc(dateStr(s)||'neurčen')}</b></div>${i>0?`<div class="fact"><small>Přesun</small><b>${esc(trLabel(s.tm)||'–')}${s.tt?' · '+esc(s.tt):''}</b></div>`:''}<div class="fact"><small>Počasí teď</small><b id="dt-wx">…</b></div><div class="fact"><small>Místní čas</small><b id="dt-t">…</b></div>${fxLine(s.c)?`<div class="fact"><small>Kurz</small><b>${esc(fxLine(s.c))}</b></div>`:''}</div>${evs.map(e=>evHtml({e,s:null})).join('')}${i>0&&S.stops[i-1].c!==s.c&&hrOf(S.stops[i-1].c,s.c)?`<div class="info"><h4>${ico('pass',18)}Hranice: ${esc(S.stops[i-1].c)} → ${esc(s.c)}</h4><div class="zlist">${hrHtml(hrOf(S.stops[i-1].c,s.c))}</div></div>`:''}`;
   }else if(dTab==='diary'){
     const dia=S.diary.filter(d=>d.sid===s.id).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
-    body=(dia.length?dia.map(d=>`<div class="diary"><small>${fd(d.date)}${edit?` · <a href="#" data-act="diarydel" data-id="${d.id}">smazat</a>`:''}</small><div class="dtx">${diaryFmt(d.text)}</div></div>`).join(''):'<p class="note">Zatím bez zápisů.</p>')+
+    /* když tu nic není, nabídni zastávky, které zápisy mají */
+    const other=S.stops.filter(x=>x.id!==s.id&&S.diary.some(d=>d.sid===x.id));
+    const none=`<p class="note">U zastávky ${esc(s.n)} zatím nejsou žádné zápisy.</p>`+(other.length?`<p class="note" style="margin:10px 0 6px">Zápisy najdeš u:</p><div class="chips">${other.map(x=>`<button class="chip" data-act="sel" data-id="${x.id}">${esc(x.n)} <span class="lab">${S.diary.filter(d=>d.sid===x.id).length}</span></button>`).join('')}</div>`:'');
+    body=(dia.length?dia.map(d=>d.id===dEdit&&edit
+      ?`<div class="diary"><small>${fd(d.date)} · úprava zápisu</small><label class="sr" for="dedit">Upravit zápis</label><textarea id="dedit" rows="6" data-bul>${esc(d.text)}</textarea><div class="row" style="margin-top:8px"><button class="btn sm pri" data-act="diarysave">Uložit změny</button><button class="btn sm" data-act="bullet" data-t="dedit">${ico('list',16)}Odrážka</button><button class="btn sm" data-act="diarycancel">Zrušit</button></div></div>`
+      :`<div class="diary"><small>${fd(d.date)}${edit?` · <a href="#" data-act="diaryedit" data-id="${d.id}">upravit</a> · <a href="#" data-act="diarydel" data-id="${d.id}">smazat</a>`:''}</small><div class="dtx">${diaryFmt(d.text)}</div></div>`).join(''):none)+
      (edit?`<textarea id="dtext" rows="4" data-bul placeholder="Co se dnes stalo… (odrážku začni „• “ nebo „- “)"></textarea><div class="row" style="margin-top:8px"><button class="btn sm pri" data-act="diaryadd">Přidat zápis</button><button class="btn sm" data-act="bullet" data-t="dtext">${ico('list',16)}Odrážka</button></div>`:'');
   }else if(dTab==='places'){
     const pl=S.places.filter(p=>p.sid===s.id);
@@ -1905,7 +1911,7 @@ const ACT={
   diaryopen:t=>{
     const d=S.diary.find(x=>x.id===t.dataset.id);if(!d)return;
     const s=S.stops[idx(d.sid)],b=$('lb');LB.list=[];
-    b.innerHTML=`<div class="card dpop" data-act="noop"><div class="zch">${s?flag(s.c,22)+`<b>${esc(s.n)}</b>`:''}<span class="lab">${esc(fd(d.date))}</span><button class="cbtn sm" data-act="lbclose" aria-label="Zavřít">${ico('x',18)}</button></div><div class="dtx">${diaryFmt(d.text)}</div></div>`;
+    b.innerHTML=`<div class="card dpop" data-act="noop"><div class="zch">${s?flag(s.c,22)+`<b>${esc(s.n)}</b>`:''}<span class="lab">${esc(fd(d.date))}</span>${edit?`<button class="cbtn sm" data-act="diaryedit" data-id="${d.id}" aria-label="Upravit zápis" title="Upravit">${ico('edit',18)}</button>`:''}<button class="cbtn sm" data-act="lbclose" aria-label="Zavřít">${ico('x',18)}</button></div><div class="dtx">${diaryFmt(d.text)}</div></div>`;
     b.setAttribute('aria-label','Zápis z deníku');b.classList.remove('hide');b.setAttribute('tabindex','-1');b.focus();
   },
   zi:()=>{mapTouched=true;zoomAt(1.6,VB.x+VB.w/2,VB.y+VB.h/2)},
@@ -1947,6 +1953,14 @@ const ACT={
   diaryadd:()=>{const v=$('dtext').value.trim();if(!v)return;S.diary.push({id:'d'+uid(),sid:sel,date:todayISO(),text:v});mark('pub');refresh()},
   homediary:()=>{const v=$('hdtext').value.trim();if(!v)return;S.diary.push({id:'d'+uid(),sid:S.cur,date:todayISO(),text:v});mark('pub');fabMsg='Zápis přidán – ulož a zveřejni';refresh()},
   diarydel:t=>{S.diary=S.diary.filter(d=>d.id!==t.dataset.id);mark('pub');refresh()},
+  /* úprava zápisu: otevře ho v Trase u jeho zastávky, na záložce Deník */
+  diaryedit:t=>{const d=S.diary.find(x=>x.id===t.dataset.id);if(!d)return;
+    dEdit=d.id;dTab='diary';if(!$('lb').classList.contains('hide'))ACT.lbclose();
+    if(view!=='trasa'||sel!==d.sid)ACT.gotostop({dataset:{id:d.sid}});else refresh();
+    setTimeout(()=>{const a=$('dedit');if(a){a.focus();a.setSelectionRange(a.value.length,a.value.length);a.scrollIntoView({block:'center',behavior:RM?'auto':'smooth'})}},60)},
+  diarysave:()=>{const d=S.diary.find(x=>x.id===dEdit),a=$('dedit'),v=a?a.value.trim():'';
+    if(d&&v&&v!==d.text){d.text=v;mark('pub');fabMsg='Zápis upraven – ulož a zveřejni'}dEdit=null;refresh()},
+  diarycancel:()=>{dEdit=null;refresh()},
   placeadd:()=>{const n=$('pln').value.trim();if(!n)return;S.places.push({id:'m'+uid(),sid:sel,type:$('plt').value,name:n,note:$('plo').value.trim(),url:$('plu').value.trim()});mark('pub');refresh()},
   placerec:t=>{const s=stopOf(),i=INFO.find(c=>c.k===s.c);if(!i)return;S.places.push({id:'m'+uid(),sid:sel,type:'Zajímavost',name:i.top[+t.dataset.i],note:'',url:''});mark('pub');refresh()},
   placedel:t=>{S.places=S.places.filter(p=>p.id!==t.dataset.id);mark('pub');refresh()},
