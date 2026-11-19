@@ -1,6 +1,6 @@
 {
  "cur": "s2",
- "upd": 1795057299715,
+ "upd": 1795057857794,
  "stops": [
   {
    "id": "s1",
@@ -311,13 +311,6 @@
    "date": "2026-11-18",
    "cap": "",
    "f": "photos/p12hffymwmyqhwc.jpg"
-  },
-  {
-   "id": "pu4ftmbmwmyqjks",
-   "sid": "s2",
-   "date": "2026-11-18",
-   "cap": "",
-   "f": "photos/pu4ftmbmwmyqjks.jpg"
   },
   {
    "id": "pmn0i9dmwmyql9q",
