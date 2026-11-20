@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-19T14:12:56+00:00",
+ "updated": "2026-11-20T13:54:09+00:00",
  "items": [
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "¿Bloqueo de Carreteras Hoy? Reportes de Accidentes y Cierres este Viernes",
+   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYkpOZVlnamFXNzV3R3VSTnZnTkl3YXZIRHRWSUNMSHYzNzFoWmI0cEFpRF9Nb2xLd0ZDRGV3QmR4c1owUE1QRUUtei1ScDBXU3NBVGZ6bE5BVENCMEdfbVQ5ejJweEtCbHdWZGVvVGQxUUdTYzJ0bDZPTjRkejhwSjRrTHMxQUJjNXZUc3JjbkpWU1pOR1MwaHBwMHVmaGpmOFA5djFHRWYtQkZ1d2pYN2duOXk2TXJaSEpzNllXZ2RYSGJMSnpoaVVsSDdYeVk?oc=5",
+   "source": "N+",
+   "type": "news",
+   "expires": "2026-11-25"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Tras bloqueos en Santa Fe, trasladan a Lenin Canchola de Nayarit a penal de Michoacán; investigan a sus hermanos",
+   "summary": "Zpráva z médií (španělsky, zdroj El Sol de México). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdmkyX1FtWm9Tc2JBMHduVnhFVVVRTVc3cGxFYjBxYnZRMVJTMjJLUHd3bVRKckFrc1BxV1lIaU9HQzZpTGtCS2hlRkxJQ2EyQ2xEb3FDdmZTV3dPTkNJcE8zVExIN0U5UUl5UzhRbkw4R25mV3I1UTNUOUp2bFRrbDJvN0dkMzhZclA5eTdVd21iR1cxVlpzajdYckpGZ3hNcGxaSXR0NkFrSnh4Vk84QUhLRFJZeFZVSHBqdlM2SXh3bS0ySnpHeTA4akFQaG96Z0otMUw1M3ExcDRJTHZrcGRxU3Q2bVFaU3BBRGpyMA?oc=5",
+   "source": "El Sol de México",
+   "type": "news",
+   "expires": "2026-11-25"
+  },
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "PBI-Guatemala accompanies Human Rights Law Firm in their defence of Dulce María Archila on trial for protest against bud",
+   "summary": "Zpráva z médií (anglicky, zdroj Peace Brigades International-Canada). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLVB0V0JRakJqZkh1Sk1jUXdwSnBoUFJ2SG9QRnVzY3QxWnE3Tjk2XzFYWnMyUTNNckFldE5qcmhlQTdfazhrNGpvTnppc0lWMU4yUnUzYTByM1Z3T3ZMX25qS0VDTUNDMkV3dG42V3lOUjlMb2RaUExSQ0dOQVNCeHJKVG5mZ1BXemFBdVJObmNOXzhwSzNta0dYekl5dTMxMjN0T2dmelRmX1B0eFlwTUVWd3dsNGp0UmZOa0hLUTB1TU5qenV4czFYcEoyd3RLZHJweGpnX3N2ZWlqX3praE5rZDBLY3NFWFVMalJB?oc=5",
+   "source": "Peace Brigades International-Canada",
+   "type": "news",
+   "expires": "2026-11-25"
+  },
+  {
+   "country": "Ekvádor",
+   "category": "Cestovní doporučení",
+   "severity": "pozor",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Ekvádor)",
+   "summary": "Co se změnilo: Updated information following the Ecuadorean government extending the state of emergency for a further 30 days, and updated information about drug-assisted robbery ('Warnings and insurance' and 'Safety and security' pages). (text ze zdroje v angličtině)",
+   "date": "2026-11-20",
+   "url": "https://www.gov.uk/foreign-travel-advice/ecuador",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-11-27"
+  },
   {
    "country": "Mexiko",
    "category": "Protesty a stávky",
@@ -10,6 +58,66 @@
    "date": "2026-11-19",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmS2RybTVKbGJScldLbGJ1cFdqaE1JaWFWbnl6Wms3WFJra1B6ZURXQ0NWZ1B5bFQtcURhdlFOeE1RTXpwcEstbjMydWNHQUkyU1RyM08wU2VTbVZKSWwxVVJROUxJQkNG?oc=5",
    "source": "World Socialist Web Site",
+   "type": "news",
+   "expires": "2026-11-24"
+  },
+  {
+   "country": "Salvador",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "El Salvador Strikes Haitian Gang Leader Mansion",
+   "summary": "Zpráva z médií (anglicky, zdroj bsinews.id). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sWlFnTGtDOTRZSmtydlVtT09iaGJqZTFKdVg3UEJZcHFvUFNYZDZLZVdVci1SRS1MMXlsdXl5em9VbUdnNjZ4RWZSalltd1g0YWR5QktSNEpVNTRBYWlYUg?oc=5",
+   "source": "bsinews.id",
+   "type": "news",
+   "expires": "2026-11-24"
+  },
+  {
+   "country": "Salvador",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "El Salvador Strikes Haitian Gang Leader Jeff Larose Mansion",
+   "summary": "Zpráva z médií (anglicky, zdroj Limapagi). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DdjhGaHcwdFgzaDAybk1mWkVlUURSNVRTcktRUDZnZEUySFVabG9MQ2pjaTNVY1p3UnR0N1pzUDN3UnoxR2UzSW53RkhBTlJuMExHVlFHZW1aakpNVVR5VGNMam1jQlE?oc=5",
+   "source": "Limapagi",
+   "type": "news",
+   "expires": "2026-11-24"
+  },
+  {
+   "country": "Salvador",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "El Salvador Escalates Haiti Intervention with Aerial Strike on Gang Leader’s Stronghold",
+   "summary": "Zpráva z médií (anglicky, zdroj azat.tv). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xR0pRQktOZVlYdmM2eERtb3NtSl8zVlp2bEozdkwwbE9uYkdwalp0Vmp6MzgzamtTMlBCRE4zdXdJc1o3ZnBKOElDX2Z1dzRDUll0d1l4Uk1HM3U1UWtVTmx2LVJOSDFicUxhUU56bExMMndKS3dCcFpDUQ?oc=5",
+   "source": "azat.tv",
+   "type": "news",
+   "expires": "2026-11-24"
+  },
+  {
+   "country": "Panama",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Panamá amenaza con bloqueo en la COP31 si no se satisfacen sus demandas",
+   "summary": "Zpráva z médií (španělsky, zdroj La Nación Costa Rica). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcWRXNkZEV0VKMDZhWnc4bzJOb19USWdaWlROM1lJTktHLXMtdXFjeGdLa0tTb0FxQU5IdElnYXlFalhBWXVUT1ZMVWVkbG5KaWVVeUQ4cVZCZkZnOXdLb1Q4bzVObUNQNTh1U2M3cUhKaF8ycy1JTTZWUVlKYnpJNDNXLWdKekZ5clowUTlkQlZuVEEyVzI1TlY4c0F0MTAwRDdWMDBJREdtVDFicFZQaVRsWQ?oc=5",
+   "source": "La Nación Costa Rica",
+   "type": "news",
+   "expires": "2026-11-24"
+  },
+  {
+   "country": "Panama",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "\"El Tigre\" de la Espriella enfrenta su primer paro nacional",
+   "summary": "Zpráva z médií (španělsky, zdroj CRÍTICA). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOHBTc1ZBcXlhM2NGM0Y5aXBKc1dCbGEtMTd0RGZ5UlpLVGxnV3BfWEk4SjJRbzJrbHVIRnhZc1NyT3M1Z1RvQVhIVXFQRmk3QmlpZUdQcVZZLTI4T0tsLUtBRVFMUTlfLWpwSmZyNnotcXdvczZKUzBqNW9aU0lPNHZka2RGRWp3UjVwNjB6TFBHTDhTWk5wcE1paWxROENDMzdj0gGjAUFVX3lxTFA4cFNzVkFxeWEzY0YzRjlpcEpzV0JsYS0xN3REZnlSWktUbGdXcF9YSThKMlFvMmtsdUhGeFlzU3JPczVnVG9BWEhVcVBGaTdCaWllR1BxVlktMjhPS2wtS0FFUUxROV8tanBKZnI2ei1xd29zNkpTMGo1b1pTSU80dmRrZEZFandSNXA2MHpMUEdMOFNaTnBwTWlpbFE4Q0MzN2M?oc=5",
+   "source": "CRÍTICA",
    "type": "news",
    "expires": "2026-11-24"
   },
@@ -50,30 +158,6 @@
    "expires": "2026-11-24"
   },
   {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "El Salvador Strikes Haitian Gang Leader Mansion",
-   "summary": "Zpráva z médií (anglicky, zdroj bsinews.id). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sWlFnTGtDOTRZSmtydlVtT09iaGJqZTFKdVg3UEJZcHFvUFNYZDZLZVdVci1SRS1MMXlsdXl5em9VbUdnNjZ4RWZSalltd1g0YWR5QktSNEpVNTRBYWlYUg?oc=5",
-   "source": "bsinews.id",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Panamá amenaza con bloqueo en la COP31 si no se satisfacen sus demandas",
-   "summary": "Zpráva z médií (španělsky, zdroj El Nuevo Diario). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSkI3clJDYm56bmJBMU1OMnJLdVBTdkNrV2xBMDBvdEtkY2Z0TVRVRjNYRjB0ZWZTM0lacU0wWmo0Y2kxX0NaUDNQZzlPWWVfTjQwdXU1UkY1a2NSLXBNVll1RnRMaWlDRkxRWnU2NE5HSDIwbm14THVwZ2YwRHN3UnhIZDFHNW96bUN3WDQ3c3MtRGo0ejd6b1VXU0dDQlZacW04?oc=5",
-   "source": "El Nuevo Diario",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
    "country": "Mexiko",
    "category": "Přírodní katastrofa",
    "severity": "info",
@@ -102,14 +186,26 @@
    "lon": -75.92
   },
   {
-   "country": "Guatemala",
+   "country": "Nikaragua",
    "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Las claves del estado de emergencia en Guatemala por culpa del narcotráfico",
-   "summary": "Zpráva z médií (španělsky, zdroj CR Hoy). Otevři zdroj pro podrobnosti.",
+   "severity": "info",
+   "title": "Inicia el Dialogo Nacional en Nicaragua después de 1 mes de violentas protestas",
+   "summary": "Zpráva z médií (španělsky, zdroj lajornadanet.com). Otevři zdroj pro podrobnosti.",
    "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNczU1NXB5UDhLWUtrZnlTZk1oZDRSVWNTQVRfOFhrcDJsT3ZCY2Rqckw0NkZjQ2Zqb1VGbi1xQ1FhUF9fbTdQRFNwRDlGUTZ6dHZHNEloOENCbW5lVWJ6eC1oOGJJc0FwZHFtS21sM2c4TXN0M19JUktJcWFscV85YlNwN2lrYko4QlFBQjhWZ1JYcWhEby1INXBiaktoeEhVNUE?oc=5",
-   "source": "CR Hoy",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQTA1R3d3czNRcEdYclZWTU5Nd0UtRmlOV2FZbmRPRjlBUG0xV2ZubzMyUFBVMkVZRmF4TXIydXFYTzRNV0RMbkh4T0F1Y2xBWTZoOXg4MlJyUVlONWZzNEpTcEVEYXozaTNodmc5ZmxzaTZWRS1SSkE2VFE1aENHNTdCM2I2dTczMlU2Z2hfWEx5QUVaeWRTZzJUUTNsNlpTb1lYX2FjZWVkeHM2QnZjYWxxY0dYYVNIQjJiZHNNVk1XcVdXMW9ycTJEdGpueFA4alVOcWJfMWJxZ0Vq?oc=5",
+   "source": "lajornadanet.com",
+   "type": "news",
+   "expires": "2026-11-23"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Juzgado reprocha a Gobierno y sindicatos falta de diálogo previo a huelga del Magisterio",
+   "summary": "Zpráva z médií (španělsky, zdroj Delfino.cr). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1MwSGIwOU5jalNxTnV5LWYwVEV5YVB0X0t2YUE1YUhvZW9LVDhmR2RiTFRPbW5TQVRrbFRaZ04zcGtFWHExcDQ2OWlCYjhaeWhUbVU3SEQ1VFNRVWRrMTc2YTZSTVJBTlJULWVFeTlFd3ZCV1lPLWNrdUhaNWFCM1VGWkkxYWtFdVhKU09EdzUzcjhQQ2d1MUE0WktzNkFpbE5VbVBkZjJSSEQyMzVKVnBCaHdiUQ?oc=5",
+   "source": "Delfino.cr",
    "type": "news",
    "expires": "2026-11-23"
   },
@@ -122,6 +218,30 @@
    "date": "2026-11-18",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90RkFfYUZLOUdCRmtpUTdTeXl2bHEzalJnODBSdzVTOFBXZnVOZGUxTHNoSFNYWGp5NVRqWUZjbFhiSi1WZk1CalFTYlptdw?oc=5",
    "source": "bdnews24.com",
+   "type": "news",
+   "expires": "2026-11-23"
+  },
+  {
+   "country": "Panama",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Roadblock due to crash on N. Lakeshore Dr. and Panama City Beach Pkwy.",
+   "summary": "Zpráva z médií (anglicky, zdroj WJHG). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY01vME1MSjlwV2xUeER6QTJ6M1dodlphTTFHTThzcldVWUx3bkZsbHRqUkxlZmppcWliUUM0ckJPT2dTNTlqc2xmX0dkbXBuVkxtSWd5V2JWMENfSzlGMkxZdFE3c0g2bk52S1pPWlZBb2FqZTI5MXpHUHNINXhXZENHN0M1NExxNmotcllaeU5wS2tH?oc=5",
+   "source": "WJHG",
+   "type": "news",
+   "expires": "2026-11-23"
+  },
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Las claves del estado de emergencia en Guatemala por culpa del narcotráfico",
+   "summary": "Zpráva z médií (španělsky, zdroj CR Hoy). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNczU1NXB5UDhLWUtrZnlTZk1oZDRSVWNTQVRfOFhrcDJsT3ZCY2Rqckw0NkZjQ2Zqb1VGbi1xQ1FhUF9fbTdQRFNwRDlGUTZ6dHZHNEloOENCbW5lVWJ6eC1oOGJJc0FwZHFtS21sM2c4TXN0M19JUktJcWFscV85YlNwN2lrYko4QlFBQjhWZ1JYcWhEby1INXBiaktoeEhVNUE?oc=5",
+   "source": "CR Hoy",
    "type": "news",
    "expires": "2026-11-23"
   },
@@ -448,42 +568,6 @@
    "source": "The Hindu",
    "type": "news",
    "expires": "2026-11-20"
-  },
-  {
-   "country": "Kostarika",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Francia despliega 70.000 policías ante quinto sábado de protestas antigubernamentales",
-   "summary": "Zpráva z médií (španělsky, zdroj El Mundo CR). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaVg2bWVFeVZkSU9oSjVhQ05rbzZHVlRPNmNVQllITV94SXFTLUNWOFdUUFJCN3RWVXVxUnJULWNwUkNrcmU0SVJiMWZlTkRUVDNpNEsybVlsZEhjVlExWUlLUnkxcUxfOEthc0M3UGtHcmp5TmtSNW5xWHdidDNHUFhzbjFob1kwVFNPOVQ3d3dqem9VRnNpV0l4UjM4NTNaZ0FmRk95T21sOW81SXdMUg?oc=5",
-   "source": "El Mundo CR",
-   "type": "news",
-   "expires": "2026-11-19"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Huelga general en España; personas migrantes atraviesan México; y Lula critica las prioridades militares ante la crisis ",
-   "summary": "Zpráva z médií (španělsky, zdroj SWI swissinfo.ch). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MZ2pKNDQzMzJYZFV0Mi1wQlQ5TTVhTUFYNDIxWUFiTEZtTmx3MTBITi1DU2dJZWthVVBQZVZEZ1g1WVdxb19JWEZkeHpnMUdjVE9ONTFPek5nVFJ2YmJVdXJCelFSRV9WR3Nkd1JzalpWaXNoR293SDhn?oc=5",
-   "source": "SWI swissinfo.ch",
-   "type": "news",
-   "expires": "2026-11-19"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Pilotos de Aeroméxico mantienen amenaza de huelga",
-   "summary": "Zpráva z médií (španělsky, zdroj Xpectro FM). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9rbmZLRmUySW1LU3hIZXpKZktRYlFOZVBGSkhFejU4NnJaYVVXX3lpZldTQ1A4dzNhU0paVGVISWJxakVTVWFQOGVUNVhDR2JmX2pYcnE2Q0xPRUY5NlF2XzJScU1ONTd1QVN4eENaaWhaTkdhUzZSWHpkUm4?oc=5",
-   "source": "Xpectro FM",
-   "type": "news",
-   "expires": "2026-11-19"
   }
  ]
 }
