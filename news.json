@@ -1,6 +1,92 @@
 {
- "updated": "2026-11-20T13:54:09+00:00",
+ "updated": "2026-11-21T13:18:08+00:00",
  "items": [
+  {
+   "country": "Peru",
+   "category": "Přírodní katastrofa",
+   "severity": "nebezpeci",
+   "title": "Zemětřesení M6.7 – 9 km NE of Carhuamayo, Peru",
+   "summary": "Zemětřesení o síle M6.7, hloubka asi 108 km (9 km NE of Carhuamayo, Peru). Vzdálenost od tvé aktuální zastávky (Tulum): asi 3680 km. Bylo vydáno varování před tsunami.",
+   "date": "2026-11-21",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
+   "source": "USGS",
+   "type": "eq",
+   "expires": "2026-11-24",
+   "lat": -10.85,
+   "lon": -75.98
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "🚨#ÚLTIMAHORA | Reportaron nuevos bloqueos con tráileres incendiados en la carretera México 15 y el entronque de Compuert",
+   "summary": "Zpráva z médií (španělsky, zdroj Facebook). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdjRCaFlQREE2eFcwazB1b3A2VWoyWnhiNFA4YTk5aFFuNkdiekZIVEY1cy1Nb2Y0SGlIc2haUlplSkVfc3diSzBhVi1ScDAtOVdpLUNCQ0VRb19GMTRMOE1PQWtMemdhQjVWV2hqSzZfVGVNSEFJeHZCVkRPdW9pQktsVVQyZm9hWkt3Qmh0R29mdzlCNXFiVUlpa0JNV2k3bXVKUW9BeUVPMXNialhIMWswd21pM2NaaVZYS295RmFQeWhBOExkVmxSLUg1S2l5NThQRFcwUy0xS0Nzc051SjJjNElhMkRH?oc=5",
+   "source": "Facebook",
+   "type": "news",
+   "expires": "2026-11-26"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "MILENIO. . 🚨#ÚLTIMAHORA | Reportaron nuevos bloqueos con tráileres incendiados en la carretera México 15 y el entronque ",
+   "summary": "Zpráva z médií (španělsky, zdroj Facebook). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX2hUSlltUThfQ2hMVTBRQlZ1aDN5TmFSaVlvT0NpeFRGa2FEMjQ4dTZkYnRtS1pyTWhDdk9PbTRVdEEzNUNBNmRsZEs3bmtBMk5JelFaTW9qdzA1RC1aSGJBcXFoNUFUN3hncmdBX3VMNDAzcW53NHRxcjMzS1FDTmdHQVR0SzBZNXpzMTBENFdKNFNvcUtkUjF4eTZyb05kWGlBeDIxTU1iSU1yMm5sdVJsSDVvUE5SQW9pZXZxdVhwVk0zUDZnN1RHTVJzMUNrc2x3WFd0UWdYMDVEWnJXdjgtWVlaN3FLb3c?oc=5",
+   "source": "Facebook",
+   "type": "news",
+   "expires": "2026-11-26"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Se reportan bloqueos, quema de unidades y civiles armados en accesos a Los Mochis",
+   "summary": "Zpráva z médií (španělsky, zdroj www.noroeste.com.mx). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbGluekJUZ05uX2VZaUlrNnl4Ty1CZlFaUDE5QUhaR0l5c2lKeERMWU9BWUdvRFJmd2dYY2xqMVZEMHVlV3FVZlQ4bE5oRWJKOUcwUEt0RkpELUR3UFExZ0tQTTkzY2ItaHBhcGMzMzRKS2J0dFRlQThPdE1NV1BXY0hFQ2xzVUljdk9YVjhTZkNUNnA4bmVzOTZfcWJVZG5LaVFmLXNjd0RPYkk0Q1ZnRkJvOS1RWE4yUTZNaEVFTktEZGhNdXVOVFlRa09jUdIBzgFBVV95cUxNbGluekJUZ05uX2VZaUlrNnl4Ty1CZlFaUDE5QUhaR0l5c2lKeERMWU9BWUdvRFJmd2dYY2xqMVZEMHVlV3FVZlQ4bE5oRWJKOUcwUEt0RkpELUR3UFExZ0tQTTkzY2ItaHBhcGMzMzRKS2J0dFRlQThPdE1NV1BXY0hFQ2xzVUljdk9YVjhTZkNUNnA4bmVzOTZfcWJVZG5LaVFmLXNjd0RPYkk0Q1ZnRkJvOS1RWE4yUTZNaEVFTktEZGhNdXVOVFlRa09jUQ?oc=5",
+   "source": "www.noroeste.com.mx",
+   "type": "news",
+   "expires": "2026-11-26"
+  },
+  {
+   "country": "Panama",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Las protestas contra proyectos mineros sacuden Panamá",
+   "summary": "Zpráva z médií (španělsky, zdroj Tercera Información). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdHF4WkgtVG1HNFhwX3REMUtRRzdJakFJSzFRTGQwcmZKN0I4WHZDUU9FZEpua3hqS3gzZkV0REk0X0U0YnI3RGFPRVlEMDR1TGtWWDlHZ1luSVVidHJFcGlWT1BEQkZjNnBZUTZHSTZneWNWbURHSmdNWENrX1p3bFlsMGNZSWFTamMtYmpmXy12c25raVZjZ0hiS0xQYlk1TktLQzI5Z2h3Zl9CZ0N5Z3VjWjk1S3RleUFZcU9WMA?oc=5",
+   "source": "Tercera Información",
+   "type": "news",
+   "expires": "2026-11-26"
+  },
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "PBI-Guatemala accompanies Human Rights Law Firm in their defence of Dulce María Archila on trial for protest against bud",
+   "summary": "Zpráva z médií (anglicky, zdroj Peace Brigades International-Canada). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLVB0V0JRakJqZkh1Sk1jUXdwSnBoUFJ2SG9QRnVzY3QxWnE3Tjk2XzFYWnMyUTNNckFldE5qcmhlQTdfazhrNGpvTnppc0lWMU4yUnUzYTByM1Z3T3ZMX25qS0VDTUNDMkV3dG42V3lOUjlMb2RaUExSQ0dOQVNCeHJKVG5mZ1BXemFBdVJObmNOXzhwSzNta0dYekl5dTMxMjN0T2dmelRmX1B0eFlwTUVWd3dsNGp0UmZOa0hLUTB1TU5qenV4czFYcEoyd3RLZHJweGpnX3N2ZWlqX3praE5rZDBLY3NFWFVMalJB?oc=5",
+   "source": "Peace Brigades International-Canada",
+   "type": "news",
+   "expires": "2026-11-25"
+  },
+  {
+   "country": "Ekvádor",
+   "category": "Cestovní doporučení",
+   "severity": "pozor",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Ekvádor)",
+   "summary": "Co se změnilo: Updated information following the Ecuadorean government extending the state of emergency for a further 30 days, and updated information about drug-assisted robbery ('Warnings and insurance' and 'Safety and security' pages). (text ze zdroje v angličtině)",
+   "date": "2026-11-20",
+   "url": "https://www.gov.uk/foreign-travel-advice/ecuador",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-11-27"
+  },
   {
    "country": "Mexiko",
    "category": "Protesty a stávky",
@@ -26,28 +112,28 @@
    "expires": "2026-11-25"
   },
   {
-   "country": "Guatemala",
+   "country": "Panama",
    "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "PBI-Guatemala accompanies Human Rights Law Firm in their defence of Dulce María Archila on trial for protest against bud",
-   "summary": "Zpráva z médií (anglicky, zdroj Peace Brigades International-Canada). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-20",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLVB0V0JRakJqZkh1Sk1jUXdwSnBoUFJ2SG9QRnVzY3QxWnE3Tjk2XzFYWnMyUTNNckFldE5qcmhlQTdfazhrNGpvTnppc0lWMU4yUnUzYTByM1Z3T3ZMX25qS0VDTUNDMkV3dG42V3lOUjlMb2RaUExSQ0dOQVNCeHJKVG5mZ1BXemFBdVJObmNOXzhwSzNta0dYekl5dTMxMjN0T2dmelRmX1B0eFlwTUVWd3dsNGp0UmZOa0hLUTB1TU5qenV4czFYcEoyd3RLZHJweGpnX3N2ZWlqX3praE5rZDBLY3NFWFVMalJB?oc=5",
-   "source": "Peace Brigades International-Canada",
+   "severity": "pozor",
+   "title": "Panamá amenaza con bloqueo en la COP31 si no se satisfacen sus demandas",
+   "summary": "Zpráva z médií (španělsky, zdroj La Nación Costa Rica). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcWRXNkZEV0VKMDZhWnc4bzJOb19USWdaWlROM1lJTktHLXMtdXFjeGdLa0tTb0FxQU5IdElnYXlFalhBWXVUT1ZMVWVkbG5KaWVVeUQ4cVZCZkZnOXdLb1Q4bzVObUNQNTh1U2M3cUhKaF8ycy1JTTZWUVlKYnpJNDNXLWdKekZ5clowUTlkQlZuVEEyVzI1TlY4c0F0MTAwRDdWMDBJREdtVDFicFZQaVRsWQ?oc=5",
+   "source": "La Nación Costa Rica",
    "type": "news",
-   "expires": "2026-11-25"
+   "expires": "2026-11-24"
   },
   {
-   "country": "Ekvádor",
-   "category": "Cestovní doporučení",
-   "severity": "pozor",
-   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Ekvádor)",
-   "summary": "Co se změnilo: Updated information following the Ecuadorean government extending the state of emergency for a further 30 days, and updated information about drug-assisted robbery ('Warnings and insurance' and 'Safety and security' pages). (text ze zdroje v angličtině)",
-   "date": "2026-11-20",
-   "url": "https://www.gov.uk/foreign-travel-advice/ecuador",
-   "source": "GOV.UK (FCDO)",
-   "type": "adv",
-   "expires": "2026-11-27"
+   "country": "Panama",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "\"El Tigre\" de la Espriella enfrenta su primer paro nacional",
+   "summary": "Zpráva z médií (španělsky, zdroj CRÍTICA). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOHBTc1ZBcXlhM2NGM0Y5aXBKc1dCbGEtMTd0RGZ5UlpLVGxnV3BfWEk4SjJRbzJrbHVIRnhZc1NyT3M1Z1RvQVhIVXFQRmk3QmlpZUdQcVZZLTI4T0tsLUtBRVFMUTlfLWpwSmZyNnotcXdvczZKUzBqNW9aU0lPNHZka2RGRWp3UjVwNjB6TFBHTDhTWk5wcE1paWxROENDMzdj0gGjAUFVX3lxTFA4cFNzVkFxeWEzY0YzRjlpcEpzV0JsYS0xN3REZnlSWktUbGdXcF9YSThKMlFvMmtsdUhGeFlzU3JPczVnVG9BWEhVcVBGaTdCaWllR1BxVlktMjhPS2wtS0FFUUxROV8tanBKZnI2ei1xd29zNkpTMGo1b1pTSU80dmRrZEZFandSNXA2MHpMUEdMOFNaTnBwTWlpbFE4Q0MzN2M?oc=5",
+   "source": "CRÍTICA",
+   "type": "news",
+   "expires": "2026-11-24"
   },
   {
    "country": "Mexiko",
@@ -94,30 +180,6 @@
    "date": "2026-11-19",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xR0pRQktOZVlYdmM2eERtb3NtSl8zVlp2bEozdkwwbE9uYkdwalp0Vmp6MzgzamtTMlBCRE4zdXdJc1o3ZnBKOElDX2Z1dzRDUll0d1l4Uk1HM3U1UWtVTmx2LVJOSDFicUxhUU56bExMMndKS3dCcFpDUQ?oc=5",
    "source": "azat.tv",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Panamá amenaza con bloqueo en la COP31 si no se satisfacen sus demandas",
-   "summary": "Zpráva z médií (španělsky, zdroj La Nación Costa Rica). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcWRXNkZEV0VKMDZhWnc4bzJOb19USWdaWlROM1lJTktHLXMtdXFjeGdLa0tTb0FxQU5IdElnYXlFalhBWXVUT1ZMVWVkbG5KaWVVeUQ4cVZCZkZnOXdLb1Q4bzVObUNQNTh1U2M3cUhKaF8ycy1JTTZWUVlKYnpJNDNXLWdKekZ5clowUTlkQlZuVEEyVzI1TlY4c0F0MTAwRDdWMDBJREdtVDFicFZQaVRsWQ?oc=5",
-   "source": "La Nación Costa Rica",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "\"El Tigre\" de la Espriella enfrenta su primer paro nacional",
-   "summary": "Zpráva z médií (španělsky, zdroj CRÍTICA). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOHBTc1ZBcXlhM2NGM0Y5aXBKc1dCbGEtMTd0RGZ5UlpLVGxnV3BfWEk4SjJRbzJrbHVIRnhZc1NyT3M1Z1RvQVhIVXFQRmk3QmlpZUdQcVZZLTI4T0tsLUtBRVFMUTlfLWpwSmZyNnotcXdvczZKUzBqNW9aU0lPNHZka2RGRWp3UjVwNjB6TFBHTDhTWk5wcE1paWxROENDMzdj0gGjAUFVX3lxTFA4cFNzVkFxeWEzY0YzRjlpcEpzV0JsYS0xN3REZnlSWktUbGdXcF9YSThKMlFvMmtsdUhGeFlzU3JPczVnVG9BWEhVcVBGaTdCaWllR1BxVlktMjhPS2wtS0FFUUxROV8tanBKZnI2ei1xd29zNkpTMGo1b1pTSU80dmRrZEZFandSNXA2MHpMUEdMOFNaTnBwTWlpbFE4Q0MzN2M?oc=5",
-   "source": "CRÍTICA",
    "type": "news",
    "expires": "2026-11-24"
   },
@@ -484,90 +546,6 @@
    "source": "Publinews",
    "type": "news",
    "expires": "2026-11-21"
-  },
-  {
-   "country": "Kostarika",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Masivas huelgas en Costa Rica y el espejo de la Argentina",
-   "summary": "Zpráva z médií (španělsky, zdroj Prensa Obrera). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-15",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdnpzRDVNMFk1ZVdrNlNaOHhpaVl4YldTay1OYWZSNHRqSU10Tko0aXVMaGpOdmJFQ3R5NXJaeF9vbG9xakpSR2hNWWJhN1pYMFNQSFhvbGZ2RFRQQXN6Ty1uMmxoTHBoelNNb2poQTh3VHQ1eTB6NS0yVXNsZ2JGVVRZTVJNc1VmRE9SLTloYmVPSUgwUEpGN3Nsck9SUVE?oc=5",
-   "source": "Prensa Obrera",
-   "type": "news",
-   "expires": "2026-11-20"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Trabajadores de Etesa aprueban huelga en defensa de su convención colectiva",
-   "summary": "Zpráva z médií (španělsky, zdroj Destino Panamá). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-15",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQREFoaEVQSHF4cDJNdUtjMlR1RXRwNFJXZjBJeWJ5ejI0VFEwSEU0YkhtdjVzajk0U1hFckpYMXI5ckxuYXZiNXRKLTlsMnFfZUtDcFBTMWY1bW9NUGppTDNiSHczZ0lVaGhPVm1mNU53WC1NajFtX1BoSEtDNmhDSVV2aXcyVzJFZDZIRVRGQjA0OVJCeFgxWjl5cVpvQVJUdUN1QXRBZmF5emlrYW5nTzZYdw?oc=5",
-   "source": "Destino Panamá",
-   "type": "news",
-   "expires": "2026-11-20"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Trabajadores de ETESA aprueban huelga desde el 30 de noviembre",
-   "summary": "Zpráva z médií (španělsky, zdroj CRÍTICA). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-15",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTG1sS2hDM1Z1NVFYeExrcl90WW1yclZHcHdid0JFQklxdjV0QkhuLWdKTW9tbTN0T2R1ZnZhT0JDdEt6ckg5WmVEWDJuNkRRdEdWMHVMcUZIVUpmVTdaQW5nN25taFU2eTM5VGdHaVJURnBsMFJtckJ6b2dJbDRQbGpFVXBMeDRhU3RmVGFnTDM0cWtQUHM1NUVfSmxkQU1RdzhrMkltUVUwVTFVbEHSAa4BQVVfeXFMTUxtbEtoQzNWdTVRWHhMa3JfdFltcnJWR3B3YndCRUJJcXY1dEJIbi1nSk1vbW0zdE9kdWZ2YU9CQ3RLenJIOVplRFgybjZEUXRHVjB1THFGSFVKZlU3WkFuZzdubWhVNnkzOVRnR2lSVEZwbDBSbXJCem9nSWw0UGxqRVVwTHg0YVN0ZlRhZ0wzNHFrUFBzNTVFX0psZEFNUXc4azJJbVFVMFUxVWxB?oc=5",
-   "source": "CRÍTICA",
-   "type": "news",
-   "expires": "2026-11-20"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Guatemala decrees state of emergency in two departments after lawmaker killed in attack",
-   "summary": "Zpráva z médií (anglicky, zdroj Reuters). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-15",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZnFWYmdsSmRKUWlpeVl6QVFWRTZxU3JnQWZwVVMycFBoOFZtUW5kZGVuMW9iTko0N1JVZFFYNmRZT1JFN09relJubngwX05SNUdHVmhXZ2c0bHZWUmdGWU94Y2g4MkZ4SVdndzhIX1ZDR3hLbk5QWFRfOGM0cnZQNzMzbmNsbVkwak90V29rNEktZ1ROTjAtWjZNXy13V2Y1eTdfS3pWV0JLMnVnNlJVN3hUZnRmb2NGQk9oNkdGbk1iYUpSclNTMA?oc=5",
-   "source": "Reuters",
-   "type": "news",
-   "expires": "2026-11-20"
-  },
-  {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Alix Didier Fils-Aime praises El Salvador after joint strike on gang targets near National Stadium of Haiti's security c",
-   "summary": "Zpráva z médií (anglicky, zdroj شبكة تواصل الإخبارية). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-15",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kN1dMTUlvMmJnaHh1WjQ1Vzhxb0pvUGJ5cnB4T1h4dWsxMlNVTUo0Uk1RSFBZS0xSNVJsUlhCZzVJTjNNU2hfeUVLQkUyR01aYkJv?oc=5",
-   "source": "شبكة تواصل الإخبارية",
-   "type": "news",
-   "expires": "2026-11-20"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Pescadores desafían en el mar a la mina que desató protestas en Panamá",
-   "summary": "Zpráva z médií (španělsky, zdroj CRÍTICA). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-15",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcW80Z3VHOTJYbjNINHI5YkFfdm1FSUhvNUFBVlU0d3FiX2tKTnRrN2JoQ2ZJVjFiTjIyNS1xNU5PbmpVbHc4Wm1RakRuSmZxczltUWZOQ3RTb1RGRl9QX2xrY3FDcllUdE9QeGtzcnoweWtwVjAtQUphLXlFTVNpRFJJSGNMUm9uSjZ0MXNiYmtsT29IOXZ6QnNYUHlwMkFPRTJwaFZJcWFxOWZONXJPYy03T0doM1dOc3JFRnEyY2MwMk04eFJ4VFE2VHdWVUotU09QdA?oc=5",
-   "source": "CRÍTICA",
-   "type": "news",
-   "expires": "2026-11-20"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Guatemala declares state of emergency in east over drug violence",
-   "summary": "Zpráva z médií (anglicky, zdroj The Hindu). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-15",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbHFEX1NOOV85b3ZpV05ZUnBfQnlaY3RsbUY1QVpJNnZqUXhZVk1wbU1objZSemRxTmZtWFhBSXZDY0dBLXIwRkotR3k4WkFVWHhrLWN1YXE1YjZreTZvTWxXcEFKVmZWUWJwcVc4a3JzUUxubE1ZcDI5eFA2UUpFVjlHSkotb2VzY0s0a0ZTY043MHNSSHBPX2s2MnpJWGpNY2hxTy14Uzd2T2Q1TDZ1dnR6eXhTSE95VVZoVS1IYXNyN3JEMEVn0gHOAUFVX3lxTE0xOHpFTEhwQmhsc1lteXpxYjBGWi1GQVJwN25XZTFJdkZQNzZDY0laMUdTTkRJTzFrNTJMMzFiMTRIR01ZUlFiMHltMFQ0WHY3ekRGUndvWHZpamQxSXV0TFhTQzdrSGgyc2lhR2lLeWRVR05mV3AwYlRWLWF1aWxmWVFlNmQ1d1NLS29VMFRMWjFqX3lHRnl6UFFpQ3hIT3M5dVpwYkNIUVB4SnFQZ05LSFFIcmdvSnVOcU9heTh3alh1ZXQxUHp4OW9EeTd3?oc=5",
-   "source": "The Hindu",
-   "type": "news",
-   "expires": "2026-11-20"
   }
  ]
 }
