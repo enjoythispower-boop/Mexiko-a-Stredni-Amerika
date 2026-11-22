@@ -1,12 +1,38 @@
 {
- "updated": "2026-11-21T13:18:08+00:00",
+ "updated": "2026-11-22T13:09:44+00:00",
  "items": [
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Gobierno de Sinaloa reporta 90 por ciento de avance en apertura de vías tras los bloqueos",
+   "summary": "Zpráva z médií (španělsky, zdroj El Sol de México). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeFhPZ1pCWFBNTWUzaDJBemIwTTJlQXRIUURoSVJSWXRuT25jNUlWNHlPZlo5ZWpTMFpoODZQZE1LRFVMUENEdVdEd084eU9Cekk2UnFSVFBzVmdZN0pZakRWLVFjRnJHU3NfRGVjeVdWdi1XMEdQNGtXRGRpZ0RHSVdCbmVlMWVRWjh0cnlQNTliTVlYZFNUc3lwRkZ6dVdEUXpTTDhiTFlRSmdCMVg4MEFlX2JfUXZfa1p1dW01UzN3cWYtSEtDS2hIQ2Jab0tBRHY5aQ?oc=5",
+   "source": "El Sol de México",
+   "type": "news",
+   "expires": "2026-11-27"
+  },
+  {
+   "country": "Panama",
+   "category": "Přírodní katastrofa",
+   "severity": "info",
+   "title": "Zemětřesení M4.5 – 0 km SSW of La Colorada, Panama",
+   "summary": "Zemětřesení o síle M4.5, hloubka asi 10 km (0 km SSW of La Colorada, Panama). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 1610 km.",
+   "date": "2026-11-21",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn2",
+   "source": "USGS",
+   "type": "eq",
+   "expires": "2026-11-24",
+   "lat": 8.01,
+   "lon": -80.99
+  },
   {
    "country": "Peru",
    "category": "Přírodní katastrofa",
    "severity": "nebezpeci",
    "title": "Zemětřesení M6.7 – 9 km NE of Carhuamayo, Peru",
-   "summary": "Zemětřesení o síle M6.7, hloubka asi 108 km (9 km NE of Carhuamayo, Peru). Vzdálenost od tvé aktuální zastávky (Tulum): asi 3680 km. Bylo vydáno varování před tsunami.",
+   "summary": "Zemětřesení o síle M6.7, hloubka asi 108 km (9 km NE of Carhuamayo, Peru). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 3750 km. Bylo vydáno varování před tsunami.",
    "date": "2026-11-21",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
    "source": "USGS",
@@ -19,11 +45,47 @@
    "country": "Mexiko",
    "category": "Protesty a stávky",
    "severity": "pozor",
+   "title": "La captura del ‘Chapo’ Isidro en México deja 11 muertos y bloqueos viales",
+   "summary": "Zpráva z médií (španělsky, zdroj Telemundo). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTVZfenVPZ0w3SUdpMmJfakowWFZEUVdKS0NuaDR5NUNVVWVJTjBNR21MeTJlSGJKOEs4WmlRdngxaExpOVZRNGlwUUhPaUFJWTdfS3Z4UEZMYXRDZ05PMVdwUGFPbTQ2YXhlSmlNNEdKT20wUkFJeDlVT1g3RWVSaUFzcTNQUUI2Y3FhNGVfaGpCNmh2RGtuQzI2UFBtVUFxcFdSRjNVX01Nc0lNdXZHWUNBVHI0ZHl0Y1dWLWJiUHhwRzNSc1ZyYnZkbl9mcnRqWG1BakE4c1ZzNE9pZHlYSkhBVWpsTjdaa1ZxOFQxVXFxSGdmcnYzZ3Nn?oc=5",
+   "source": "Telemundo",
+   "type": "news",
+   "expires": "2026-11-26"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
    "title": "🚨#ÚLTIMAHORA | Reportaron nuevos bloqueos con tráileres incendiados en la carretera México 15 y el entronque de Compuert",
    "summary": "Zpráva z médií (španělsky, zdroj Facebook). Otevři zdroj pro podrobnosti.",
    "date": "2026-11-21",
    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdjRCaFlQREE2eFcwazB1b3A2VWoyWnhiNFA4YTk5aFFuNkdiekZIVEY1cy1Nb2Y0SGlIc2haUlplSkVfc3diSzBhVi1ScDAtOVdpLUNCQ0VRb19GMTRMOE1PQWtMemdhQjVWV2hqSzZfVGVNSEFJeHZCVkRPdW9pQktsVVQyZm9hWkt3Qmh0R29mdzlCNXFiVUlpa0JNV2k3bXVKUW9BeUVPMXNialhIMWswd21pM2NaaVZYS295RmFQeWhBOExkVmxSLUg1S2l5NThQRFcwUy0xS0Nzc051SjJjNElhMkRH?oc=5",
    "source": "Facebook",
+   "type": "news",
+   "expires": "2026-11-26"
+  },
+  {
+   "country": "Salvador",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Francia despliega 70,000 policías ante nueva ola de protestas",
+   "summary": "Zpráva z médií (španělsky, zdroj Diario El Mundo). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdVFXbWF1YzlWV25iRnY0SFJLc1RoY29yNks4bkZyaXIzaVZTdDBnaUhENThvWHZVRFM0QUlpcFYzMVZLTl81SlN1Wi1FS3JJdkNPRnBZcWljRUdKcWxiSkdXaHg4RTk0am5IVU1BNXdEZDdLaGhvbGxER3FKTXZVRDFlalZ3bXlTOWs5SG92MEwta29KRS1VNHJpRdIBpgFBVV95cUxQVTZzcElIRTdLMjZlZHk1MHRpeFJOSlliZ2E3cFFOaXJybHJHdmJoOE1rcHd5dGpHRW0tbk5BV0VPZkdaeUJ6N3NkZGpBeGRTNFktaGZnTzBMNDBaUFFpWkJDaEU5WVRtTDV6RVV1c1F6bl82WWJDNGRqRE9pckM1dWZmLTNFZlpQaWxzeUhBdlJaWmFsdFozR3pFZ3lXWVh3LVFrRW5n?oc=5",
+   "source": "Diario El Mundo",
+   "type": "news",
+   "expires": "2026-11-26"
+  },
+  {
+   "country": "Panama",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Las protestas contra proyectos mineros sacuden Panamá",
+   "summary": "Zpráva z médií (španělsky, zdroj Tercera Información). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdHF4WkgtVG1HNFhwX3REMUtRRzdJakFJSzFRTGQwcmZKN0I4WHZDUU9FZEpua3hqS3gzZkV0REk0X0U0YnI3RGFPRVlEMDR1TGtWWDlHZ1luSVVidHJFcGlWT1BEQkZjNnBZUTZHSTZneWNWbURHSmdNWENrX1p3bFlsMGNZSWFTamMtYmpmXy12c25raVZjZ0hiS0xQYlk1TktLQzI5Z2h3Zl9CZ0N5Z3VjWjk1S3RleUFZcU9WMA?oc=5",
+   "source": "Tercera Información",
    "type": "news",
    "expires": "2026-11-26"
   },
@@ -52,26 +114,14 @@
    "expires": "2026-11-26"
   },
   {
-   "country": "Panama",
+   "country": "Salvador",
    "category": "Protesty a stávky",
    "severity": "info",
-   "title": "Las protestas contra proyectos mineros sacuden Panamá",
-   "summary": "Zpráva z médií (španělsky, zdroj Tercera Información). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-21",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdHF4WkgtVG1HNFhwX3REMUtRRzdJakFJSzFRTGQwcmZKN0I4WHZDUU9FZEpua3hqS3gzZkV0REk0X0U0YnI3RGFPRVlEMDR1TGtWWDlHZ1luSVVidHJFcGlWT1BEQkZjNnBZUTZHSTZneWNWbURHSmdNWENrX1p3bFlsMGNZSWFTamMtYmpmXy12c25raVZjZ0hiS0xQYlk1TktLQzI5Z2h3Zl9CZ0N5Z3VjWjk1S3RleUFZcU9WMA?oc=5",
-   "source": "Tercera Información",
-   "type": "news",
-   "expires": "2026-11-26"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "PBI-Guatemala accompanies Human Rights Law Firm in their defence of Dulce María Archila on trial for protest against bud",
-   "summary": "Zpráva z médií (anglicky, zdroj Peace Brigades International-Canada). Otevři zdroj pro podrobnosti.",
+   "title": "Haiti strikes deal with El Salvador to build new prisons after minister visit",
+   "summary": "Zpráva z médií (anglicky, zdroj Union-Bulletin). Otevři zdroj pro podrobnosti.",
    "date": "2026-11-20",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLVB0V0JRakJqZkh1Sk1jUXdwSnBoUFJ2SG9QRnVzY3QxWnE3Tjk2XzFYWnMyUTNNckFldE5qcmhlQTdfazhrNGpvTnppc0lWMU4yUnUzYTByM1Z3T3ZMX25qS0VDTUNDMkV3dG42V3lOUjlMb2RaUExSQ0dOQVNCeHJKVG5mZ1BXemFBdVJObmNOXzhwSzNta0dYekl5dTMxMjN0T2dmelRmX1B0eFlwTUVWd3dsNGp0UmZOa0hLUTB1TU5qenV4czFYcEoyd3RLZHJweGpnX3N2ZWlqX3praE5rZDBLY3NFWFVMalJB?oc=5",
-   "source": "Peace Brigades International-Canada",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOalZSdm5CYnZQM0d0angxNDctNGthTXBQdFNiM3JkUDV6RUFveEh2ZHhzV2xQUndpdnE1T2pZajhJbEtjNUJuRk5wNm5FSGdUdEZNSVNTbTVYbmxidUd5UnVFRnk0UmxTX3l3X0JLaS00MERXaWNaQW9FQ0NEXzhoY0E1TjIxRklZbUU0eGlYZHZWc2l1RTExbHNXRFpaNDgybHNiSUpOanBZMHVoTXZOX2lNQldpYm9tUF9LMXpfeDc1Vzlibm5BR0w0cnYxdW9saXRUb19XSFFZY3FDTk93eWRpSU1hcE55ZGZXUXFoRlkyandEQWlfRDZpRVhQdw?oc=5",
+   "source": "Union-Bulletin",
    "type": "news",
    "expires": "2026-11-25"
   },
@@ -86,6 +136,18 @@
    "source": "GOV.UK (FCDO)",
    "type": "adv",
    "expires": "2026-11-27"
+  },
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "PBI-Guatemala accompanies Human Rights Law Firm in their defence of Dulce María Archila on trial for protest against bud",
+   "summary": "Zpráva z médií (anglicky, zdroj Peace Brigades International-Canada). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLVB0V0JRakJqZkh1Sk1jUXdwSnBoUFJ2SG9QRnVzY3QxWnE3Tjk2XzFYWnMyUTNNckFldE5qcmhlQTdfazhrNGpvTnppc0lWMU4yUnUzYTByM1Z3T3ZMX25qS0VDTUNDMkV3dG42V3lOUjlMb2RaUExSQ0dOQVNCeHJKVG5mZ1BXemFBdVJObmNOXzhwSzNta0dYekl5dTMxMjN0T2dmelRmX1B0eFlwTUVWd3dsNGp0UmZOa0hLUTB1TU5qenV4czFYcEoyd3RLZHJweGpnX3N2ZWlqX3praE5rZDBLY3NFWFVMalJB?oc=5",
+   "source": "Peace Brigades International-Canada",
+   "type": "news",
+   "expires": "2026-11-25"
   },
   {
    "country": "Mexiko",
@@ -218,34 +280,6 @@
    "source": "조선일보",
    "type": "news",
    "expires": "2026-11-24"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Přírodní katastrofa",
-   "severity": "info",
-   "title": "Zemětřesení M4.8 – 11 km SSW of Santa Gertrudis Miramar, Mexico",
-   "summary": "Zemětřesení o síle M4.8, hloubka asi 35 km (11 km SSW of Santa Gertrudis Miramar, Mexico). Vzdálenost od tvé aktuální zastávky (Tulum): asi 960 km.",
-   "date": "2026-11-18",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubwa",
-   "source": "USGS",
-   "type": "eq",
-   "expires": "2026-11-21",
-   "lat": 15.96,
-   "lon": -95.43
-  },
-  {
-   "country": "Peru",
-   "category": "Přírodní katastrofa",
-   "severity": "pozor",
-   "title": "Zemětřesení M5.9 – 85 km WNW of San Juan, Peru",
-   "summary": "Zemětřesení o síle M5.9, hloubka asi 22 km (85 km WNW of San Juan, Peru). Vzdálenost od tvé aktuální zastávky (Tulum): asi 4130 km.",
-   "date": "2026-11-18",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyy8",
-   "source": "USGS",
-   "type": "eq",
-   "expires": "2026-11-21",
-   "lat": -15.14,
-   "lon": -75.92
   },
   {
    "country": "Nikaragua",
@@ -462,90 +496,6 @@
    "source": "GOV.UK (FCDO)",
    "type": "adv",
    "expires": "2026-11-23"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Veteranos militares de Guatemala amenazan con bloqueos para presionar al Congreso por más compensaciones",
-   "summary": "Zpráva z médií (španělsky, zdroj Infobae). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-16",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPOUdLVDNENDdBRTlsSFRqT3I4aGtIZW4tYmg2SWh2NlJ2a21CdzRFV0N3eVdUMTlUWGxVZ3UzN2NVeHp4dkNLVHRYa1NidTNMcHNVd0NxeTVEY2VBdVpMazBhYkVSYm9USU5Tb3FIZzNYYXB4SkR5M0NWN1pQc24xUTRIOEkweUgwUlZZaXRnMEtxZ2JPdG9vV0FRM0M1MURwVmJnVVN5QXVwdVZsaWUzVzloc2NUSTNkWWFObWdweGs4T1lmZ0loZTUyNTZvWVZORVNNRWh2WXZ2TjBJaUF1YTFGZXbSAf8BQVVfeXFMTUFJLXpWUncxdnhpTV8tdmtxQU9hUXdhQnY4Ymd1azEyOUhVRDNmNkV2TC0wR2VETDVhTTJlV2Z4bWxCMTVXXzBiYUxwTlRMS0RGOGRmLTRNOURxVGk5V3RIYkJ4MDNRRnpERHNsd3RGNVNYWGRjYm9Vc1d5ODRaNDVUTWVaUUY2TGhSN1VfUUQwVExVQXBTX3Zqa1NWdXhMc3Vvei11bmhodG9DSHI3YmVMYzVhdl9hN05mRzJBMzNVc3psM25mTXVDNkxWcWVHTHJ5RFlndHUta3hyWjFQTW9GaFFuUUthU0Z5UDZDYzFhODAtai1NdVJuUG9yRE9j?oc=5",
-   "source": "Infobae",
-   "type": "news",
-   "expires": "2026-11-21"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Bloqueos en Guatemala: Los 15 puntos que podrían ser bloqueados este martes",
-   "summary": "Zpráva z médií (španělsky, zdroj Tv Azteca Guatemala). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-16",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNQ1dnT3hQaklTaGpGLThuaFhRam5YT1dJeGYxQ0JsWjJ1dFZNNTJISkhoZzZYLU5fcC1HNFJtTGZ6Y1hLS3lmM0FuQnlpYTNvT3oxY1hPTEJUUXdwcG9IWlZuajllcWM0RmpSOEdvQU4wMnc3SjcxcHVnNkRrVzlVWTVmeHRsOFpKX0xmSXJsX1Fhb1VCTzRQT1ZsQWpvZTdJbEdua3BBa3V4dU5vdFJNYnpOUHltX0RsbnFYVWk0X3daWmlEZFE?oc=5",
-   "source": "Tv Azteca Guatemala",
-   "type": "news",
-   "expires": "2026-11-21"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "¿Hay Bloqueo de Carreteras Hoy? Reporte de Accidentes y Cierres este 16 de Noviembre 2026",
-   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-16",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQUtNckpaOV9EZ21YZk5ZMDFsX19zY1IwemtsdklBLWxiejFXRzVYSHdUckRnTE5GY3BJc3ZLdnUyNlYxdUlVR2ZQWHl2OXhUT2ZTWHdHeFhWeHpEVFVUc2t5YUtfU0Fyd2NDZ0xCZkx6TjlIcFBKSk5jdGV1dExwZW44b2FqajA3b19RWXhaVl9OX01ycFBpejZoLVVRXzRwTjcxTjNEWmNHczUxN200Qw?oc=5",
-   "source": "N+",
-   "type": "news",
-   "expires": "2026-11-21"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "EN VIVO Bloqueos carreteras hoy 16 de noviembre de 2026: ¿Qué pasa en las autopistas de México?",
-   "summary": "Zpráva z médií (španělsky, zdroj TV Azteca). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-16",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZVd2U29KWWVDLVdTSHVUNHl5VXl2MXZ6SFc3TXlBT0psS2Z5aXZsZ0FkWWEtUzY4aDk4Sy16SWFCLWV4cVNzYkhmWWk3TnF4dy0wdFZES1VxS0RVM3dydXpDMGlTVTRLMllycC1vVWFzNDV4MVRPMTFhdHVldkV4VWhaWlpQN25YSTQ4WHdXS0pHT3I0Tm5UdFM0dkFmdlBKM1Fla2lLenpXOXVTNzBkWXdfZ2lJY1RoemQtckVlU0U0UEZjSW1rZ19YMXRxdw?oc=5",
-   "source": "TV Azteca",
-   "type": "news",
-   "expires": "2026-11-21"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Medios libres en México: de La Ke Huelga a Instagram",
-   "summary": "Zpráva z médií (španělsky, zdroj Somoselmedio). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-16",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9zdHZfZ0xyQ1J1d1ozYllBSXhTaWRnM2x4MGlLTHZiM28tTVNOUUdUUGd2Q0hEaFBsUkJFTXpFMWlrQlBQZUVDcUhXNjFHTERrSkZiMzR2V3pJeDJDOWRrSU1fOHR2OWN6bFo5SHRPaHpwVi0wOVlmbE1EWGxMM3M?oc=5",
-   "source": "Somoselmedio",
-   "type": "news",
-   "expires": "2026-11-21"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Bloqueos En Guatemala: Veteranos Militares Anuncian Protestas Por Dos Días",
-   "summary": "Zpráva z médií (španělsky, zdroj Vive Click). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-16",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNXzNyU2YzREoyYkMzMmhhbWJHc1NadjNYcWluMkp6TktoTlVzOVBFMUhTbVFCYzQzdzFHcWFyNm9ucE1ZbGxIYmwzNktMMk55MEl1RkRvN0FhYzdDVUpYR2JiQlJ3QnBpRGhRUXd3QWczQjI1azRMQU85YXJOcFJ2NDVoR1hmX3pwOXhKR25xY1hQdFVTaFlNSA?oc=5",
-   "source": "Vive Click",
-   "type": "news",
-   "expires": "2026-11-21"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Veteranos militares anuncian bloqueos por dos días",
-   "summary": "Zpráva z médií (španělsky, zdroj Publinews). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-16",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOWV2QUJwYVRUNU5aaXlBY0RWRlBjVnpUWGRTLWRtWTVxTXZhYzhvbVhpTHUyUTRvV1RvdEJTcGVWdi1OS0hoNFRXY0JhZXpldnJpeTVZLWFqM3VvRENVVnh5QmdzQTVFQk5Ldmd2RHRNaUExdVdLLWJnMjRkY042am9MelRtalZNT3YybTR1SVdVQlZYVzg2VHNabTQ?oc=5",
-   "source": "Publinews",
-   "type": "news",
-   "expires": "2026-11-21"
   }
  ]
 }
