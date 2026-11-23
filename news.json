@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-22T13:09:44+00:00",
+ "updated": "2026-11-23T15:47:04+00:00",
  "items": [
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Juzgado declara ilegal huelga de sindicatos de educación del 11 de noviembre y determina rebajo salarial",
+   "summary": "Zpráva z médií (španělsky, zdroj El Observador CR). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcXRkOVJxMnJCamdTTGFuWnJmN3dTNGxnT3VDVGtKVGlpekNCQjdGOGZRcm96UlIzcklOWTIwWHVzVG1HanpKd1Z3X24tWjZqbGxaTUlkYmVHWlRsSk1QS3lKS3RhdXNIRUQwdjVfUHZwUDNKZzN3d2gtTXVITGVicHV3OEYyU3loVE45dl9FT1ZzdVFUTGRxZEtJYUpBY3hGSkRZLThCa0hxS2NBdkcxRE5tUGMyYTFfV3NUc2dBMmhyVzRpM0E?oc=5",
+   "source": "El Observador CR",
+   "type": "news",
+   "expires": "2026-11-28"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Juzgado de Trabajo declara ilegal huelga de sindicatos del Magisterio del pasado 11 de noviembre",
+   "summary": "Zpráva z médií (španělsky, zdroj El Mundo CR). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWEtHME81U1ItTjFlUGpnWXN1eXRkUU1hNnZmQTZfWXBEbE9jYUVCWlItZkROblZGUHJlWG94MUZ6a0pGdjNSVjZGM3RXWHVUOEY5c0ZYQVlzdlg1UjFQbFhMMThhYjhaajFkcGEwekNwTm9LV3VhMjNNODdEdGVXQ3RRNi1XWU1iS2ZSaDBaT28wcUh1cTBDbS0xelZQZ2ZjVEx6NG1CWk1lT29FdHV4Q2RsZzlrV0JYa0RSVk1pVjByZTRWZ0E?oc=5",
+   "source": "El Mundo CR",
+   "type": "news",
+   "expires": "2026-11-28"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Declaran ilegal huelga de educadores en Costa Rica: esto pasará con los salarios de quienes participaron",
+   "summary": "Zpráva z médií (španělsky, zdroj Tome pal pinto). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcWNXUUFuVTREX3VSb1JWekRNa0FyTjcwWGZvcER1eGRYUHU2ZlNWem9yaEkzMUZ6MUNFSHYzVklEVG16TktQbHo1aHAzTVoyNDdkLWo3WmtvZEtta0F2T21xazZOcTFfUllYdzhvLXBIbERsTjd1bFd2RVRLd3gtVlgzcHdaQUVKMXN0Ukh6LTFGalZZb0JKRl9GWmw?oc=5",
+   "source": "Tome pal pinto",
+   "type": "news",
+   "expires": "2026-11-28"
+  },
+  {
+   "country": "Kolumbie",
+   "category": "Cestovní doporučení",
+   "severity": "pozor",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Kolumbie)",
+   "summary": "Co se změnilo: Removal of information about the the temporary deployment of security forces in the city of Cucuta (‘Warnings and Insurance’ page). (text ze zdroje v angličtině)",
+   "date": "2026-11-23",
+   "url": "https://www.gov.uk/foreign-travel-advice/colombia",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-11-30"
+  },
   {
    "country": "Mexiko",
    "category": "Protesty a stávky",
@@ -31,15 +79,15 @@
    "country": "Peru",
    "category": "Přírodní katastrofa",
    "severity": "nebezpeci",
-   "title": "Zemětřesení M6.7 – 9 km NE of Carhuamayo, Peru",
-   "summary": "Zemětřesení o síle M6.7, hloubka asi 108 km (9 km NE of Carhuamayo, Peru). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 3750 km. Bylo vydáno varování před tsunami.",
+   "title": "Zemětřesení M6.7 – 7 km ENE of Carhuamayo, Peru",
+   "summary": "Zemětřesení o síle M6.7, hloubka asi 125 km (7 km ENE of Carhuamayo, Peru). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 3760 km. Bylo vydáno varování před tsunami.",
    "date": "2026-11-21",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
    "source": "USGS",
    "type": "eq",
    "expires": "2026-11-24",
-   "lat": -10.85,
-   "lon": -75.98
+   "lat": -10.89,
+   "lon": -75.97
   },
   {
    "country": "Mexiko",
@@ -114,18 +162,6 @@
    "expires": "2026-11-26"
   },
   {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Haiti strikes deal with El Salvador to build new prisons after minister visit",
-   "summary": "Zpráva z médií (anglicky, zdroj Union-Bulletin). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-20",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOalZSdm5CYnZQM0d0angxNDctNGthTXBQdFNiM3JkUDV6RUFveEh2ZHhzV2xQUndpdnE1T2pZajhJbEtjNUJuRk5wNm5FSGdUdEZNSVNTbTVYbmxidUd5UnVFRnk0UmxTX3l3X0JLaS00MERXaWNaQW9FQ0NEXzhoY0E1TjIxRklZbUU0eGlYZHZWc2l1RTExbHNXRFpaNDgybHNiSUpOanBZMHVoTXZOX2lNQldpYm9tUF9LMXpfeDc1Vzlibm5BR0w0cnYxdW9saXRUb19XSFFZY3FDTk93eWRpSU1hcE55ZGZXUXFoRlkyandEQWlfRDZpRVhQdw?oc=5",
-   "source": "Union-Bulletin",
-   "type": "news",
-   "expires": "2026-11-25"
-  },
-  {
    "country": "Ekvádor",
    "category": "Cestovní doporučení",
    "severity": "pozor",
@@ -136,6 +172,18 @@
    "source": "GOV.UK (FCDO)",
    "type": "adv",
    "expires": "2026-11-27"
+  },
+  {
+   "country": "Salvador",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Haiti strikes deal with El Salvador to build new prisons after minister visit",
+   "summary": "Zpráva z médií (anglicky, zdroj Union-Bulletin). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOalZSdm5CYnZQM0d0angxNDctNGthTXBQdFNiM3JkUDV6RUFveEh2ZHhzV2xQUndpdnE1T2pZajhJbEtjNUJuRk5wNm5FSGdUdEZNSVNTbTVYbmxidUd5UnVFRnk0UmxTX3l3X0JLaS00MERXaWNaQW9FQ0NEXzhoY0E1TjIxRklZbUU0eGlYZHZWc2l1RTExbHNXRFpaNDgybHNiSUpOanBZMHVoTXZOX2lNQldpYm9tUF9LMXpfeDc1Vzlibm5BR0w0cnYxdW9saXRUb19XSFFZY3FDTk93eWRpSU1hcE55ZGZXUXFoRlkyandEQWlfRDZpRVhQdw?oc=5",
+   "source": "Union-Bulletin",
+   "type": "news",
+   "expires": "2026-11-25"
   },
   {
    "country": "Guatemala",
@@ -388,102 +436,6 @@
    "source": "El Siglo Panamá",
    "type": "news",
    "expires": "2026-11-23"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "International News: Guatemala ramps up security operations after declaring 30-day state of emergency",
-   "summary": "Zpráva z médií (anglicky, zdroj Belize News and Opinion on www.breakingbelizenews.com). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOYnlnblppemljLVNibzdmOHF6MTRvSUVpRDE5R3FHbF92VXFRVS1yZnhwTGxiN2FsU0Vfd2pjRlc5RXM3T0dTRXVUZTZwaU5OTU1OdEVjVjgyWUFvNlYwcF9Md3lsaDB5ZU1wS083ZzBRcjBDWjJpeDBFWFBZUldGT2NLU05nTlhGOUU3UjY4MG9IVHlFazU0WnE2MUNKdkRxaUZZaWNUY2JMeWNmajZxeXlMd2lRcDRsdWhfQThBUDVCMFg1TkRUeUhoSm1keTR1UkstSFdGRlA2WXhBWHRN?oc=5",
-   "source": "Belize News and Opinion on www.breakingbelizenews.com",
-   "type": "news",
-   "expires": "2026-11-22"
-  },
-  {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Haitians protest in support of El Salvador’s anti-gang troop deployment",
-   "summary": "Zpráva z médií (anglicky, zdroj Al Jazeera). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcDJnNXVQQzl6cnhNb0xyYUtBUjFZQXdiZG1IZEFrckpRamhEa29UOFV1enM0a0FmTWNvS0ZxZWtuMnVyT2prcE9QZlBISkhxejdHN25Xa2ZhODVnejkyUl9Jck9qeUl4QnBQZHdoR2Z1ZklWLU1sUjJ1SEtGMkdfcmFCdmFMYmJDNk5jTXotb1M2T2pUUEJTLXE2MjNqMEJEYmJLOFJHTVYzRjhfMl85dkZR0gG3AUFVX3lxTFBsdDR6RHNwOXUtclp1UnVVV3lBNm04WW83RjkxOGFKT0h4S3BpYXZxSm41cGZyaDdybUQ1NzdpdFdHdEZGZ2R1WkpMNUJnT3piQWtTeVFCUTVfMnlORUNOVHI1MG9TRFcxc3AzOHVFZjh3TWU0MGxiVzlndTNpX1RRU3JrM3JyWGhHUHJHNXQ1aW4wTHlUYWl6TVBLeklSMWgxeHRSbnVMNXRpbERrWmVXNUNGZjk2SQ?oc=5",
-   "source": "Al Jazeera",
-   "type": "news",
-   "expires": "2026-11-22"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Panamá negociará con firma de Canadá para \"reactivar\" mina de cobre cerrada en 2023 en medio de protestas",
-   "summary": "Zpráva z médií (španělsky, zdroj DW.com). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPV2hqTzVmRFBBdzhNSDJibzJ6QXBFbm8zcTFQeHBzWE1UYVc3cmVZTWg1dXdSTFBYaE1UeE9uMHVZcjItOUJJbEF4T1pzcGlJTWhMTE5hVl9SRk9NcFZ1TU9aTUNDYTh2dkNvX01OX1dwbF9NRER1MmZxOTBudVdTSkxZT1JjUEhqZjRhN3d1a204QlRDQnhFOThyWmp5VjV4WWVrR3RNdmpXTUg4SVNMdU9JaGpzcm5sbnpreUJHY2pZcTJSWkVzcWMyTW5rVUh4ZzU5Y2w1VEPSAdgBQVVfeXFMTlpEUmNyb3BteTdKN0NFeXB0czNCeXZJN0o4cTAtT3dPem15RE9MYjM1aFQyblVWLU1EQlpheGx4ZjBqSHllbHlxckdmZU9CSEV1U216U2pfUmtsNy1pazI4MUxIWmVSZUFhZTlzNExmWDRxOWZESVRLU09zSEdFbkdOaS1FOVlEV2RWX0M5YjFSS1p5ZFdvcE02Tl9KVnhhamtBTjRXZDlDWm1MU1ROZnVoYXgyVzhHQ0lfdTQxTnpBQi1GdTZ0djhPLWJQZEF0MjRtVkFQdXNz?oc=5",
-   "source": "DW.com",
-   "type": "news",
-   "expires": "2026-11-22"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Bloqueos en CDMX hoy 17 de noviembre: marcha del IMSS y protestas en Santa Fe colapsan vialidades",
-   "summary": "Zpráva z médií (španělsky, zdroj Grupo Animal). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa1FaWDJ3UTAxSV9nRUJSLVlOVjdNY0I1WWVNeHRNTW9ndWV4WklHOWtMYkRWU0swWHdFRzNpU0lPYmFYOENnbjQ5TFZJLWMyT3RzNEFwYkhJbGtDS2lUYWs5ajhEajhObjc4a0xtTVJjWmVpaXNFb1JGTGFZSzJveEJKQml1RjhxVnc?oc=5",
-   "source": "Grupo Animal",
-   "type": "news",
-   "expires": "2026-11-22"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Guatemala despliega fuerzas de seguridad en frontera con Honduras tras declarar estado de emergencia",
-   "summary": "Zpráva z médií (španělsky, zdroj Vive Click). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRlc2b0lPM294MFhUTkZzdkFaMWl4RmxpVVpnUkVFXzdJRVV5eGZhazA3UXhFYkJPY1JPZHpybUw1bmFSdDJucjF5ZDc5RkhpRVQ1NS1idWktN242bl94VGxxbVhKWFE2VUhhQ0FYZlFNdFdDRGMwUmZTRTQ0Smwyc3FDSDkzRHBvcXRhVE91QkJyUzZ2cXlkcThQVE1YT2lJRWNjT0VQWUktaElUV19peDRYWWhsMnRpdVhkOQ?oc=5",
-   "source": "Vive Click",
-   "type": "news",
-   "expires": "2026-11-22"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Paro nacional del campo: productores amenazan con bloquear rutas clave en México",
-   "summary": "Zpráva z médií (španělsky, zdroj AgroLatam). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQNG10RlRScWFzWEhER2FHWWF4UGs4WGZsN2xJTnhXTVZ2bmlqQzM5ck82QUNHeTB4NTN3VWVXeU9KYnFESU5mN2Zxc2wwOW1OcDZVQTNMejBpdVh4c1U4YU5UdC1rbElWU0V2WE1PY0lUc3dhMWlqVWR0cm5LMFZ0alc5YmFxVlk1SWJuUEFMaVN0VUpDS1Nab0tuQ2tSUVRsbXhqYjN5NUwwTUQ5VVZjNjcxYjZFaHZ2TmVadzV4UDVyM3pQcS1SaE10bw?oc=5",
-   "source": "AgroLatam",
-   "type": "news",
-   "expires": "2026-11-22"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "El asesinato de un periodista en Acapulco reaviva las protestas por la violencia en México",
-   "summary": "Zpráva z médií (španělsky, zdroj Yahoo). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNTBqUTFURVVwNDA4TVJjajNENFUzVWYtVHRfM2p2OHZ1VUk5UGVKVWxKcDR3TF9ZU2ZUQ1ozVl84dDdMdmtURUxFVHdkUlB4T2I4bnM4MkNkektTTTRBXzhiOVllV25PV0YyRHpEUjdsSGZLeFItMGc4TE14Uk5yQXBNVmZxQXAtbmRDb1NVZnVsc2FMTl9OM3pSZw?oc=5",
-   "source": "Yahoo",
-   "type": "news",
-   "expires": "2026-11-22"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "¿A qué Hora son los Bloqueos Carreteros de Campesinos Hoy? Estados Afectados por Protestas",
-   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUGFlWFMyQ3JfdFZrOUYxTUt5RVl1ZmZUUjlLd0ZQZDE5S2tfTHVNMzY1N01SY0dhZmFQUVlsdWQ2MkNabGttd0VyeHhvc0V0blJyNmkybjVYQ3hqcWhETFEySzdZb090NlAzSFh1OGo2cnpxdXMyTDNkN3BrRjg3TFlfcktPNzlkQlRaYVVfOWdjejBqMmdiR0VsdXpaQTN5cVppVFhSd2ZXaWRsbTQ5QXdSZw?oc=5",
-   "source": "N+",
-   "type": "news",
-   "expires": "2026-11-22"
   },
   {
    "country": "Guatemala",
