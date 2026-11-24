@@ -1,6 +1,118 @@
 {
- "updated": "2026-11-23T15:47:04+00:00",
+ "updated": "2026-11-24T15:38:29+00:00",
  "items": [
+  {
+   "country": "Mexiko",
+   "category": "Přírodní katastrofa",
+   "severity": "info",
+   "title": "Zemětřesení M5.2 – 93 km WSW of Puerto Madero, Mexico",
+   "summary": "Zemětřesení o síle M5.2, hloubka asi 35 km (93 km WSW of Puerto Madero, Mexico). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 880 km.",
+   "date": "2026-11-24",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud6z",
+   "source": "USGS",
+   "type": "eq",
+   "expires": "2026-11-27",
+   "lat": 14.44,
+   "lon": -93.24
+  },
+  {
+   "country": "Panama",
+   "category": "Přírodní katastrofa",
+   "severity": "info",
+   "title": "Zemětřesení M4.5 – 9 km NNW of La Tronosa, Panama",
+   "summary": "Zemětřesení o síle M4.5, hloubka asi 16 km (9 km NNW of La Tronosa, Panama). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 1680 km.",
+   "date": "2026-11-24",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud3m",
+   "source": "USGS",
+   "type": "eq",
+   "expires": "2026-11-27",
+   "lat": 7.52,
+   "lon": -80.62
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "¿Dónde Hay Bloqueo en CDMX Hoy 24 de Noviembre 2026? Alternativas Viales a Zonas Afectadas",
+   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWkRnV2l3eTVrSmZXRDZCbVdLNFZTT3QwT2p4OHR6bUJDaS1uZWYtWkc3Y3RESU9LMXVpSlRTLUhNRkpQQ1BfV2NBTXNMR3NwanlxN0JRSG5lOHZJczc4SlZ4bUs4bzhjTGZwTkxMVUtudjBaZ1hQRWZUMExYV1piUFJUejlrYWpnRUxGVUJ4WDZUc0NtMHgyZHBNYnRiUm8ybTl6NWRfOVVMd3ljWHZIeVBDSjFFUVJoVlRZelhR?oc=5",
+   "source": "N+",
+   "type": "news",
+   "expires": "2026-11-29"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Intervienen cuerpos policíacos para liberar bloqueo en la México-Laredo",
+   "summary": "Zpráva z médií (španělsky, zdroj Quadratin Hidalgo). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbi10aE9tSHhHVEx2elBlZnNtVGhrODJJNU0zMGs0ZmxrRnBKNUVMeUdvWlNEVVVoOVdDS0lDY3dSUXBONEpWYVZrbzc5XzItUExBV2NicWU2MXlqblhzZXpCbnF1NWQ0VGNVSlV3Wk9ENnZsUFFvM3NpV1dNd2lhdVp5Znc3RWpCWDZoSGVOT2NZWnkycW00R1JkaUJ5RUJzWnF6UEdDVGdYSTZoSW9oLUo0TFo?oc=5",
+   "source": "Quadratin Hidalgo",
+   "type": "news",
+   "expires": "2026-11-29"
+  },
+  {
+   "country": "Salvador",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Irán ordena endurecer el bloqueo del estrecho de Ormuz",
+   "summary": "Zpráva z médií (španělsky, zdroj Diario El Mundo). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaW9sbWNKaTdhdnF5cldBQ3dweHo0eV9rR1g5aVJGdDRsd2MzQWFIY2xIUWw3UVBrbksxNGFqUG1ZMzBuRFJkaXhKQWh1NFd3NUNDYU42Z0Y5eXNVR3pWZTBZRGgxX1FhNDBGN0tCYW55ZDhfdkdDMzM5RlZtWDhSc3BiVlpHazFQbXBzdVp1aC1iV1nSAZ4BQVVfeXFMTjBrUWRnMVJ1V25EN2IybEI1Tnk0bEJLRmZ4b1pqRU02eHZsTFktTVgzVHhwWld1ZkY0aHNScVVHYnpfbDlTa3p2ejhLc2NZTnNrWVZYNDM2ckJpTTNEdkRqcDVva3diYXE3NjA3QVY0ekl4NHlscEN4eXZUX2RNLXJ5Z3FqczlVeHdINVJJTVlYaTBIN3d4a3lqdzZ2MUE?oc=5",
+   "source": "Diario El Mundo",
+   "type": "news",
+   "expires": "2026-11-29"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Juzgado declara ilegal huelga de educadores del 11 de noviembre; sindicatos apelarán",
+   "summary": "Zpráva z médií (španělsky, zdroj Delfino.cr). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVnJOcU1QV1Rhb2t6MkMzZzJBcWVMWU5QWmpLSU0zZ2xVNVJfV2FqVTBDNnc3RkhkbUxnT0lvSi1DTTJWcEVEUU56NldRWG9pZlZKdmhPMnFzV2NJYUNTa2thekNrOF9ldkhOUE9oUm5pd0J1ZHRjN3AxSnJZdHN2TU5Vb0N5RjctSUNYd3REVmN6cjBtNS1idVN0WXlsVkNralNmNUJqR3RsWFBDT0tZ?oc=5",
+   "source": "Delfino.cr",
+   "type": "news",
+   "expires": "2026-11-29"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Cestovní doporučení",
+   "severity": "info",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Mexiko)",
+   "summary": "Co se změnilo: Updated information about travelling with children (‘Entry requirements’ page). (text ze zdroje v angličtině)",
+   "date": "2026-11-24",
+   "url": "https://www.gov.uk/foreign-travel-advice/mexico",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-12-01"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "México: Captura de ‘El Chapo Isidro’ deja 21 muertos y bloqueos carreteros en el estado de Sinaloa",
+   "summary": "Zpráva z médií (španělsky, zdroj Univision). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdERXaXJMTXpLUlpCYVFnRkhrb2NGeVhHUDhpWWpFZW9pa29LYWE1OVNEdUZtTkFMeHdRNWdjRGFFMW5NQ20wbUpucXpOaEMyNnA1LW1WYUNZNUlrcWhqVGRYRjhYc2hCMW1hXzJRZGVEV044ZENfUk5mN3F1YzVZd3ZWVm5SUHNoNWZqZGg4c0h4cG9XampkblFhQVM4c0FabkZNWVJHR1cweEV5QktPYnVqTzBYQy1UVnc4RVhfZTJ0STJTU1NIQlhGOHhqUGFrMy1WUk1BZjFhM29fMzNGSUZQN1QzNGQ1?oc=5",
+   "source": "Univision",
+   "type": "news",
+   "expires": "2026-11-28"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Justicia declara ilegal huelga de educadores en Costa Rica y abre paso a rebajas salariales",
+   "summary": "Zpráva z médií (španělsky, zdroj Infobae). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY3pQS2dwdnR3ZXBTZHRialZHaTZNTzEwVWpHVllUdGxvRDFpRWFzVlpJazNsYjVPUENZY1NXeXB6VFg4Q0t5a1FfaHRtRy02MlRQZGpVZlBISkllNjN4WjhoSkhSVURJd2FLQzVZZjNEMHMwSDZ1cUF2VG0zMVNmTm40b20xQWZLXzFoOHhUR2hKNlNlMVVxR2laTHI1Q1JUY3FjbnRZNnVxRjNNbTBPbkhmR082UV9Gc255MWR2QlMyQUJsbXRjNzhxQnRsSkZwQzlvStIB7wFBVV95cUxNTHVuOGRRU3U5ZG9NREFvc2NLY3FXam80eWFVVlg4Rjd0VnBnNEZMNFBTQWRrNWVzYWZ6TE1kUmdFWTFMUDcwZ1VqcGFrN2tGcGt0Z0h5aEExZW9LVG9rX2RJaDNzTnBRaFB6c3Y2X2Y2c1lLYVZTQ29hdDVXWldsNG5VTER3YUdHbXZGTGViVjI3alRGMTN5ejlRWGNHZUktUU5XQjNocGFseFA5SHJTNWdHX1RVZkloZGplZFFPQlhST1ZxLUZDSmJkUlJrZURfYURITTZRRlpHdG03TmRrZlJFUmxOSDBYTDNQYnZGdw?oc=5",
+   "source": "Infobae",
+   "type": "news",
+   "expires": "2026-11-28"
+  },
   {
    "country": "Kostarika",
    "category": "Protesty a stávky",
@@ -12,6 +124,30 @@
    "source": "El Observador CR",
    "type": "news",
    "expires": "2026-11-28"
+  },
+  {
+   "country": "Panama",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Posponen hasta 2028 juicio a siete obreros por protestas a Ley 462",
+   "summary": "Zpráva z médií (španělsky, zdroj La Estrella de Panamá). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZWZDZUVOVGV1TS1Ia2daN0N2OUZKc2FGV0FONUgycV83aDQzQlFPQUlZMUxMVFBrbXJzY25xXzB4QUpicXVUdlNlV0FmWVNnY3JRUkZCdHpkd3YxZ2hNRy1sczNUZFNYcXhhNkNUWE1xUTc4NHhodW11TGxrX3hhX016dXFPM0xUa25hRjZlUVRIY3NCSHEwTnkteGFPUUJwY2F6Znc1RFB1cVhVRmQxbHl5UWJrRzktUW95cUUyaGhfcTMzdGfSAcYBQVVfeXFMTWVmQ2VFTlRldU0tSGtnWjdDdjlGSnNhRldBTjVIMnFfN2g0M0JRT0FJWTFMTFRQa21yc2NucV8weEFKYnF1VHZTZVdBZllTZ2NyUVJGQnR6ZHd2MWdoTUctbHMzVGRTWHF4YTZDVFhNcVE3ODR4aHVtdUxsa194YV9NenVxTzNMVGtuYUY2ZVFUSGNzQkhxME55LXhhT1FCcGNhemZ3NURQdXFYVUZkMWx5eVFia0c5LVFveXFFMmhoX3EzM3Rn?oc=5",
+   "source": "La Estrella de Panamá",
+   "type": "news",
+   "expires": "2026-11-28"
+  },
+  {
+   "country": "Kolumbie",
+   "category": "Cestovní doporučení",
+   "severity": "pozor",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Kolumbie)",
+   "summary": "Co se změnilo: Removal of information about the the temporary deployment of security forces in the city of Cucuta (‘Warnings and Insurance’ page). (text ze zdroje v angličtině)",
+   "date": "2026-11-23",
+   "url": "https://www.gov.uk/foreign-travel-advice/colombia",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-11-30"
   },
   {
    "country": "Kostarika",
@@ -36,18 +172,6 @@
    "source": "Tome pal pinto",
    "type": "news",
    "expires": "2026-11-28"
-  },
-  {
-   "country": "Kolumbie",
-   "category": "Cestovní doporučení",
-   "severity": "pozor",
-   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Kolumbie)",
-   "summary": "Co se změnilo: Removal of information about the the temporary deployment of security forces in the city of Cucuta (‘Warnings and Insurance’ page). (text ze zdroje v angličtině)",
-   "date": "2026-11-23",
-   "url": "https://www.gov.uk/foreign-travel-advice/colombia",
-   "source": "GOV.UK (FCDO)",
-   "type": "adv",
-   "expires": "2026-11-30"
   },
   {
    "country": "Mexiko",
@@ -328,126 +452,6 @@
    "source": "조선일보",
    "type": "news",
    "expires": "2026-11-24"
-  },
-  {
-   "country": "Nikaragua",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Inicia el Dialogo Nacional en Nicaragua después de 1 mes de violentas protestas",
-   "summary": "Zpráva z médií (španělsky, zdroj lajornadanet.com). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQTA1R3d3czNRcEdYclZWTU5Nd0UtRmlOV2FZbmRPRjlBUG0xV2ZubzMyUFBVMkVZRmF4TXIydXFYTzRNV0RMbkh4T0F1Y2xBWTZoOXg4MlJyUVlONWZzNEpTcEVEYXozaTNodmc5ZmxzaTZWRS1SSkE2VFE1aENHNTdCM2I2dTczMlU2Z2hfWEx5QUVaeWRTZzJUUTNsNlpTb1lYX2FjZWVkeHM2QnZjYWxxY0dYYVNIQjJiZHNNVk1XcVdXMW9ycTJEdGpueFA4alVOcWJfMWJxZ0Vq?oc=5",
-   "source": "lajornadanet.com",
-   "type": "news",
-   "expires": "2026-11-23"
-  },
-  {
-   "country": "Kostarika",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Juzgado reprocha a Gobierno y sindicatos falta de diálogo previo a huelga del Magisterio",
-   "summary": "Zpráva z médií (španělsky, zdroj Delfino.cr). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1MwSGIwOU5jalNxTnV5LWYwVEV5YVB0X0t2YUE1YUhvZW9LVDhmR2RiTFRPbW5TQVRrbFRaZ04zcGtFWHExcDQ2OWlCYjhaeWhUbVU3SEQ1VFNRVWRrMTc2YTZSTVJBTlJULWVFeTlFd3ZCV1lPLWNrdUhaNWFCM1VGWkkxYWtFdVhKU09EdzUzcjhQQ2d1MUE0WktzNkFpbE5VbVBkZjJSSEQyMzVKVnBCaHdiUQ?oc=5",
-   "source": "Delfino.cr",
-   "type": "news",
-   "expires": "2026-11-23"
-  },
-  {
-   "country": "Kostarika",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Argentina run riot against Costa Rica in seven-goal romp",
-   "summary": "Zpráva z médií (anglicky, zdroj bdnews24.com). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90RkFfYUZLOUdCRmtpUTdTeXl2bHEzalJnODBSdzVTOFBXZnVOZGUxTHNoSFNYWGp5NVRqWUZjbFhiSi1WZk1CalFTYlptdw?oc=5",
-   "source": "bdnews24.com",
-   "type": "news",
-   "expires": "2026-11-23"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Roadblock due to crash on N. Lakeshore Dr. and Panama City Beach Pkwy.",
-   "summary": "Zpráva z médií (anglicky, zdroj WJHG). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNY01vME1MSjlwV2xUeER6QTJ6M1dodlphTTFHTThzcldVWUx3bkZsbHRqUkxlZmppcWliUUM0ckJPT2dTNTlqc2xmX0dkbXBuVkxtSWd5V2JWMENfSzlGMkxZdFE3c0g2bk52S1pPWlZBb2FqZTI5MXpHUHNINXhXZENHN0M1NExxNmotcllaeU5wS2tH?oc=5",
-   "source": "WJHG",
-   "type": "news",
-   "expires": "2026-11-23"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Las claves del estado de emergencia en Guatemala por culpa del narcotráfico",
-   "summary": "Zpráva z médií (španělsky, zdroj CR Hoy). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNczU1NXB5UDhLWUtrZnlTZk1oZDRSVWNTQVRfOFhrcDJsT3ZCY2Rqckw0NkZjQ2Zqb1VGbi1xQ1FhUF9fbTdQRFNwRDlGUTZ6dHZHNEloOENCbW5lVWJ6eC1oOGJJc0FwZHFtS21sM2c4TXN0M19JUktJcWFscV85YlNwN2lrYko4QlFBQjhWZ1JYcWhEby1INXBiaktoeEhVNUE?oc=5",
-   "source": "CR Hoy",
-   "type": "news",
-   "expires": "2026-11-23"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Reinician protestas populares en Panamá contra la minería metálica",
-   "summary": "Zpráva z médií (španělsky, zdroj Prensa Latina). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPY1dpLTgzaGFjSVpVZ0RRQkRYSTlnRW81aUVVanFwVXJOQjhWRzBWdFc4YWY0WG5vMG1yZjZ3Qi1vTkFQUFNIZ3Bkd3p6VmpqbzRSWWJwbGVFU1A5ZEVIamJCekhoM2Rqd3NZTUx6TW1hYk1fWmpObHctd2xqY20wUHJZRm01TWd2dHNmTWFaVTV4b0xaYlA2NFRZTnQ1Y1dzeW5rWnpmbkVGcUk?oc=5",
-   "source": "Prensa Latina",
-   "type": "news",
-   "expires": "2026-11-23"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Embajada de Estados Unidos alerta sobre bloqueos carreteros por productores de maíz",
-   "summary": "Zpráva z médií (španělsky, zdroj El Sol de México). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQd1JmRW40MzZlMWdORG83Sk56eWU0Nl9xbll5TzhtRzJ2N0xrOERsQk9GaFNpejFDZTU1REY3d0dVRTlsa2RWSHRRZDV0NmVqVzR2WU9rckJRUzdDMWw2bzhLUENlbXIyYm5ydVpyS0JYd0JfbktQOFB3RmxNT0NXZUlOcVFKNDcxZzAxTl9ZaE9tR3VYRkFSMTItWkRuTmJpNUVtdkJPU0RweHdOVWlQR25GbEItVDQ3T2h1Q2g1bTV3b0ZyRk9ZMVJ3?oc=5",
-   "source": "El Sol de México",
-   "type": "news",
-   "expires": "2026-11-23"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "En Punto con Enrique Acevedo, 17 de Noviembre de 2026: Manifestaciones y Bloqueos Afectan Movilidad en la CDMX",
-   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWVdHQ29BOFVEOFNZSkdRR2lldzM1WVM3ZDhxTzFHLUkwS0pMRVBOQUlsX1ZhWFRUVlM2bU01cUc0V1NxQVhPT0lwMVU5WjlHOWtzNlFjczVVTEZjVHByd3E4aWRWY2h2aTlmUXJsT1pXdkI2TnR0T19LM09iZGM2cnFDRFNtVk14S0VLbXFyZWxfTTBVRlNZ?oc=5",
-   "source": "N+",
-   "type": "news",
-   "expires": "2026-11-23"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Protestas contra la mina arrancan antes de sentarse a negociar",
-   "summary": "Zpráva z médií (španělsky, zdroj El Siglo Panamá). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOFZmcVRYSWVqZXVsdmJlckN0bGVBLVphWGlCdWFrYk1ncWVIZEdIOS1iQVpheGZ4TTF5bmFIVTFHUVJqZHhKS0NIbkpmTGdtUkZRQjRRZ01lVVVjU1l2UXJVZzJ3dG0tLTNrQWJhUlNyNkpXbmYzLS1NaGRDUldOMmRkSFNPal95dmF5Wm5yUDltcTdERFFaVzlHQ3pTRnNkRjNBNEVXUGZPdWFnang3OHZrMlnSAboBQVVfeXFMTTZsOC1YNDdiX0Z6VFY3TlBGdV9ueXhDZFdEdm9IRGZJNnMyaWFheFlid1FlNTcxUzBuVklHdGxwVkxOWVVQSzN4Y1YtaTFNS3lxUmM3ZnRjZXlQN09wY1FKczliTXo0UjdMTHRmVVM5Y1R0VDViRTVEOUkwSGJrQzdhNUxqMGQ5MjMzVER0N015eTJTRUVyV1hvUjRWUktNTjZjMm1HNmFYWVRvZzB3aXBrdl9fcnowREhB?oc=5",
-   "source": "El Siglo Panamá",
-   "type": "news",
-   "expires": "2026-11-23"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Cestovní doporučení",
-   "severity": "pozor",
-   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Guatemala)",
-   "summary": "Co se změnilo: New information about a State of Emergency in Zacapa and Izabal ('Warnings and insurance' page). (text ze zdroje v angličtině)",
-   "date": "2026-11-16",
-   "url": "https://www.gov.uk/foreign-travel-advice/guatemala",
-   "source": "GOV.UK (FCDO)",
-   "type": "adv",
-   "expires": "2026-11-23"
   }
  ]
 }
