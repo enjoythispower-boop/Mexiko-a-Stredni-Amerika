@@ -1,6 +1,6 @@
 {
  "cur": "sonc9r2",
- "upd": 1795300593594,
+ "upd": 1795625680249,
  "stops": [
   {
    "id": "s1",
@@ -316,6 +316,27 @@
    "date": "2026-11-18",
    "cap": "",
    "f": "photos/pdyu04zmwmz8sfh.jpg"
+  },
+  {
+   "id": "pah7mwpmwwd5uu9",
+   "sid": "s2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/pah7mwpmwwd5uu9.jpg"
+  },
+  {
+   "id": "ptx9yo8mwwd5y3x",
+   "sid": "s2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/ptx9yo8mwwd5y3x.jpg"
+  },
+  {
+   "id": "po67tmrmwwd5zxb",
+   "sid": "s2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/po67tmrmwwd5zxb.jpg"
   }
  ]
 }
