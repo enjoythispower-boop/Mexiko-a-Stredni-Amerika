@@ -1,6 +1,6 @@
 {
  "cur": "sonc9r2",
- "upd": 1795625680249,
+ "upd": 1795625790237,
  "stops": [
   {
    "id": "s1",
@@ -337,6 +337,69 @@
    "date": "2026-11-25",
    "cap": "",
    "f": "photos/po67tmrmwwd5zxb.jpg"
+  },
+  {
+   "id": "pradz69mwwd7try",
+   "sid": "sonc9r2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/pradz69mwwd7try.jpg"
+  },
+  {
+   "id": "p18ins7mwwd7w73",
+   "sid": "sonc9r2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/p18ins7mwwd7w73.jpg"
+  },
+  {
+   "id": "pclse1mmwwd7yc5",
+   "sid": "sonc9r2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/pclse1mmwwd7yc5.jpg"
+  },
+  {
+   "id": "pu4lrxhmwwd80g8",
+   "sid": "sonc9r2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/pu4lrxhmwwd80g8.jpg"
+  },
+  {
+   "id": "pvo7lr2mwwd829y",
+   "sid": "sonc9r2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/pvo7lr2mwwd829y.jpg"
+  },
+  {
+   "id": "pe4i3xfmwwd846w",
+   "sid": "sonc9r2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/pe4i3xfmwwd846w.jpg"
+  },
+  {
+   "id": "pviv2o4mwwd86ah",
+   "sid": "sonc9r2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/pviv2o4mwwd86ah.jpg"
+  },
+  {
+   "id": "p21q0zlmwwd87y6",
+   "sid": "sonc9r2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/p21q0zlmwwd87y6.jpg"
+  },
+  {
+   "id": "p97e163mwwd89hz",
+   "sid": "sonc9r2",
+   "date": "2026-11-25",
+   "cap": "",
+   "f": "photos/p97e163mwwd89hz.jpg"
   }
  ]
 }
