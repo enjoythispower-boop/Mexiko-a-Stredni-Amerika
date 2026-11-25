@@ -1,6 +1,66 @@
 {
- "updated": "2026-11-24T15:38:29+00:00",
+ "updated": "2026-11-25T15:23:01+00:00",
  "items": [
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Marchas y bloqueos en CDMX HOY 25 de noviembre: ¿Qué calles estarán afectadas y dónde habrá movilizaciones?",
+   "summary": "Zpráva z médií (španělsky, zdroj EL GRÁFICO). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQS1libzE5Y0NRQUpmS2FSTDU4Tk5qTjNfUWp4djdvczNSZkRDM25qblFBZ0EzTmJ3LV9vQzVYMkxfTHZIMFYwdFd3WUQ2OUtTVG8tcmpOZ0xCTDktdnQ3eUNUSGNpUVpadmwyLU93S3Y5eG9kMERfU3M0MVNVcE1Oa0d0dzlrbW1OYUd5eUhvcDZza0hIc1c2bl9Cd3l3bVRtdk4yTXdWYzRFTXVWdEtlWFpPWmFlUE1XWGJjZS1wM2FWSldYU0YtN0JaMjNkYXRmamw1ckxpSDFSWE44SGRHSDlR0gH2AUFVX3lxTE9paFBQT0ZTSmRscWVaRDhzNXBWOU5DVmxyOXJkT2lIY1l3MklTdVFVV09HMWJKc1UzeVQzR1BnT2dndHdhWkVhMlVqcUZsdEtpWWZRQUg5eXUtT3pBaXIybWo1Q2tabGs2aEE2UVVGb1JNU2l1MldNd1Nad0pPN2tXUXFNNFJKa1FTYWloVGxxcndBY2pSSGtjWFk5YXBtZFlqQlZpV3Z3UUQ3cTNoeVB4eWEtclhyVUdqT0lEMkdyMEVYNHNxVlk4M3BFbFdaclpmMTdrZkFlZmhsRk1XNTdtWlNtUDhZOVBETjhubE01VGZBT1o5dw?oc=5",
+   "source": "EL GRÁFICO",
+   "type": "news",
+   "expires": "2026-11-30"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Bloqueos, robos y extorsiones: principales riesgos para empresas en México",
+   "summary": "Zpráva z médií (španělsky, zdroj Enfoque Noticias). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVVZGdTBoRjdVNklqNVRvM3dUZTBwZDFTUUNNRUJQdTU0cW4wUGZwaUVjRFZnNDR3NHpzZlhTZVJvRjdXd3AyQVRXYlk0RzhOUEpkM0VwZDNvN0x3QTNDc1BEaFc1dW9Sc0psRTg3MThlTnFJak1BTWZuYjNDRk52TG41Sk5NeFVlVjVSUWs2dEs0SmsycWZiWXRjRQ?oc=5",
+   "source": "Enfoque Noticias",
+   "type": "news",
+   "expires": "2026-11-30"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Marcha del 25N en CdMx, protestas y bloqueos de hoy miércoles: horario, rutas, calles",
+   "summary": "Zpráva z médií (španělsky, zdroj SinEmbargo MX). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR3plR01NSGNpNkZNYmdGc2NEREJyOHdVMWtvd3hObW1oc1hSTF9OSk4wcFJzQVdNejhZbTlfVWVmZmJmbXRFSVB3OWppY3gxLTFhMlk4N0JZRjYwaFhDY29WaWFVcWRfeC1mM2lpdWRrX09kNS1vQjlwWUYxMmY0M1Yzc05NQXZteEM5d25fOVptVnZvbkxtcVBZMUZZcDZuUVpuSEVtcWE3YmJMelhjWWg0ZTNNUTQ?oc=5",
+   "source": "SinEmbargo MX",
+   "type": "news",
+   "expires": "2026-11-30"
+  },
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Homenaje póstumo de agente de la PNC tras las disturbios en San Pedro Soloma, Huehuetenango, Guatemala",
+   "summary": "Zpráva z médií (španělsky, zdroj Infobae). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZW1aeHlIb00wYUJGS0FNcEh0Wm5ZWHVYejRwT0lSbV9xcF9la0Q0SE13WkFWdGxieklQbXJxd3owNVFYMjcyMGE3R1lXcGhEOXNQSEgydTdROUg5NzZHZ2RSNkdHV3dxSVQ0VnNZamlHSG1GM3RpZUpwNkxDWTBtNlVlMWZVREh6dlpkMWpvbU9pYXJQMkU5MU4xM2daN2Z3b3RPRG5SbTBQZkhWRU1oUi12SUhwUjlVNk1samtPMndYdlpHOEpsWEVrM1czbDg5aHhhUjc1Z1Q5YVJza19vZFM2NG4?oc=5",
+   "source": "Infobae",
+   "type": "news",
+   "expires": "2026-11-30"
+  },
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Irán endurece bloqueo en Ormuz",
+   "summary": "Zpráva z médií (španělsky, zdroj Diario de Centro América). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNelVZZkc3XzYxU2w4WWtYUjZKc2lwS183UTBrSG44ajdiZGNubGVMa2dFWlM0czlaU2JHLWFfTEduUUdfbFZuZzB6ckRKMVQtcllEU0RMMzlYRW1QQjZ5RmhpZ0ZOWVNGbzluLXUtdkp5STN3bF93d0RnSUJiaVNsb0M4N2FPSFh1YUxQRFJSSXBzSzlMNEE?oc=5",
+   "source": "Diario de Centro América",
+   "type": "news",
+   "expires": "2026-11-30"
+  },
   {
    "country": "Mexiko",
    "category": "Přírodní katastrofa",
@@ -30,26 +90,14 @@
    "lon": -80.62
   },
   {
-   "country": "Mexiko",
+   "country": "Guatemala",
    "category": "Protesty a stávky",
    "severity": "pozor",
-   "title": "¿Dónde Hay Bloqueo en CDMX Hoy 24 de Noviembre 2026? Alternativas Viales a Zonas Afectadas",
-   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
+   "title": "Irán desafía el bloqueo de Trump en Ormuz y advierte que utilizará \"todos los medios\" para enfrentarlo",
+   "summary": "Zpráva z médií (španělsky, zdroj La Hora). Otevři zdroj pro podrobnosti.",
    "date": "2026-11-24",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWkRnV2l3eTVrSmZXRDZCbVdLNFZTT3QwT2p4OHR6bUJDaS1uZWYtWkc3Y3RESU9LMXVpSlRTLUhNRkpQQ1BfV2NBTXNMR3NwanlxN0JRSG5lOHZJczc4SlZ4bUs4bzhjTGZwTkxMVUtudjBaZ1hQRWZUMExYV1piUFJUejlrYWpnRUxGVUJ4WDZUc0NtMHgyZHBNYnRiUm8ybTl6NWRfOVVMd3ljWHZIeVBDSjFFUVJoVlRZelhR?oc=5",
-   "source": "N+",
-   "type": "news",
-   "expires": "2026-11-29"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Intervienen cuerpos policíacos para liberar bloqueo en la México-Laredo",
-   "summary": "Zpráva z médií (španělsky, zdroj Quadratin Hidalgo). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-24",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbi10aE9tSHhHVEx2elBlZnNtVGhrODJJNU0zMGs0ZmxrRnBKNUVMeUdvWlNEVVVoOVdDS0lDY3dSUXBONEpWYVZrbzc5XzItUExBV2NicWU2MXlqblhzZXpCbnF1NWQ0VGNVSlV3Wk9ENnZsUFFvM3NpV1dNd2lhdVp5Znc3RWpCWDZoSGVOT2NZWnkycW00R1JkaUJ5RUJzWnF6UEdDVGdYSTZoSW9oLUo0TFo?oc=5",
-   "source": "Quadratin Hidalgo",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOd0Y4bFRMT2hiM2lNVnQwVDd2dkxaMWNNM0FDT3E0bDdzX3FrZ01zNXJCWkd4LUE1SThVOHktN3pTRHFCTzlWRTk4aTRkVUZqYVNpUlBfRDEwc3U5M190R21pSHpteU5BVDhYRS16YzJtVDRWS3pvOTZGSE9kMmZIaEFjaVRJTEh5SklqdHRDQXprMUVENkhweG1rbkc1VGJhbDA1VWZIelZnUm00YTRKMGhxTnRhWThDZjBQa05KVnhJREI1eElBU0wzWkVYNU1vVEttMGpxOTdTcTJpQVdaQld3ZVZ6RWFvZnZ5dlVISQ?oc=5",
+   "source": "La Hora",
    "type": "news",
    "expires": "2026-11-29"
   },
@@ -60,8 +108,20 @@
    "title": "Irán ordena endurecer el bloqueo del estrecho de Ormuz",
    "summary": "Zpráva z médií (španělsky, zdroj Diario El Mundo). Otevři zdroj pro podrobnosti.",
    "date": "2026-11-24",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaW9sbWNKaTdhdnF5cldBQ3dweHo0eV9rR1g5aVJGdDRsd2MzQWFIY2xIUWw3UVBrbksxNGFqUG1ZMzBuRFJkaXhKQWh1NFd3NUNDYU42Z0Y5eXNVR3pWZTBZRGgxX1FhNDBGN0tCYW55ZDhfdkdDMzM5RlZtWDhSc3BiVlpHazFQbXBzdVp1aC1iV1nSAZ4BQVVfeXFMTjBrUWRnMVJ1V25EN2IybEI1Tnk0bEJLRmZ4b1pqRU02eHZsTFktTVgzVHhwWld1ZkY0aHNScVVHYnpfbDlTa3p2ejhLc2NZTnNrWVZYNDM2ckJpTTNEdkRqcDVva3diYXE3NjA3QVY0ekl4NHlscEN4eXZUX2RNLXJ5Z3FqczlVeHdINVJJTVlYaTBIN3d4a3lqdzZ2MUE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMGtRZGcxUnVXbkQ3YjJsQjVOeTRsQktGZnhvWmpFTTZ4dmxMWS1NWDNUeHBaV3VmRjRoc1JxVUdiel9sOVNrenZ6OEtzY1lOc2tZVlg0MzZyQmlNM0R2RGpwNW9rd2JhcTc2MDdBVjR6SXg0eWxwQ3h5dlRfZE0tcnlncWpzOVV4d0g1UklNWVhpMEg3d3hreWp3NnYxQdIBngFBVV95cUxOMGtRZGcxUnVXbkQ3YjJsQjVOeTRsQktGZnhvWmpFTTZ4dmxMWS1NWDNUeHBaV3VmRjRoc1JxVUdiel9sOVNrenZ6OEtzY1lOc2tZVlg0MzZyQmlNM0R2RGpwNW9rd2JhcTc2MDdBVjR6SXg0eWxwQ3h5dlRfZE0tcnlncWpzOVV4d0g1UklNWVhpMEg3d3hreWp3NnYxQQ?oc=5",
    "source": "Diario El Mundo",
+   "type": "news",
+   "expires": "2026-11-29"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Costa Rica: la Justicia declaró ilegal la huelga docente y habilitó descuentos salariales",
+   "summary": "Zpráva z médií (španělsky, zdroj Latam Gremial). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOXzFscG8xRUNLOWZXNUZlaDB4RTVkNmF0MHRjaHZJMUdtMkZiNjNoS2RyQTZKSjBIQmd3dy1Nd25GTkNRYTNmaFpaRUFWSUhYYnZhcUlsazJaeTNPYkpKdkx5Snl6dVQ4TWJjLWgxRFVSdWZkZ21JeVNEVzhQLWhIN1AzYmtYV2RhN0ZUZUl0WHlSX2FXWWh6cVBzdVVLQkI2aHlETkVCRmlFZnByUUczQVkyZUs?oc=5",
+   "source": "Latam Gremial",
    "type": "news",
    "expires": "2026-11-29"
   },
@@ -93,13 +153,25 @@
    "country": "Mexiko",
    "category": "Protesty a stávky",
    "severity": "pozor",
-   "title": "México: Captura de ‘El Chapo Isidro’ deja 21 muertos y bloqueos carreteros en el estado de Sinaloa",
-   "summary": "Zpráva z médií (španělsky, zdroj Univision). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-23",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdERXaXJMTXpLUlpCYVFnRkhrb2NGeVhHUDhpWWpFZW9pa29LYWE1OVNEdUZtTkFMeHdRNWdjRGFFMW5NQ20wbUpucXpOaEMyNnA1LW1WYUNZNUlrcWhqVGRYRjhYc2hCMW1hXzJRZGVEV044ZENfUk5mN3F1YzVZd3ZWVm5SUHNoNWZqZGg4c0h4cG9XampkblFhQVM4c0FabkZNWVJHR1cweEV5QktPYnVqTzBYQy1UVnc4RVhfZTJ0STJTU1NIQlhGOHhqUGFrMy1WUk1BZjFhM29fMzNGSUZQN1QzNGQ1?oc=5",
-   "source": "Univision",
+   "title": "¿Dónde Hay Bloqueo en CDMX Hoy 24 de Noviembre 2026? Alternativas Viales a Zonas Afectadas",
+   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWkRnV2l3eTVrSmZXRDZCbVdLNFZTT3QwT2p4OHR6bUJDaS1uZWYtWkc3Y3RESU9LMXVpSlRTLUhNRkpQQ1BfV2NBTXNMR3NwanlxN0JRSG5lOHZJczc4SlZ4bUs4bzhjTGZwTkxMVUtudjBaZ1hQRWZUMExYV1piUFJUejlrYWpnRUxGVUJ4WDZUc0NtMHgyZHBNYnRiUm8ybTl6NWRfOVVMd3ljWHZIeVBDSjFFUVJoVlRZelhR?oc=5",
+   "source": "N+",
    "type": "news",
-   "expires": "2026-11-28"
+   "expires": "2026-11-29"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Intervienen cuerpos policíacos para liberar bloqueo en la México-Laredo",
+   "summary": "Zpráva z médií (španělsky, zdroj Quadratin Hidalgo). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbi10aE9tSHhHVEx2elBlZnNtVGhrODJJNU0zMGs0ZmxrRnBKNUVMeUdvWlNEVVVoOVdDS0lDY3dSUXBONEpWYVZrbzc5XzItUExBV2NicWU2MXlqblhzZXpCbnF1NWQ0VGNVSlV3Wk9ENnZsUFFvM3NpV1dNd2lhdVp5Znc3RWpCWDZoSGVOT2NZWnkycW00R1JkaUJ5RUJzWnF6UEdDVGdYSTZoSW9oLUo0TFo?oc=5",
+   "source": "Quadratin Hidalgo",
+   "type": "news",
+   "expires": "2026-11-29"
   },
   {
    "country": "Kostarika",
@@ -110,18 +182,6 @@
    "date": "2026-11-23",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOY3pQS2dwdnR3ZXBTZHRialZHaTZNTzEwVWpHVllUdGxvRDFpRWFzVlpJazNsYjVPUENZY1NXeXB6VFg4Q0t5a1FfaHRtRy02MlRQZGpVZlBISkllNjN4WjhoSkhSVURJd2FLQzVZZjNEMHMwSDZ1cUF2VG0zMVNmTm40b20xQWZLXzFoOHhUR2hKNlNlMVVxR2laTHI1Q1JUY3FjbnRZNnVxRjNNbTBPbkhmR082UV9Gc255MWR2QlMyQUJsbXRjNzhxQnRsSkZwQzlvStIB7wFBVV95cUxNTHVuOGRRU3U5ZG9NREFvc2NLY3FXam80eWFVVlg4Rjd0VnBnNEZMNFBTQWRrNWVzYWZ6TE1kUmdFWTFMUDcwZ1VqcGFrN2tGcGt0Z0h5aEExZW9LVG9rX2RJaDNzTnBRaFB6c3Y2X2Y2c1lLYVZTQ29hdDVXWldsNG5VTER3YUdHbXZGTGViVjI3alRGMTN5ejlRWGNHZUktUU5XQjNocGFseFA5SHJTNWdHX1RVZkloZGplZFFPQlhST1ZxLUZDSmJkUlJrZURfYURITTZRRlpHdG03TmRrZlJFUmxOSDBYTDNQYnZGdw?oc=5",
    "source": "Infobae",
-   "type": "news",
-   "expires": "2026-11-28"
-  },
-  {
-   "country": "Kostarika",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Juzgado declara ilegal huelga de sindicatos de educación del 11 de noviembre y determina rebajo salarial",
-   "summary": "Zpráva z médií (španělsky, zdroj El Observador CR). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-23",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcXRkOVJxMnJCamdTTGFuWnJmN3dTNGxnT3VDVGtKVGlpekNCQjdGOGZRcm96UlIzcklOWTIwWHVzVG1HanpKd1Z3X24tWjZqbGxaTUlkYmVHWlRsSk1QS3lKS3RhdXNIRUQwdjVfUHZwUDNKZzN3d2gtTXVITGVicHV3OEYyU3loVE45dl9FT1ZzdVFUTGRxZEtJYUpBY3hGSkRZLThCa0hxS2NBdkcxRE5tUGMyYTFfV3NUc2dBMmhyVzRpM0E?oc=5",
-   "source": "El Observador CR",
    "type": "news",
    "expires": "2026-11-28"
   },
@@ -148,6 +208,30 @@
    "source": "GOV.UK (FCDO)",
    "type": "adv",
    "expires": "2026-11-30"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "México: Captura de ‘El Chapo Isidro’ deja 21 muertos y bloqueos carreteros en el estado de Sinaloa",
+   "summary": "Zpráva z médií (španělsky, zdroj Univision). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdERXaXJMTXpLUlpCYVFnRkhrb2NGeVhHUDhpWWpFZW9pa29LYWE1OVNEdUZtTkFMeHdRNWdjRGFFMW5NQ20wbUpucXpOaEMyNnA1LW1WYUNZNUlrcWhqVGRYRjhYc2hCMW1hXzJRZGVEV044ZENfUk5mN3F1YzVZd3ZWVm5SUHNoNWZqZGg4c0h4cG9XampkblFhQVM4c0FabkZNWVJHR1cweEV5QktPYnVqTzBYQy1UVnc4RVhfZTJ0STJTU1NIQlhGOHhqUGFrMy1WUk1BZjFhM29fMzNGSUZQN1QzNGQ1?oc=5",
+   "source": "Univision",
+   "type": "news",
+   "expires": "2026-11-28"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Juzgado declara ilegal huelga de sindicatos de educación del 11 de noviembre y determina rebajo salarial",
+   "summary": "Zpráva z médií (španělsky, zdroj El Observador CR). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcXRkOVJxMnJCamdTTGFuWnJmN3dTNGxnT3VDVGtKVGlpekNCQjdGOGZRcm96UlIzcklOWTIwWHVzVG1HanpKd1Z3X24tWjZqbGxaTUlkYmVHWlRsSk1QS3lKS3RhdXNIRUQwdjVfUHZwUDNKZzN3d2gtTXVITGVicHV3OEYyU3loVE45dl9FT1ZzdVFUTGRxZEtJYUpBY3hGSkRZLThCa0hxS2NBdkcxRE5tUGMyYTFfV3NUc2dBMmhyVzRpM0E?oc=5",
+   "source": "El Observador CR",
+   "type": "news",
+   "expires": "2026-11-28"
   },
   {
    "country": "Kostarika",
@@ -184,34 +268,6 @@
    "source": "El Sol de México",
    "type": "news",
    "expires": "2026-11-27"
-  },
-  {
-   "country": "Panama",
-   "category": "Přírodní katastrofa",
-   "severity": "info",
-   "title": "Zemětřesení M4.5 – 0 km SSW of La Colorada, Panama",
-   "summary": "Zemětřesení o síle M4.5, hloubka asi 10 km (0 km SSW of La Colorada, Panama). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 1610 km.",
-   "date": "2026-11-21",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucn2",
-   "source": "USGS",
-   "type": "eq",
-   "expires": "2026-11-24",
-   "lat": 8.01,
-   "lon": -80.99
-  },
-  {
-   "country": "Peru",
-   "category": "Přírodní katastrofa",
-   "severity": "nebezpeci",
-   "title": "Zemětřesení M6.7 – 7 km ENE of Carhuamayo, Peru",
-   "summary": "Zemětřesení o síle M6.7, hloubka asi 125 km (7 km ENE of Carhuamayo, Peru). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 3760 km. Bylo vydáno varování před tsunami.",
-   "date": "2026-11-21",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucfm",
-   "source": "USGS",
-   "type": "eq",
-   "expires": "2026-11-24",
-   "lat": -10.89,
-   "lon": -75.97
   },
   {
    "country": "Mexiko",
@@ -344,114 +400,6 @@
    "source": "El Sol de México",
    "type": "news",
    "expires": "2026-11-25"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Panamá amenaza con bloqueo en la COP31 si no se satisfacen sus demandas",
-   "summary": "Zpráva z médií (španělsky, zdroj La Nación Costa Rica). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcWRXNkZEV0VKMDZhWnc4bzJOb19USWdaWlROM1lJTktHLXMtdXFjeGdLa0tTb0FxQU5IdElnYXlFalhBWXVUT1ZMVWVkbG5KaWVVeUQ4cVZCZkZnOXdLb1Q4bzVObUNQNTh1U2M3cUhKaF8ycy1JTTZWUVlKYnpJNDNXLWdKekZ5clowUTlkQlZuVEEyVzI1TlY4c0F0MTAwRDdWMDBJREdtVDFicFZQaVRsWQ?oc=5",
-   "source": "La Nación Costa Rica",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "\"El Tigre\" de la Espriella enfrenta su primer paro nacional",
-   "summary": "Zpráva z médií (španělsky, zdroj CRÍTICA). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOHBTc1ZBcXlhM2NGM0Y5aXBKc1dCbGEtMTd0RGZ5UlpLVGxnV3BfWEk4SjJRbzJrbHVIRnhZc1NyT3M1Z1RvQVhIVXFQRmk3QmlpZUdQcVZZLTI4T0tsLUtBRVFMUTlfLWpwSmZyNnotcXdvczZKUzBqNW9aU0lPNHZka2RGRWp3UjVwNjB6TFBHTDhTWk5wcE1paWxROENDMzdj0gGjAUFVX3lxTFA4cFNzVkFxeWEzY0YzRjlpcEpzV0JsYS0xN3REZnlSWktUbGdXcF9YSThKMlFvMmtsdUhGeFlzU3JPczVnVG9BWEhVcVBGaTdCaWllR1BxVlktMjhPS2wtS0FFUUxROV8tanBKZnI2ei1xd29zNkpTMGo1b1pTSU80dmRrZEZFandSNXA2MHpMUEdMOFNaTnBwTWlpbFE4Q0MzN2M?oc=5",
-   "source": "CRÍTICA",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "En China, Sheinbaum promete “certidumbre” a los inversionistas mientras las protestas paralizan gran parte de México",
-   "summary": "Zpráva z médií (španělsky, zdroj World Socialist Web Site). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmS2RybTVKbGJScldLbGJ1cFdqaE1JaWFWbnl6Wms3WFJra1B6ZURXQ0NWZ1B5bFQtcURhdlFOeE1RTXpwcEstbjMydWNHQUkyU1RyM08wU2VTbVZKSWwxVVJROUxJQkNG?oc=5",
-   "source": "World Socialist Web Site",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "El Salvador Strikes Haitian Gang Leader Mansion",
-   "summary": "Zpráva z médií (anglicky, zdroj bsinews.id). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sWlFnTGtDOTRZSmtydlVtT09iaGJqZTFKdVg3UEJZcHFvUFNYZDZLZVdVci1SRS1MMXlsdXl5em9VbUdnNjZ4RWZSalltd1g0YWR5QktSNEpVNTRBYWlYUg?oc=5",
-   "source": "bsinews.id",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "El Salvador Strikes Haitian Gang Leader Jeff Larose Mansion",
-   "summary": "Zpráva z médií (anglicky, zdroj Limapagi). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DdjhGaHcwdFgzaDAybk1mWkVlUURSNVRTcktRUDZnZEUySFVabG9MQ2pjaTNVY1p3UnR0N1pzUDN3UnoxR2UzSW53RkhBTlJuMExHVlFHZW1aakpNVVR5VGNMam1jQlE?oc=5",
-   "source": "Limapagi",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "El Salvador Escalates Haiti Intervention with Aerial Strike on Gang Leader’s Stronghold",
-   "summary": "Zpráva z médií (anglicky, zdroj azat.tv). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xR0pRQktOZVlYdmM2eERtb3NtSl8zVlp2bEozdkwwbE9uYkdwalp0Vmp6MzgzamtTMlBCRE4zdXdJc1o3ZnBKOElDX2Z1dzRDUll0d1l4Uk1HM3U1UWtVTmx2LVJOSDFicUxhUU56bExMMndKS3dCcFpDUQ?oc=5",
-   "source": "azat.tv",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Bloqueo en Reforma Hoy: Alternativas Viales por Protesta contra Plan de Desarrollo Urbano",
-   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQajkzRW9TSW1kOFYwLU8zQ21VNlMxWlRQeEtUY3FVRF9CRXUyRk9sWi1Qa1lwemg2R0ZpVWZ3ZjBjUVhHMU9sYm9XOHBvVTFIaUI3WkdzUWl0NllXZTFMVUVqTHFWMjJrSmFrREZST2c1NElfazlPdHRNeU1uX0pvVnNsWTZaUFg3VTk4Q2RrTWliaXowNy0xRDlrcDhiTHFTaU10TmdvTV9DenFsYmRqTDJ3bF9Deko4ejMxUlR1LVljazVXNFMyMGJhN2ZYN0d4UUtjeGdMSXNCZWVXeDJISA?oc=5",
-   "source": "N+",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "EN VIVO Bloqueos carreteras hoy 19 de noviembre de 2026: ¿Qué pasa en las autopistas de México?",
-   "summary": "Zpráva z médií (španělsky, zdroj TV Azteca). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOWVCUmo3d3ZUNHhtQlZyWjN4dkJZQWxJRU9lWDZxVlZuSHp3Z05mMm5tQmVxUHBqWE9Da3o4TXRFZUNpMmFJM3NXZ1liZHhhWWFraGdzMnVRVEVjaThNVGk3YzVoeFBqU251aWRramt6cHRnQXFoTk53aERhS3dUUHZKd2FaaFgzQUFOa2tQS3BIX2taTFZDS2pIN20tWTlnUFMyVklWQ1p5dm91d0g5LUpuUmZLcDdGb3ZXSndDZm5MaXo3ZE1ibVhyZ3lTbktSQ3pqZndaUG0?oc=5",
-   "source": "TV Azteca",
-   "type": "news",
-   "expires": "2026-11-24"
-  },
-  {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Haitian Protesters Demand El Salvadoran Troops Stay",
-   "summary": "Zpráva z médií (anglicky, zdroj 조선일보). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaGF3Z1RHWF9rTFdKaU1QQnJzNmdkSXdILWNhSnU0LVI2dUJsV2ZPeE5wdXU3VGc4QlpxOXdRU3FSb2ZsXzlLNFdacVhVdVNZZlRhMGNZc2pYbDFNNWhGcEFEcVh1TktaMDc3VHNLVTJDVmkwNlZmNVI5akdha0ZGSy13Ykw?oc=5",
-   "source": "조선일보",
-   "type": "news",
-   "expires": "2026-11-24"
   }
  ]
 }
