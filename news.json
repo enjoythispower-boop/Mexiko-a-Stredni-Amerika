@@ -1,6 +1,116 @@
 {
- "updated": "2026-11-25T15:23:01+00:00",
+ "updated": "2026-11-26T14:51:29+00:00",
  "items": [
+  {
+   "country": "Mexiko",
+   "category": "Přírodní katastrofa",
+   "severity": "info",
+   "title": "Zemětřesení M4.6 – 97 km SW of Puerto Madero, Mexico",
+   "summary": "Zemětřesení o síle M4.6, hloubka asi 10 km (97 km SW of Puerto Madero, Mexico). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 890 km.",
+   "date": "2026-11-26",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udki",
+   "source": "USGS",
+   "type": "eq",
+   "expires": "2026-11-29",
+   "lat": 14.16,
+   "lon": -93.13
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Revisa Dónde Hay Bloqueo en CDMX Hoy: Cierres Afectan Insurgentes, Reforma, Eje Central y Más",
+   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQXzV1eW9mbkRtRUxxWjFPYmRINW45N3h6UlZSQ1NPSXVoSjlMcmJUWWJESmxOZ25rTjFwUDdBSDRTaUozeHBnWG5IbTBieHJ6b0dScnBTQ2Y4Q2l4U1NFWVNtY2sydmlod05aSmpjYkRTSTBFV1dmRUY3cjhDLTBvZGdpWms5WGdsTDhLNmpJaVkxbEdyVWlGQzBESlE5ZWlHZjVDbFA0YjRrT1ZUOFJYTV9qOE5xQXdnc1dQdmJEZnhVdzVKWmhkSDhpdTNIWEhWaHd3?oc=5",
+   "source": "N+",
+   "type": "news",
+   "expires": "2026-12-01"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Lista de Carreteras con Bloqueos Hoy 26 de Noviembre 2026: Reporte de Tráfico",
+   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRVI0cUpaODJMa2thd21HWG45QTh4SUVGVTR1RE45TVFHMVFJblA3Ym5CQm9sUkxTaERCOFpZYUFCWDktRUhlenJKeE9keW01SU5KSmRYVDk4SkpGQndLRGY1WTNkNnkyY0FicEpOcWNEWmhsbFhfZ0pfdHJ4TEEyQm05c0FCclpPTjlydDJhRlZwVGgzaDZYNk9MOVV4S0pxZGRuNmJsUjRKVENzNHBJSjZJY3cwS29pU1RKVzdR?oc=5",
+   "source": "N+",
+   "type": "news",
+   "expires": "2026-12-01"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "2 Marchas, 8 Concentraciones, 6 Rodadas y 12 Eventos Afectarán la Movilidad en la CDMX",
+   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPbE94OGYwbkF3a1dzWGhhNmpzdGtGS1VxYldOY3J4WkZ4XzN4d0VEQzk0V2RMcnhXT25BTjZnNFVyT1h0a2s1WU1FM2tXdXNTdDV3amlqQnRRMVNTSFM5d2t4bk03MzdKYlgzS0JPSHRfSmFUWHVmUDBxS19GbVlQbkFoU1FDTE1NNzJQUHBNazBmYVRiM2c2TWtXOGhBOFZ4Z2VWLVYxbGI0VVhITXFxX0pabHJHZ19RdGpqdVd1ZnZ1Q1oxQ1BTVHJxbGppaE8tNXh3c1htZE1YbWx0RlNmTmNlQjRuLS15ZkE?oc=5",
+   "source": "N+",
+   "type": "news",
+   "expires": "2026-12-01"
+  },
+  {
+   "country": "Peru",
+   "category": "Cestovní doporučení",
+   "severity": "info",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Peru)",
+   "summary": "Co se změnilo: Removal of information about Pope Leo XIV’s visit to Peru. (text ze zdroje v angličtině)",
+   "date": "2026-11-26",
+   "url": "https://www.gov.uk/foreign-travel-advice/peru",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-12-03"
+  },
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Nueva Jersey declara estado de emergencia por lluvia en vísperas de Acción de Gracias",
+   "summary": "Zpráva z médií (španělsky, zdroj Diario de Centro América). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNektIblJoa0FsNGVzRVBnc1NjZ19OaVB0cG5ldENyQU5xdms0N0taSXR3OFNaYl9sSkJkcVdna2lnOXA3dXpmU2VMWGM5VHl1RWdzbFAtbkU4NGJvQWtjZE1GTFJVMXk0dXBNTFZ1eHFGTmZGbk50eS1VaFBBeEl0eDd1ME1DVWw2TDNIR0oxa2JodnRGTFgyR0lPRWZmYzFkM3RvSDRsS2cxWkUxTDJYVlQ5c0NYZHBRSWpPYm84Vlc2amNhc1RUZmpwaC02eFlYcV9pZlBsWXNYLTNhZkE0?oc=5",
+   "source": "Diario de Centro América",
+   "type": "news",
+   "expires": "2026-11-30"
+  },
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Homenaje póstumo de agente de la PNC tras las disturbios en San Pedro Soloma, Huehuetenango, Guatemala",
+   "summary": "Zpráva z médií (španělsky, zdroj Infobae). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZW1aeHlIb00wYUJGS0FNcEh0Wm5ZWHVYejRwT0lSbV9xcF9la0Q0SE13WkFWdGxieklQbXJxd3owNVFYMjcyMGE3R1lXcGhEOXNQSEgydTdROUg5NzZHZ2RSNkdHV3dxSVQ0VnNZamlHSG1GM3RpZUpwNkxDWTBtNlVlMWZVREh6dlpkMWpvbU9pYXJQMkU5MU4xM2daN2Z3b3RPRG5SbTBQZkhWRU1oUi12SUhwUjlVNk1samtPMndYdlpHOEpsWEVrM1czbDg5aHhhUjc1Z1Q5YVJza19vZFM2NG4?oc=5",
+   "source": "Infobae",
+   "type": "news",
+   "expires": "2026-11-30"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Unión Médica Nacional llama a huelga general ante amenazas de privatización de la CCSS",
+   "summary": "Zpráva z médií (španělsky, zdroj El Mundo CR). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYVJlYjJoYkw3aUpXZmNTTHUyazJVdk1ZQ2N5dDY3R2NGRDgzdHhSUlBUdmVra2RIYXdHZXR6cDhRSEdPR3RxYUh3UXpTZ1kzTDNoNnVydG04Wm9PQjh4NzJWbkhnNWc0UjNiXzFENkVKWG5JdnBtR242Y1hRNXlhbmpRU0RHbDd0NzViNHM3c20wVVFnQTRodF9sdURjZ1RnNEhkRm1sZmJoTEY5UkhyeE5pbzcwcWx2?oc=5",
+   "source": "El Mundo CR",
+   "type": "news",
+   "expires": "2026-11-30"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Sindicatos advierten sobre posible privatización de la CCSS y llaman a preparar huelga para inicios de 2027",
+   "summary": "Zpráva z médií (španělsky, zdroj El Observador CR). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMGt2NXI3ZTFHQTQ1Q3ZVeXhVcWh2YzdtTEhZMS1tMDdVaVVLNDRlTTVCcFJodFBpdnotbm80VlJrUjZsVzlaV3ZTQjE2SnFYMUlicmlrVkVxYVltVTNKUFNWVV92d0lxUzB1ekh4VjEybmhVYTlhSFVnd2NMbnpOV2taNmM0b3A3TGRmU0w1MFhLSWlWZ0VJeWUzWUNsZ3MtUk9KaVZvWkZjejJWcHd0R19JODZCYU5KeHd1OVNsV2l2Ml90OGVPaUJB?oc=5",
+   "source": "El Observador CR",
+   "type": "news",
+   "expires": "2026-11-30"
+  },
   {
    "country": "Mexiko",
    "category": "Protesty a stávky",
@@ -34,18 +144,6 @@
    "date": "2026-11-25",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQR3plR01NSGNpNkZNYmdGc2NEREJyOHdVMWtvd3hObW1oc1hSTF9OSk4wcFJzQVdNejhZbTlfVWVmZmJmbXRFSVB3OWppY3gxLTFhMlk4N0JZRjYwaFhDY29WaWFVcWRfeC1mM2lpdWRrX09kNS1vQjlwWUYxMmY0M1Yzc05NQXZteEM5d25fOVptVnZvbkxtcVBZMUZZcDZuUVpuSEVtcWE3YmJMelhjWWg0ZTNNUTQ?oc=5",
    "source": "SinEmbargo MX",
-   "type": "news",
-   "expires": "2026-11-30"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Homenaje póstumo de agente de la PNC tras las disturbios en San Pedro Soloma, Huehuetenango, Guatemala",
-   "summary": "Zpráva z médií (španělsky, zdroj Infobae). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-25",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZW1aeHlIb00wYUJGS0FNcEh0Wm5ZWHVYejRwT0lSbV9xcF9la0Q0SE13WkFWdGxieklQbXJxd3owNVFYMjcyMGE3R1lXcGhEOXNQSEgydTdROUg5NzZHZ2RSNkdHV3dxSVQ0VnNZamlHSG1GM3RpZUpwNkxDWTBtNlVlMWZVREh6dlpkMWpvbU9pYXJQMkU5MU4xM2daN2Z3b3RPRG5SbTBQZkhWRU1oUi12SUhwUjlVNk1samtPMndYdlpHOEpsWEVrM1czbDg5aHhhUjc1Z1Q5YVJza19vZFM2NG4?oc=5",
-   "source": "Infobae",
    "type": "news",
    "expires": "2026-11-30"
   },
@@ -102,6 +200,30 @@
    "expires": "2026-11-29"
   },
   {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "La otra cara de la fábrica de ropa del mundo: Bangladesh enfrenta una ola de protestas laborales",
+   "summary": "Zpráva z médií (španělsky, zdroj El Mundo CR). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVTZselN6amEzUzIxQWtQTklsQUFTcjhQVVpWcklxWDBMcjdXSkZUYXFDT0pVM1ZWMklSelVVcFR0alc5RzA5SllWaGRPLXBWSlFfa1hkcWhDbW9nSjlJajJQN0JNTlVaUUtDZ1pDX3doblJDUU9MN1NEM3pTSWlSOTR4dzRsSjI2UmVhNVVMV0JHZEZSRi1nUkkzem9NM3RDMzhacGlxMzZRUU9HR2ZjOE9xWEVoQXhuRktRUWx3?oc=5",
+   "source": "El Mundo CR",
+   "type": "news",
+   "expires": "2026-11-29"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Cestovní doporučení",
+   "severity": "info",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Mexiko)",
+   "summary": "Co se změnilo: Updated information about travelling with children (‘Entry requirements’ page). (text ze zdroje v angličtině)",
+   "date": "2026-11-24",
+   "url": "https://www.gov.uk/foreign-travel-advice/mexico",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-12-01"
+  },
+  {
    "country": "Salvador",
    "category": "Protesty a stávky",
    "severity": "pozor",
@@ -139,18 +261,6 @@
   },
   {
    "country": "Mexiko",
-   "category": "Cestovní doporučení",
-   "severity": "info",
-   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Mexiko)",
-   "summary": "Co se změnilo: Updated information about travelling with children (‘Entry requirements’ page). (text ze zdroje v angličtině)",
-   "date": "2026-11-24",
-   "url": "https://www.gov.uk/foreign-travel-advice/mexico",
-   "source": "GOV.UK (FCDO)",
-   "type": "adv",
-   "expires": "2026-12-01"
-  },
-  {
-   "country": "Mexiko",
    "category": "Protesty a stávky",
    "severity": "pozor",
    "title": "¿Dónde Hay Bloqueo en CDMX Hoy 24 de Noviembre 2026? Alternativas Viales a Zonas Afectadas",
@@ -172,6 +282,18 @@
    "source": "Quadratin Hidalgo",
    "type": "news",
    "expires": "2026-11-29"
+  },
+  {
+   "country": "Kolumbie",
+   "category": "Cestovní doporučení",
+   "severity": "pozor",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Kolumbie)",
+   "summary": "Co se změnilo: Removal of information about the the temporary deployment of security forces in the city of Cucuta (‘Warnings and Insurance’ page). (text ze zdroje v angličtině)",
+   "date": "2026-11-23",
+   "url": "https://www.gov.uk/foreign-travel-advice/colombia",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-11-30"
   },
   {
    "country": "Kostarika",
@@ -196,18 +318,6 @@
    "source": "La Estrella de Panamá",
    "type": "news",
    "expires": "2026-11-28"
-  },
-  {
-   "country": "Kolumbie",
-   "category": "Cestovní doporučení",
-   "severity": "pozor",
-   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Kolumbie)",
-   "summary": "Co se změnilo: Removal of information about the the temporary deployment of security forces in the city of Cucuta (‘Warnings and Insurance’ page). (text ze zdroje v angličtině)",
-   "date": "2026-11-23",
-   "url": "https://www.gov.uk/foreign-travel-advice/colombia",
-   "source": "GOV.UK (FCDO)",
-   "type": "adv",
-   "expires": "2026-11-30"
   },
   {
    "country": "Mexiko",
@@ -352,54 +462,6 @@
    "source": "GOV.UK (FCDO)",
    "type": "adv",
    "expires": "2026-11-27"
-  },
-  {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Haiti strikes deal with El Salvador to build new prisons after minister visit",
-   "summary": "Zpráva z médií (anglicky, zdroj Union-Bulletin). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-20",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOalZSdm5CYnZQM0d0angxNDctNGthTXBQdFNiM3JkUDV6RUFveEh2ZHhzV2xQUndpdnE1T2pZajhJbEtjNUJuRk5wNm5FSGdUdEZNSVNTbTVYbmxidUd5UnVFRnk0UmxTX3l3X0JLaS00MERXaWNaQW9FQ0NEXzhoY0E1TjIxRklZbUU0eGlYZHZWc2l1RTExbHNXRFpaNDgybHNiSUpOanBZMHVoTXZOX2lNQldpYm9tUF9LMXpfeDc1Vzlibm5BR0w0cnYxdW9saXRUb19XSFFZY3FDTk93eWRpSU1hcE55ZGZXUXFoRlkyandEQWlfRDZpRVhQdw?oc=5",
-   "source": "Union-Bulletin",
-   "type": "news",
-   "expires": "2026-11-25"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "PBI-Guatemala accompanies Human Rights Law Firm in their defence of Dulce María Archila on trial for protest against bud",
-   "summary": "Zpráva z médií (anglicky, zdroj Peace Brigades International-Canada). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-20",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLVB0V0JRakJqZkh1Sk1jUXdwSnBoUFJ2SG9QRnVzY3QxWnE3Tjk2XzFYWnMyUTNNckFldE5qcmhlQTdfazhrNGpvTnppc0lWMU4yUnUzYTByM1Z3T3ZMX25qS0VDTUNDMkV3dG42V3lOUjlMb2RaUExSQ0dOQVNCeHJKVG5mZ1BXemFBdVJObmNOXzhwSzNta0dYekl5dTMxMjN0T2dmelRmX1B0eFlwTUVWd3dsNGp0UmZOa0hLUTB1TU5qenV4czFYcEoyd3RLZHJweGpnX3N2ZWlqX3praE5rZDBLY3NFWFVMalJB?oc=5",
-   "source": "Peace Brigades International-Canada",
-   "type": "news",
-   "expires": "2026-11-25"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "¿Bloqueo de Carreteras Hoy? Reportes de Accidentes y Cierres este Viernes",
-   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-20",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYkpOZVlnamFXNzV3R3VSTnZnTkl3YXZIRHRWSUNMSHYzNzFoWmI0cEFpRF9Nb2xLd0ZDRGV3QmR4c1owUE1QRUUtei1ScDBXU3NBVGZ6bE5BVENCMEdfbVQ5ejJweEtCbHdWZGVvVGQxUUdTYzJ0bDZPTjRkejhwSjRrTHMxQUJjNXZUc3JjbkpWU1pOR1MwaHBwMHVmaGpmOFA5djFHRWYtQkZ1d2pYN2duOXk2TXJaSEpzNllXZ2RYSGJMSnpoaVVsSDdYeVk?oc=5",
-   "source": "N+",
-   "type": "news",
-   "expires": "2026-11-25"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Tras bloqueos en Santa Fe, trasladan a Lenin Canchola de Nayarit a penal de Michoacán; investigan a sus hermanos",
-   "summary": "Zpráva z médií (španělsky, zdroj El Sol de México). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-20",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdmkyX1FtWm9Tc2JBMHduVnhFVVVRTVc3cGxFYjBxYnZRMVJTMjJLUHd3bVRKckFrc1BxV1lIaU9HQzZpTGtCS2hlRkxJQ2EyQ2xEb3FDdmZTV3dPTkNJcE8zVExIN0U5UUl5UzhRbkw4R25mV3I1UTNUOUp2bFRrbDJvN0dkMzhZclA5eTdVd21iR1cxVlpzajdYckpGZ3hNcGxaSXR0NkFrSnh4Vk84QUhLRFJZeFZVSHBqdlM2SXh3bS0ySnpHeTA4akFQaG96Z0otMUw1M3ExcDRJTHZrcGRxU3Q2bVFaU3BBRGpyMA?oc=5",
-   "source": "El Sol de México",
-   "type": "news",
-   "expires": "2026-11-25"
   }
  ]
 }
