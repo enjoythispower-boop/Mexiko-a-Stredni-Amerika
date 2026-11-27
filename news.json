@@ -1,12 +1,36 @@
 {
- "updated": "2026-11-26T14:51:29+00:00",
+ "updated": "2026-11-27T14:49:51+00:00",
  "items": [
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "¿Dónde Hay Bloqueos en CDMX Hoy? Lista de Zonas Afectadas por Cierres este Viernes",
+   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-27",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2ZXS2pKRTRZbHBqMDlway1sWWxDTEdRN3pweGZ5U3FsOHhXMGUyUGRRRUM3cXJIOWdFdUp0a19zdzdCRmVIY3JtM2w1cHBLUWdHMnFGbUZ6YnNIbkJldE8xY2Z2cjRMam1yUktEeVJNMFRBRERBOUxZWWZXVkdxS1k4WVNIUXlTNWJSVXZuS0VzRjIwaWxVZ05DZ0JxRHVXb2xMOFpheWZsRldxbkF2dWlhX2xwWWxzbjVxRGJYOENXc0RPLVE?oc=5",
+   "source": "N+",
+   "type": "news",
+   "expires": "2026-12-02"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "¿Hay Bloqueo de Taxistas Hoy en CDMX? Esto Exigen",
+   "summary": "Zpráva z médií (španělsky, zdroj N+). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-27",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMWZ1Qmw5MDd4dlNEXzZzOEFLNVJxc1oxZTJoR3E1ZG4tbDJvWXJkSUZ4bDhwMFJraGlYSUtnRDV3T0N1Y183aU5BeS1JcWJjRzF1MXNvQ3NBNFhQYVNjUGdvWmNOdUhWUXU4OG5YaHQwZktaOE9CWmJ3Z1R1UTFZdkZmWG8xLVpFYUFKUS03QTAxTjVGQjlSNFRHMVJ4c25WLWdOQnJVbjhGRVlDdHhKSHRDWS04bDNzUi1pOERVeUZ6UDh3dmpUbkR6MUg?oc=5",
+   "source": "N+",
+   "type": "news",
+   "expires": "2026-12-02"
+  },
   {
    "country": "Mexiko",
    "category": "Přírodní katastrofa",
    "severity": "info",
    "title": "Zemětřesení M4.6 – 97 km SW of Puerto Madero, Mexico",
-   "summary": "Zemětřesení o síle M4.6, hloubka asi 10 km (97 km SW of Puerto Madero, Mexico). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 890 km.",
+   "summary": "Zemětřesení o síle M4.6, hloubka asi 10 km (97 km SW of Puerto Madero, Mexico). Vzdálenost od tvé aktuální zastávky (Merida): asi 840 km.",
    "date": "2026-11-26",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udki",
    "source": "USGS",
@@ -14,6 +38,42 @@
    "expires": "2026-11-29",
    "lat": 14.16,
    "lon": -93.13
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Tras protestas, Nestlé acuerda diálogo con cafeticultores y autoridades por precio del grano",
+   "summary": "Zpráva z médií (španělsky, zdroj El Popular, periodismo con causa). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcm9OcGhaZ2p6QjlIUFZkaE5OQ2Z4WnhEZkQ5RnNJTnoxRFBfNjNIcDduY3JHemg3aE9HWmFORF8tV04zV1RGMXRWQ1F5cFhYREFlaGVtNmNKbXcxZlhINmVJY1JCcWlNVTB5X2tYNTZHU09rdTE4TFo1RXlxYk9aczF1WWpNM3VQd0NhYXVaMUlQM3U1R1phWlE5WVJEVXhvN2l6MWhaaXRFU2FaQVpZZnBuc09PSFFQWlJTS1docENRR3p6bDJyN1R4b1M3QXM2RXlDSlZrQ1FIdw?oc=5",
+   "source": "El Popular, periodismo con causa",
+   "type": "news",
+   "expires": "2026-12-01"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "APSE no se quedó de brazos cruzados e hizo esto ante declaración de ilegalidad de huelga",
+   "summary": "Zpráva z médií (španělsky, zdroj La Teja). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUjNFQ2kySUd0WDVVeFFtM3BtTzg2TmlKV3hTZzdwQXU3SVdIQUxicVdqZ1M4Wk5ja0RCRVJ0cEpYVEE2ZU41SkNVLXR6a3QtOTY0dV9lMnFkYmE5MEJXTWxwZjJydUdubW1QRVN0d2x2ZjFSaEFIa2UzeEI1YUsxcERyV1B5Y0tMdDg2Xy1XeU5nbzE2WEx0dXd6S0gxWml0Z1prOE82RWJ5dmpueDRaQjdn?oc=5",
+   "source": "La Teja",
+   "type": "news",
+   "expires": "2026-12-01"
+  },
+  {
+   "country": "Peru",
+   "category": "Cestovní doporučení",
+   "severity": "info",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Peru)",
+   "summary": "Co se změnilo: Removal of information about Pope Leo XIV’s visit to Peru. (text ze zdroje v angličtině)",
+   "date": "2026-11-26",
+   "url": "https://www.gov.uk/foreign-travel-advice/peru",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-12-03"
   },
   {
    "country": "Mexiko",
@@ -52,18 +112,6 @@
    "expires": "2026-12-01"
   },
   {
-   "country": "Peru",
-   "category": "Cestovní doporučení",
-   "severity": "info",
-   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Peru)",
-   "summary": "Co se změnilo: Removal of information about Pope Leo XIV’s visit to Peru. (text ze zdroje v angličtině)",
-   "date": "2026-11-26",
-   "url": "https://www.gov.uk/foreign-travel-advice/peru",
-   "source": "GOV.UK (FCDO)",
-   "type": "adv",
-   "expires": "2026-12-03"
-  },
-  {
    "country": "Guatemala",
    "category": "Protesty a stávky",
    "severity": "pozor",
@@ -72,18 +120,6 @@
    "date": "2026-11-25",
    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNektIblJoa0FsNGVzRVBnc1NjZ19OaVB0cG5ldENyQU5xdms0N0taSXR3OFNaYl9sSkJkcVdna2lnOXA3dXpmU2VMWGM5VHl1RWdzbFAtbkU4NGJvQWtjZE1GTFJVMXk0dXBNTFZ1eHFGTmZGbk50eS1VaFBBeEl0eDd1ME1DVWw2TDNIR0oxa2JodnRGTFgyR0lPRWZmYzFkM3RvSDRsS2cxWkUxTDJYVlQ5c0NYZHBRSWpPYm84Vlc2amNhc1RUZmpwaC02eFlYcV9pZlBsWXNYLTNhZkE0?oc=5",
    "source": "Diario de Centro América",
-   "type": "news",
-   "expires": "2026-11-30"
-  },
-  {
-   "country": "Guatemala",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Homenaje póstumo de agente de la PNC tras las disturbios en San Pedro Soloma, Huehuetenango, Guatemala",
-   "summary": "Zpráva z médií (španělsky, zdroj Infobae). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-25",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZW1aeHlIb00wYUJGS0FNcEh0Wm5ZWHVYejRwT0lSbV9xcF9la0Q0SE13WkFWdGxieklQbXJxd3owNVFYMjcyMGE3R1lXcGhEOXNQSEgydTdROUg5NzZHZ2RSNkdHV3dxSVQ0VnNZamlHSG1GM3RpZUpwNkxDWTBtNlVlMWZVREh6dlpkMWpvbU9pYXJQMkU5MU4xM2daN2Z3b3RPRG5SbTBQZkhWRU1oUi12SUhwUjlVNk1samtPMndYdlpHOEpsWEVrM1czbDg5aHhhUjc1Z1Q5YVJza19vZFM2NG4?oc=5",
-   "source": "Infobae",
    "type": "news",
    "expires": "2026-11-30"
   },
@@ -108,6 +144,18 @@
    "date": "2026-11-25",
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMGt2NXI3ZTFHQTQ1Q3ZVeXhVcWh2YzdtTEhZMS1tMDdVaVVLNDRlTTVCcFJodFBpdnotbm80VlJrUjZsVzlaV3ZTQjE2SnFYMUlicmlrVkVxYVltVTNKUFNWVV92d0lxUzB1ekh4VjEybmhVYTlhSFVnd2NMbnpOV2taNmM0b3A3TGRmU0w1MFhLSWlWZ0VJeWUzWUNsZ3MtUk9KaVZvWkZjejJWcHd0R19JODZCYU5KeHd1OVNsV2l2Ml90OGVPaUJB?oc=5",
    "source": "El Observador CR",
+   "type": "news",
+   "expires": "2026-11-30"
+  },
+  {
+   "country": "Guatemala",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Homenaje póstumo de agente de la PNC tras las disturbios en San Pedro Soloma, Huehuetenango, Guatemala",
+   "summary": "Zpráva z médií (španělsky, zdroj Infobae). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZW1aeHlIb00wYUJGS0FNcEh0Wm5ZWHVYejRwT0lSbV9xcF9la0Q0SE13WkFWdGxieklQbXJxd3owNVFYMjcyMGE3R1lXcGhEOXNQSEgydTdROUg5NzZHZ2RSNkdHV3dxSVQ0VnNZamlHSG1GM3RpZUpwNkxDWTBtNlVlMWZVREh6dlpkMWpvbU9pYXJQMkU5MU4xM2daN2Z3b3RPRG5SbTBQZkhWRU1oUi12SUhwUjlVNk1samtPMndYdlpHOEpsWEVrM1czbDg5aHhhUjc1Z1Q5YVJza19vZFM2NG4?oc=5",
+   "source": "Infobae",
    "type": "news",
    "expires": "2026-11-30"
   },
@@ -164,7 +212,7 @@
    "category": "Přírodní katastrofa",
    "severity": "info",
    "title": "Zemětřesení M5.2 – 93 km WSW of Puerto Madero, Mexico",
-   "summary": "Zemětřesení o síle M5.2, hloubka asi 35 km (93 km WSW of Puerto Madero, Mexico). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 880 km.",
+   "summary": "Zemětřesení o síle M5.2, hloubka asi 35 km (93 km WSW of Puerto Madero, Mexico). Vzdálenost od tvé aktuální zastávky (Merida): asi 820 km.",
    "date": "2026-11-24",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud6z",
    "source": "USGS",
@@ -178,7 +226,7 @@
    "category": "Přírodní katastrofa",
    "severity": "info",
    "title": "Zemětřesení M4.5 – 9 km NNW of La Tronosa, Panama",
-   "summary": "Zemětřesení o síle M4.5, hloubka asi 16 km (9 km NNW of La Tronosa, Panama). Vzdálenost od tvé aktuální zastávky (Valladolid): asi 1680 km.",
+   "summary": "Zemětřesení o síle M4.5, hloubka asi 16 km (9 km NNW of La Tronosa, Panama). Vzdálenost od tvé aktuální zastávky (Merida): asi 1780 km.",
    "date": "2026-11-24",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud3m",
    "source": "USGS",
@@ -186,6 +234,18 @@
    "expires": "2026-11-27",
    "lat": 7.52,
    "lon": -80.62
+  },
+  {
+   "country": "Mexiko",
+   "category": "Cestovní doporučení",
+   "severity": "info",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Mexiko)",
+   "summary": "Co se změnilo: Updated information about travelling with children (‘Entry requirements’ page). (text ze zdroje v angličtině)",
+   "date": "2026-11-24",
+   "url": "https://www.gov.uk/foreign-travel-advice/mexico",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-12-01"
   },
   {
    "country": "Guatemala",
@@ -210,18 +270,6 @@
    "source": "El Mundo CR",
    "type": "news",
    "expires": "2026-11-29"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Cestovní doporučení",
-   "severity": "info",
-   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Mexiko)",
-   "summary": "Co se změnilo: Updated information about travelling with children (‘Entry requirements’ page). (text ze zdroje v angličtině)",
-   "date": "2026-11-24",
-   "url": "https://www.gov.uk/foreign-travel-advice/mexico",
-   "source": "GOV.UK (FCDO)",
-   "type": "adv",
-   "expires": "2026-12-01"
   },
   {
    "country": "Salvador",
@@ -378,78 +426,6 @@
    "source": "El Sol de México",
    "type": "news",
    "expires": "2026-11-27"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "La captura del ‘Chapo’ Isidro en México deja 11 muertos y bloqueos viales",
-   "summary": "Zpráva z médií (španělsky, zdroj Telemundo). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-21",
-   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTVZfenVPZ0w3SUdpMmJfakowWFZEUVdKS0NuaDR5NUNVVWVJTjBNR21MeTJlSGJKOEs4WmlRdngxaExpOVZRNGlwUUhPaUFJWTdfS3Z4UEZMYXRDZ05PMVdwUGFPbTQ2YXhlSmlNNEdKT20wUkFJeDlVT1g3RWVSaUFzcTNQUUI2Y3FhNGVfaGpCNmh2RGtuQzI2UFBtVUFxcFdSRjNVX01Nc0lNdXZHWUNBVHI0ZHl0Y1dWLWJiUHhwRzNSc1ZyYnZkbl9mcnRqWG1BakE4c1ZzNE9pZHlYSkhBVWpsTjdaa1ZxOFQxVXFxSGdmcnYzZ3Nn?oc=5",
-   "source": "Telemundo",
-   "type": "news",
-   "expires": "2026-11-26"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "🚨#ÚLTIMAHORA | Reportaron nuevos bloqueos con tráileres incendiados en la carretera México 15 y el entronque de Compuert",
-   "summary": "Zpráva z médií (španělsky, zdroj Facebook). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-21",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdjRCaFlQREE2eFcwazB1b3A2VWoyWnhiNFA4YTk5aFFuNkdiekZIVEY1cy1Nb2Y0SGlIc2haUlplSkVfc3diSzBhVi1ScDAtOVdpLUNCQ0VRb19GMTRMOE1PQWtMemdhQjVWV2hqSzZfVGVNSEFJeHZCVkRPdW9pQktsVVQyZm9hWkt3Qmh0R29mdzlCNXFiVUlpa0JNV2k3bXVKUW9BeUVPMXNialhIMWswd21pM2NaaVZYS295RmFQeWhBOExkVmxSLUg1S2l5NThQRFcwUy0xS0Nzc051SjJjNElhMkRH?oc=5",
-   "source": "Facebook",
-   "type": "news",
-   "expires": "2026-11-26"
-  },
-  {
-   "country": "Salvador",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Francia despliega 70,000 policías ante nueva ola de protestas",
-   "summary": "Zpráva z médií (španělsky, zdroj Diario El Mundo). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-21",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdVFXbWF1YzlWV25iRnY0SFJLc1RoY29yNks4bkZyaXIzaVZTdDBnaUhENThvWHZVRFM0QUlpcFYzMVZLTl81SlN1Wi1FS3JJdkNPRnBZcWljRUdKcWxiSkdXaHg4RTk0am5IVU1BNXdEZDdLaGhvbGxER3FKTXZVRDFlalZ3bXlTOWs5SG92MEwta29KRS1VNHJpRdIBpgFBVV95cUxQVTZzcElIRTdLMjZlZHk1MHRpeFJOSlliZ2E3cFFOaXJybHJHdmJoOE1rcHd5dGpHRW0tbk5BV0VPZkdaeUJ6N3NkZGpBeGRTNFktaGZnTzBMNDBaUFFpWkJDaEU5WVRtTDV6RVV1c1F6bl82WWJDNGRqRE9pckM1dWZmLTNFZlpQaWxzeUhBdlJaWmFsdFozR3pFZ3lXWVh3LVFrRW5n?oc=5",
-   "source": "Diario El Mundo",
-   "type": "news",
-   "expires": "2026-11-26"
-  },
-  {
-   "country": "Panama",
-   "category": "Protesty a stávky",
-   "severity": "info",
-   "title": "Las protestas contra proyectos mineros sacuden Panamá",
-   "summary": "Zpráva z médií (španělsky, zdroj Tercera Información). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-21",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdHF4WkgtVG1HNFhwX3REMUtRRzdJakFJSzFRTGQwcmZKN0I4WHZDUU9FZEpua3hqS3gzZkV0REk0X0U0YnI3RGFPRVlEMDR1TGtWWDlHZ1luSVVidHJFcGlWT1BEQkZjNnBZUTZHSTZneWNWbURHSmdNWENrX1p3bFlsMGNZSWFTamMtYmpmXy12c25raVZjZ0hiS0xQYlk1TktLQzI5Z2h3Zl9CZ0N5Z3VjWjk1S3RleUFZcU9WMA?oc=5",
-   "source": "Tercera Información",
-   "type": "news",
-   "expires": "2026-11-26"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "MILENIO. . 🚨#ÚLTIMAHORA | Reportaron nuevos bloqueos con tráileres incendiados en la carretera México 15 y el entronque ",
-   "summary": "Zpráva z médií (španělsky, zdroj Facebook). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-21",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX2hUSlltUThfQ2hMVTBRQlZ1aDN5TmFSaVlvT0NpeFRGa2FEMjQ4dTZkYnRtS1pyTWhDdk9PbTRVdEEzNUNBNmRsZEs3bmtBMk5JelFaTW9qdzA1RC1aSGJBcXFoNUFUN3hncmdBX3VMNDAzcW53NHRxcjMzS1FDTmdHQVR0SzBZNXpzMTBENFdKNFNvcUtkUjF4eTZyb05kWGlBeDIxTU1iSU1yMm5sdVJsSDVvUE5SQW9pZXZxdVhwVk0zUDZnN1RHTVJzMUNrc2x3WFd0UWdYMDVEWnJXdjgtWVlaN3FLb3c?oc=5",
-   "source": "Facebook",
-   "type": "news",
-   "expires": "2026-11-26"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Se reportan bloqueos, quema de unidades y civiles armados en accesos a Los Mochis",
-   "summary": "Zpráva z médií (španělsky, zdroj www.noroeste.com.mx). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-21",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbGluekJUZ05uX2VZaUlrNnl4Ty1CZlFaUDE5QUhaR0l5c2lKeERMWU9BWUdvRFJmd2dYY2xqMVZEMHVlV3FVZlQ4bE5oRWJKOUcwUEt0RkpELUR3UFExZ0tQTTkzY2ItaHBhcGMzMzRKS2J0dFRlQThPdE1NV1BXY0hFQ2xzVUljdk9YVjhTZkNUNnA4bmVzOTZfcWJVZG5LaVFmLXNjd0RPYkk0Q1ZnRkJvOS1RWE4yUTZNaEVFTktEZGhNdXVOVFlRa09jUdIBzgFBVV95cUxNbGluekJUZ05uX2VZaUlrNnl4Ty1CZlFaUDE5QUhaR0l5c2lKeERMWU9BWUdvRFJmd2dYY2xqMVZEMHVlV3FVZlQ4bE5oRWJKOUcwUEt0RkpELUR3UFExZ0tQTTkzY2ItaHBhcGMzMzRKS2J0dFRlQThPdE1NV1BXY0hFQ2xzVUljdk9YVjhTZkNUNnA4bmVzOTZfcWJVZG5LaVFmLXNjd0RPYkk0Q1ZnRkJvOS1RWE4yUTZNaEVFTktEZGhNdXVOVFlRa09jUQ?oc=5",
-   "source": "www.noroeste.com.mx",
-   "type": "news",
-   "expires": "2026-11-26"
   },
   {
    "country": "Ekvádor",
