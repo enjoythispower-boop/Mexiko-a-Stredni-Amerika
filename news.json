@@ -1,6 +1,30 @@
 {
- "updated": "2026-11-27T14:49:51+00:00",
+ "updated": "2026-11-28T13:58:40+00:00",
  "items": [
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "info",
+   "title": "Da marcha atrás UIEM al cambio de logo tras protestas estudiantiles -",
+   "summary": "Zpráva z médií (španělsky, zdroj AD Noticias). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-28",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOWlhUzhRVXkyUnZSTFdJTHJVMGlNWTM3ajZIOEl1dE00c1JBWjdaRjRfM2gyM2doekhJeWt2RnQtcmpTY3hsaUh0dUlXUjdJbjQ5NHJKOTRfWnZaZ3pIMl9sYTNlYnBQcDYxZkNDbm5va1lKeC1VVUo3cWNyaUY2TGc4cU00VUQxV0ptakZnbGZFczlq?oc=5",
+   "source": "AD Noticias",
+   "type": "news",
+   "expires": "2026-12-03"
+  },
+  {
+   "country": "Mexiko",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "CDMX defiende operativos contra taxis piratas tras bloqueos",
+   "summary": "Zpráva z médií (španělsky, zdroj Enfoque Noticias). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-27",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWTNEdm9WUUNaTnNMVlEtLWdBbDFud0dMMEthVkFiQnJDM2s3d0hMSFgtbTFXMnd2aENteC1MUGN1cXZQVUtwTE52T1BJQXg2Mngtajc4bjdSSXpyaGk2ZGtMcUJ0NVp3VU85Y08tRUhpU3drdk9tYTlMaXEzYjBJVTFhcUNJcTBkZEdHemJwa0FLdGJhSktUSmxOUFpLRWda?oc=5",
+   "source": "Enfoque Noticias",
+   "type": "news",
+   "expires": "2026-12-02"
+  },
   {
    "country": "Mexiko",
    "category": "Protesty a stávky",
@@ -10,6 +34,42 @@
    "date": "2026-11-27",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2ZXS2pKRTRZbHBqMDlway1sWWxDTEdRN3pweGZ5U3FsOHhXMGUyUGRRRUM3cXJIOWdFdUp0a19zdzdCRmVIY3JtM2w1cHBLUWdHMnFGbUZ6YnNIbkJldE8xY2Z2cjRMam1yUktEeVJNMFRBRERBOUxZWWZXVkdxS1k4WVNIUXlTNWJSVXZuS0VzRjIwaWxVZ05DZ0JxRHVXb2xMOFpheWZsRldxbkF2dWlhX2xwWWxzbjVxRGJYOENXc0RPLVE?oc=5",
    "source": "N+",
+   "type": "news",
+   "expires": "2026-12-02"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Comité de expertos de la ONU califica como \"ataque inaceptable\" bloqueo migratorio a Francesca Albanese",
+   "summary": "Zpráva z médií (španělsky, zdroj Delfino.cr). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-27",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU19zLThwZUozdjdyS1lGVDZFbXJndXptMFBxTGx6aHV4QktHMmN5UWJ3dXE5bU1nd29hWHFlV1VFeXhVSmphbFh6UEM5TGF3eUMxdm11UlhkcndzbjJsZkZzNVJ4NnAxWFYzMVpyY25UR1Z4MUdqRDNXdUpOYzZGOGRjY0FLSlJJbE1hcGJxR1NIYzdETnJuemduMGNlOElldmoxUmlpd0YybmZTcE5Ua1U1M2RnZUQzRlVNNHFBU01ZVTZYUkFV?oc=5",
+   "source": "Delfino.cr",
+   "type": "news",
+   "expires": "2026-12-02"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Exigen a Grynspan pronunciarse por bloqueo a relatora de la ONU",
+   "summary": "Zpráva z médií (španělsky, zdroj Delfino.cr). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-27",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYUExMWJsZHc4cDN5Mm51c1hDb3prX2tYeFFyQkJWSWZoWHhLUWxsNUJQa1JXaktmNEVwMmdBc2d2Sy1rS3VSbjc3NWVUUEs4aUg1bzJZX2Q1RGNfb0FXeUhBa19mdVhUeS1KVF9QaHpxSVlrSEoyQ1ZjNjMtSnV2V1dSMERHNHk5eUo3dmhCTnNUb3hk?oc=5",
+   "source": "Delfino.cr",
+   "type": "news",
+   "expires": "2026-12-02"
+  },
+  {
+   "country": "Kostarika",
+   "category": "Protesty a stávky",
+   "severity": "pozor",
+   "title": "Califica Francesca Albanese de \"insulto a la ONU\" su bloqueo de Costa Rica",
+   "summary": "Zpráva z médií (španělsky, zdroj MVS Noticias). Otevři zdroj pro podrobnosti.",
+   "date": "2026-11-27",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcmJDUTJ4OXRfaHZ4dWFxbXkwMnViUU42VWllUFpBTWtSQ3FNdDNyTXdieTVpaDJadXA4V0piN3BwZXhSU3ZXLUE2MVl4Ukl2U2UtM3dXVnZEX3hJUEQ2WWhsRjd4ejBMY3JJSFJzUkZQdlNTWmh0ZkxHMVlGTXl6MjhDSXQyUXhXMWdIUDVqeGNEdDg5bDQ1aG9nOGZKWTJxb01TcUhYblRlVEk5bjZFU1VBNUk1amZTeklydXhNTkQxLUU?oc=5",
+   "source": "MVS Noticias",
    "type": "news",
    "expires": "2026-12-02"
   },
@@ -40,6 +100,18 @@
    "lon": -93.13
   },
   {
+   "country": "Peru",
+   "category": "Cestovní doporučení",
+   "severity": "info",
+   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Peru)",
+   "summary": "Co se změnilo: Removal of information about Pope Leo XIV’s visit to Peru. (text ze zdroje v angličtině)",
+   "date": "2026-11-26",
+   "url": "https://www.gov.uk/foreign-travel-advice/peru",
+   "source": "GOV.UK (FCDO)",
+   "type": "adv",
+   "expires": "2026-12-03"
+  },
+  {
    "country": "Mexiko",
    "category": "Protesty a stávky",
    "severity": "info",
@@ -62,18 +134,6 @@
    "source": "La Teja",
    "type": "news",
    "expires": "2026-12-01"
-  },
-  {
-   "country": "Peru",
-   "category": "Cestovní doporučení",
-   "severity": "info",
-   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Peru)",
-   "summary": "Co se změnilo: Removal of information about Pope Leo XIV’s visit to Peru. (text ze zdroje v angličtině)",
-   "date": "2026-11-26",
-   "url": "https://www.gov.uk/foreign-travel-advice/peru",
-   "source": "GOV.UK (FCDO)",
-   "type": "adv",
-   "expires": "2026-12-03"
   },
   {
    "country": "Mexiko",
@@ -206,34 +266,6 @@
    "source": "Diario de Centro América",
    "type": "news",
    "expires": "2026-11-30"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Přírodní katastrofa",
-   "severity": "info",
-   "title": "Zemětřesení M5.2 – 93 km WSW of Puerto Madero, Mexico",
-   "summary": "Zemětřesení o síle M5.2, hloubka asi 35 km (93 km WSW of Puerto Madero, Mexico). Vzdálenost od tvé aktuální zastávky (Merida): asi 820 km.",
-   "date": "2026-11-24",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud6z",
-   "source": "USGS",
-   "type": "eq",
-   "expires": "2026-11-27",
-   "lat": 14.44,
-   "lon": -93.24
-  },
-  {
-   "country": "Panama",
-   "category": "Přírodní katastrofa",
-   "severity": "info",
-   "title": "Zemětřesení M4.5 – 9 km NNW of La Tronosa, Panama",
-   "summary": "Zemětřesení o síle M4.5, hloubka asi 16 km (9 km NNW of La Tronosa, Panama). Vzdálenost od tvé aktuální zastávky (Merida): asi 1780 km.",
-   "date": "2026-11-24",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud3m",
-   "source": "USGS",
-   "type": "eq",
-   "expires": "2026-11-27",
-   "lat": 7.52,
-   "lon": -80.62
   },
   {
    "country": "Mexiko",
@@ -414,30 +446,6 @@
    "source": "Tome pal pinto",
    "type": "news",
    "expires": "2026-11-28"
-  },
-  {
-   "country": "Mexiko",
-   "category": "Protesty a stávky",
-   "severity": "pozor",
-   "title": "Gobierno de Sinaloa reporta 90 por ciento de avance en apertura de vías tras los bloqueos",
-   "summary": "Zpráva z médií (španělsky, zdroj El Sol de México). Otevři zdroj pro podrobnosti.",
-   "date": "2026-11-22",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeFhPZ1pCWFBNTWUzaDJBemIwTTJlQXRIUURoSVJSWXRuT25jNUlWNHlPZlo5ZWpTMFpoODZQZE1LRFVMUENEdVdEd084eU9Cekk2UnFSVFBzVmdZN0pZakRWLVFjRnJHU3NfRGVjeVdWdi1XMEdQNGtXRGRpZ0RHSVdCbmVlMWVRWjh0cnlQNTliTVlYZFNUc3lwRkZ6dVdEUXpTTDhiTFlRSmdCMVg4MEFlX2JfUXZfa1p1dW01UzN3cWYtSEtDS2hIQ2Jab0tBRHY5aQ?oc=5",
-   "source": "El Sol de México",
-   "type": "news",
-   "expires": "2026-11-27"
-  },
-  {
-   "country": "Ekvádor",
-   "category": "Cestovní doporučení",
-   "severity": "pozor",
-   "title": "Britské ministerstvo zahraničí aktualizovalo doporučení (Ekvádor)",
-   "summary": "Co se změnilo: Updated information following the Ecuadorean government extending the state of emergency for a further 30 days, and updated information about drug-assisted robbery ('Warnings and insurance' and 'Safety and security' pages). (text ze zdroje v angličtině)",
-   "date": "2026-11-20",
-   "url": "https://www.gov.uk/foreign-travel-advice/ecuador",
-   "source": "GOV.UK (FCDO)",
-   "type": "adv",
-   "expires": "2026-11-27"
   }
  ]
 }
